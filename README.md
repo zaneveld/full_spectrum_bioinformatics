@@ -1,1 +1,1 @@
-# full_spectrum_bioinformatics
+# Full Spectrum Bioinformatics
