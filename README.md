@@ -1,5 +1,4 @@
-# full_spectrum_bioinformatics
-![Cover Image](./cover_image/full_spectrum_bioinformatics_cover.png "A cover image for Full Spectrum Bioinformatics, showing the text title in rainbow colors with a phylogenetic tree, nucleotide substitution diagram, tRNA secondary structure, sequence alignment and principle coordinates analysis plot shown below it.")
+![Full Spectrum Bioinformatics](./cover_image/full_spectrum_bioinformatics_cover.png "A cover image for Full Spectrum Bioinformatics, showing the text title in rainbow colors with a phylogenetic tree, nucleotide substitution diagram, tRNA secondary structure, sequence alignment and principle coordinates analysis plot shown below it.")
 
 This text is currently in early prototype status. 
 
@@ -21,3 +20,4 @@ Chapters with content you can view are linked below:
 - Chapter 14. Polishing and Publishing
 - Appendix A - Data Sources for Bioinformatics Projects
 - Appendix B - Project Specifications 
+
