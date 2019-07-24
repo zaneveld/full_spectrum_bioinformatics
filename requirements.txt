@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+scikit-bio
+seaborn
+pandas
