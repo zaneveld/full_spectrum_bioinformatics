@@ -10,7 +10,7 @@ Chapters with content you can view are linked below:
 - Chapter 4. Exploring Python
 - Chapter 5. [Project Design](./05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
-- Chapter 7. Tabular 'Omics Data
+- Chapter 7. [Tabular 'Omics Data](./05_project_design/project_design.ipynb) 
 - Chapter 8. Alignment and Phylogeny
 - Chapter 9. Visualization
 - Chapter 10. Simulation
