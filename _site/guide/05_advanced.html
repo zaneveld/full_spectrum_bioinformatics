@@ -1,0 +1,1988 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+  <title>How-to and advanced topics</title>
+  <meta name="description" content="This page contains more advanced and complete information about thejupyter-book repository. See the sections below.Enable Google Analytics If you have a Goog...">
+
+  <link rel="canonical" href="https://jupyter.org/jupyter-book/guide/05_advanced.html">
+  <link rel="alternate" type="application/rss+xml" title="Jupyter Book" href="https://jupyter.org/jupyter-book/feed.xml">
+
+  <meta property="og:url"         content="https://jupyter.org/jupyter-book/guide/05_advanced.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="How-to and advanced topics" />
+<meta property="og:description" content="This page contains more advanced and complete information about thejupyter-book repository. See the sections below.Enable Google Analytics If you have a Goog..." />
+<meta property="og:image"       content="https://jupyter.org/jupyter-book/images/logo/logo.png" />
+
+<meta name="twitter:card" content="summary">
+
+
+  <script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": "https://jupyter.org/jupyter-book/guide/05_advanced.html",
+  "headline": "How-to and advanced topics",
+  "datePublished": "2019-09-17T14:23:56-07:00",
+  "dateModified": "2019-09-17T14:23:56-07:00",
+  "description": "This page contains more advanced and complete information about thejupyter-book repository. See the sections below.Enable Google Analytics If you have a Goog...",
+  "author": {
+    "@type": "Person",
+    "name": "The Jupyter Book Community"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data 100 at UC Berkeley",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jupyter.org/jupyter-book",
+      "width": 60,
+      "height": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://jupyter.org/jupyter-book",
+    "height": 60,
+    "width": 60
+  }
+}
+
+  </script>
+  <link rel="stylesheet" href="/jupyter-book/assets/css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#efae0a"> -->
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#233947">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/jupyter-book/images/logo/favicon.ico">
+
+  <!-- MathJax Config -->
+  <!-- Allow inline math using $ and automatically break long math lines -->
+<!-- (mostly) copied from nbconvert configuration -->
+<!-- https://github.com/jupyter/nbconvert/blob/master/nbconvert/templates/html/mathjax.tpl -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
+    },
+    // Center justify equations in code and markdown cells. Elsewhere
+    // we use CSS to left justify single line equations in code cells.
+    displayAlign: 'center',
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}},
+        linebreaks: { automatic: true },
+    }
+});
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML' async></script>
+
+  <!-- DOM updating function -->
+  <script>
+const runWhenDOMLoaded = cb => {
+  if (document.readyState != 'loading') {
+    cb()
+  } else if (document.addEventListener) {
+    document.addEventListener('DOMContentLoaded', cb)
+  } else {
+    document.attachEvent('onreadystatechange', function() {
+      if (document.readyState == 'complete') cb()
+    })
+  }
+}
+
+// Helper function to init things quickly
+initFunction = function(myfunc) {
+  runWhenDOMLoaded(myfunc);
+  document.addEventListener('turbolinks:load', myfunc);
+};
+</script>
+
+  <!-- Define some javascript variables that will be useful in other javascript -->
+  <script>
+    const site_basename = '/jupyter-book';
+  </script>
+
+  <!-- Add AnchorJS to let headers be linked -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js" async></script>
+  <script>
+const initAnchors = () => {
+  if (window.anchors === undefined) {
+    setTimeout(initAnchors, 250)
+    return
+  }
+  anchors.add("main h1, main h2, main h3, main h4")
+}
+
+initFunction(initAnchors);
+</script>
+
+
+  <!-- Include Turbolinks to make page loads fast -->
+  <!-- https://github.com/turbolinks/turbolinks -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" async></script>
+  <meta name="turbolinks-cache-control" content="no-cache">
+
+  <!-- Selectors for elements on the page -->
+  <script>
+/**
+ * Select various elements on the page for later use
+ */
+
+// IDs we'll attach to cells
+const codeCellId = index => `codecell${index}`
+const inputCellId = index => `inputcell${index}`
+
+pageElements = {}
+
+// All code cells
+findCodeCells = function() {
+    var codeCells = document.querySelectorAll('div.c-textbook__content > div.highlighter-rouge > div.highlight > pre, div.input_area pre, div.text_cell_render div.highlight pre')
+    pageElements['codeCells'] = codeCells;
+
+    codeCells.forEach((codeCell, index) => {
+      const id = codeCellId(index)
+      codeCell.setAttribute('id', id)
+    })
+};
+
+initFunction(findCodeCells);
+
+// All cells in general
+findInputCells = function() {
+    var inputCells = document.querySelectorAll('div.jb_cell')
+    pageElements['inputCells'] = inputCells;
+
+    inputCells.forEach((inputCell, index) => {
+        const id = inputCellId(index)
+        inputCell.setAttribute('id', id)
+    })
+};
+
+initFunction(findInputCells);
+</script>
+
+  <!-- Load nbinteract for widgets -->
+  
+
+  <!-- Load Thebelab for interactive widgets -->
+  <!-- Include Thebelab for interactive code if it's enabled -->
+
+
+<!-- Display Thebelab button in each code cell -->
+<script>
+/**
+ * Set up thebelab button for code blocks
+ */
+
+const thebelabCellButton = id =>
+  `<a id="thebelab-cell-button-${id}" class="btn thebebtn o-tooltip--left" data-tooltip="Interactive Mode">
+    <img src="/jupyter-book/assets/images/edit-button.svg" alt="Start interactive mode">
+  </a>`
+
+
+const addThebelabButtonToCodeCells =  () => {
+
+  const codeCells = document.querySelectorAll('div.input_area > div.highlight:not(.output) pre')
+  codeCells.forEach((codeCell, index) => {
+    const id = codeCellId(index)
+    codeCell.setAttribute('id', id)
+    if (document.getElementById("thebelab-cell-button-" + id) == null) {
+      codeCell.insertAdjacentHTML('afterend', thebelabCellButton(id));
+    }
+  })
+}
+
+initFunction(addThebelabButtonToCodeCells);
+</script>
+
+
+
+<script type="text/x-thebe-config">
+    {
+      requestKernel: true,
+      binderOptions: {
+        repo: 'jupyter/jupyter-book',
+        ref: 'gh-pages',
+      },
+      codeMirrorConfig: {
+        theme: "abcdef"
+      },
+      kernelOptions: {
+        name: 'python3',
+      }
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js" async></script>
+<script>
+    /**
+     * Add attributes to Thebelab blocks
+     */
+
+    const initThebelab = () => {
+        const addThebelabToCodeCells = () => {
+            console.log("Adding thebelab to code cells...");
+            // If Thebelab hasn't loaded, wait a bit and try again. This
+            // happens because we load ClipboardJS asynchronously.
+            if (window.thebelab === undefined) {
+                setTimeout(addThebelabToCodeCells, 250)
+            return
+            }
+
+            // If we already detect a Thebelab cell, don't re-run
+            if (document.querySelectorAll('div.thebelab-cell').length > 0) {
+                return;
+            }
+
+            // Find all code cells, replace with Thebelab interactive code cells
+            const codeCells = document.querySelectorAll('.input_area pre')
+            codeCells.forEach((codeCell, index) => {
+                const id = codeCellId(index)
+                codeCell.setAttribute('data-executable', 'true')
+
+                // Figure out the language it uses and add this too
+                var parentDiv = codeCell.parentElement.parentElement;
+                var arrayLength = parentDiv.classList.length;
+                for (var ii = 0; ii < arrayLength; ii++) {
+                    var parts = parentDiv.classList[ii].split('language-');
+                    if (parts.length === 2) {
+                        // If found, assign dataLanguage and break the loop
+                        var dataLanguage = parts[1];
+                        break;
+                    }
+                }
+                codeCell.setAttribute('data-language', dataLanguage)
+
+                // If the code cell is hidden, show it
+                var inputCheckbox = document.querySelector(`input#hidebtn${codeCell.id}`);
+                if (inputCheckbox !== null) {
+                    setCodeCellVisibility(inputCheckbox, 'visible');
+                }
+            });
+
+            // Remove the event listener from the page so keyboard press doesn't
+            // Change page
+            document.removeEventListener('keydown', initPageNav)
+            keyboardListener = false;
+
+            // Init thebelab
+            thebelab.bootstrap();
+
+            // Remove copy buttons since they won't work anymore
+            const copyAndThebeButtons = document.querySelectorAll('.copybtn, .thebebtn')
+            copyAndThebeButtons.forEach((button, index) => {
+                button.remove();
+            });
+
+            // Remove outputs since they'll be stale
+            const outputs = document.querySelectorAll('.output *, .output')
+            outputs.forEach((output, index) => {
+                output.remove();
+            });
+        }
+
+        // Add event listener for the function to modify code cells
+        const thebelabButtons = document.querySelectorAll('[id^=thebelab], [id$=thebelab]')
+        thebelabButtons.forEach((thebelabButton,index) => {
+            if (thebelabButton === null) {
+                setTimeout(initThebelab, 250)
+                return
+            };
+            thebelabButton.addEventListener('click', addThebelabToCodeCells);
+        });
+    }
+
+    // Initialize Thebelab
+    initFunction(initThebelab);
+</script>
+
+
+
+  <!-- Load the auto-generating TOC -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js" async></script>
+<script>
+const initToc = () => {
+  if (window.tocbot === undefined) {
+    setTimeout(initToc, 250)
+    return
+  }
+
+  // Check whether we have any sidebar content. If not, then show the sidebar earlier.
+  var SIDEBAR_CONTENT_TAGS = ['.tag_full_width', '.tag_popout'];
+  var sidebar_content_query = SIDEBAR_CONTENT_TAGS.join(', ')
+  if (document.querySelectorAll(sidebar_content_query).length === 0) {
+    document.querySelector('nav.onthispage').classList.add('no_sidebar_content')
+  }
+
+  // Initialize the TOC bot
+  tocbot.init({
+    tocSelector: 'nav.onthispage',
+    contentSelector: '.c-textbook__content',
+    headingSelector: 'h2, h3',
+    orderedList: false,
+    collapseDepth: 6,
+    listClass: 'toc__menu',
+    activeListItemClass: "",  // Not using
+    activeLinkClass: "", // Not using
+  });
+
+}
+initFunction(initToc);
+</script>
+
+
+  <!-- Google analytics -->
+  <script src="/jupyter-book/assets/js/ga.js" async></script>
+
+  <!-- Clipboard copy button -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script>
+
+  <!-- Load custom website scripts -->
+  <script src="/jupyter-book/assets/js/scripts.js" async></script>
+
+  <!-- Load custom user CSS and JS  -->
+  <script src="/jupyter-book/assets/custom/custom.js" async></script>
+  <link rel="stylesheet" href="/jupyter-book/assets/custom/custom.css">
+
+  <!-- Update interact links w/ REST param, is defined in includes so we can use templates -->
+  
+<script>
+/**
+  * To auto-embed hub URLs in interact links if given in a RESTful fashion
+ */
+
+function getJsonFromUrl(url) {
+  var query = url.split('?');
+  if (query.length < 2) {
+    // No queries so just return false
+    return false;
+  }
+  query = query[1];
+  // Collect REST params into a dictionary
+  var result = {};
+  query.split("&").forEach(function(part) {
+    var item = part.split("=");
+    result[item[0]] = decodeURIComponent(item[1]);
+  });
+  return result;
+}
+    
+function dict2param(dict) {
+    params = Object.keys(dict).map(function(k) {
+        return encodeURIComponent(k) + '=' + encodeURIComponent(dict[k])
+    });
+    return params.join('&')
+}
+
+// Parse a Binder URL, converting it to the string needed for JupyterHub
+function binder2Jupyterhub(url) {
+  newUrl = {};
+  parts = url.split('v2/gh/')[1];
+  // Grab the base repo information
+  repoinfo = parts.split('?')[0];
+  var [org, repo, ref] = repoinfo.split('/');
+  newUrl['repo'] = ['https://github.com', org, repo].join('/');
+  newUrl['branch'] = ref
+  // Grab extra parameters passed
+  params = getJsonFromUrl(url);
+  if (params['filepath'] !== undefined) {
+    newUrl['subPath'] = params['filepath']
+  }
+  return dict2param(newUrl);
+}
+
+// Filter out potentially unsafe characters to prevent xss
+function safeUrl(url)
+{
+   return String(encodeURIComponent(url))
+            .replace(/&/g, '&amp;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+}
+
+function addParamToInternalLinks(hub) {
+  var links = document.querySelectorAll("a").forEach(function(link) {
+    var href = link.href;
+    // If the link is an internal link...
+    if (href.search("https://jupyter.org") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
+      // Assume we're an internal link, add the hub param to it
+      var params = getJsonFromUrl(href);
+      if (params !== false) {
+        // We have REST params, so append a new one
+        params['jupyterhub'] = hub;
+      } else {
+        // Create the REST params
+        params = {'jupyterhub': hub};
+      }
+      // Update the link
+      var newHref = href.split('?')[0] + '?' + dict2param(params);
+      link.setAttribute('href', decodeURIComponent(newHref));
+    }
+  });
+  return false;
+}
+
+
+// Update interact links
+function updateInteractLink() {
+    // hack to make this work since it expects a ? in the URL
+    rest = getJsonFromUrl("?" + location.search.substr(1));
+    jupyterHubUrl = rest['jupyterhub'];
+    var hubType = null;
+    var hubUrl = null;
+    if (jupyterHubUrl !== undefined) {
+      hubType = 'jupyterhub';
+      hubUrl = jupyterHubUrl;
+    }
+
+    if (hubType !== null) {
+      // Sanitize the hubUrl
+      hubUrl = safeUrl(hubUrl);
+
+      // Add HTTP text if omitted
+      if (hubUrl.indexOf('http') < 0) {hubUrl = 'http://' + hubUrl;}
+      var interactButtons = document.querySelectorAll("button.interact-button")
+      var lastButton = interactButtons[interactButtons.length-1];
+      var link = lastButton.parentElement;
+
+      // If we've already run this, skip the link updating
+      if (link.nextElementSibling !== null) {
+        return;
+      }
+
+      // Update the link and add context div
+      var href = link.getAttribute('href');
+      if (lastButton.id === 'interact-button-binder') {
+        // If binder links exist, we need to re-work them for jupyterhub
+        if (hubUrl.indexOf('http%3A%2F%2Flocalhost') > -1) {
+          // If localhost, assume we're working from a local Jupyter server and remove `/hub`
+          first = [hubUrl, 'git-sync'].join('/')
+        } else {
+          first = [hubUrl, 'hub', 'user-redirect', 'git-sync'].join('/')
+        }
+        href = first + '?' + binder2Jupyterhub(href);
+      } else {
+        // If interact button isn't binderhub, assume it's jupyterhub
+        // If JupyterHub links, we only need to replace the hub url
+        href = href.replace("", hubUrl);
+        if (hubUrl.indexOf('http%3A%2F%2Flocalhost') > -1) {
+          // Assume we're working from a local Jupyter server and remove `/hub`
+          href = href.replace("/hub/user-redirect", "");
+        }
+      }
+      link.setAttribute('href', decodeURIComponent(href));
+
+      // Add text after interact link saying where we're launching
+      hubUrlNoHttp = decodeURIComponent(hubUrl).replace('http://', '').replace('https://', '');
+      link.insertAdjacentHTML('afterend', '<div class="interact-context">on ' + hubUrlNoHttp + '</div>');
+
+      // Update internal links so we retain the hub url
+      addParamToInternalLinks(hubUrl);
+    }
+}
+
+runWhenDOMLoaded(updateInteractLink)
+document.addEventListener('turbolinks:load', updateInteractLink)
+</script>
+
+
+  <!-- Lunr search code - will only be executed on the /search page -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" async></script>
+  <script>var initQuery = function() {
+  // See if we have a search box
+  var searchInput = document.querySelector('input#lunr_search');
+  if (searchInput === null) {
+    return;
+  }
+
+  // Function to parse our lunr cache
+  var idx = lunr(function () {
+    this.field('title')
+    this.field('excerpt')
+    this.field('categories')
+    this.field('tags')
+    this.ref('id')
+
+    this.pipeline.remove(lunr.trimmer)
+
+    for (var item in store) {
+      this.add({
+        title: store[item].title,
+        excerpt: store[item].excerpt,
+        categories: store[item].categories,
+        tags: store[item].tags,
+        id: item
+      })
+    }
+  });
+
+  // Run search upon keyup
+  searchInput.addEventListener('keyup', function () {
+    var resultdiv = document.querySelector('#results');
+    var query = document.querySelector("input#lunr_search").value.toLowerCase();
+    var result =
+      idx.query(function (q) {
+        query.split(lunr.tokenizer.separator).forEach(function (term) {
+          q.term(term, { boost: 100 })
+          if(query.lastIndexOf(" ") != query.length-1){
+            q.term(term, {  usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+          }
+          if (term != ""){
+            q.term(term, {  usePipeline: false, editDistance: 1, boost: 1 })
+          }
+        })
+      });
+
+      // Empty the results div
+      while (resultdiv.firstChild) {
+        resultdiv.removeChild(resultdiv.firstChild);
+      }
+
+    resultdiv.insertAdjacentHTML('afterbegin', '<p class="results__found">'+result.length+' Result(s) found</p>');
+    for (var item in result) {
+      var ref = result[item].ref;
+      if(store[ref].teaser){
+        var searchitem =
+          '<div class="list__item">'+
+            '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
+              '<h2 class="archive__item-title" itemprop="headline">'+
+                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+              '</h2>'+
+              '<div class="archive__item-teaser">'+
+                '<img src="'+store[ref].teaser+'" alt="">'+
+              '</div>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+            '</article>'+
+          '</div>';
+      }
+      else{
+    	  var searchitem =
+          '<div class="list__item">'+
+            '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
+              '<h2 class="archive__item-title" itemprop="headline">'+
+                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+              '</h2>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+            '</article>'+
+          '</div>';
+      }
+      resultdiv.insertAdjacentHTML('beforeend', searchitem);
+    }
+  });
+};
+
+initFunction(initQuery);
+</script>
+
+  <!-- Load JS that depends on site variables -->
+  <script>
+/**
+ * Set up copy/paste for code blocks
+ */
+const clipboardButton = id =>
+  `<a id="copy-button-${id}" class="btn copybtn o-tooltip--left" data-tooltip="Copy" data-clipboard-target="#${id}">
+    <img src="/jupyter-book/assets/images/copy-button.svg" alt="Copy to clipboard">
+  </a>`
+
+// Clears selected text since ClipboardJS will select the text when copying
+const clearSelection = () => {
+  if (window.getSelection) {
+    window.getSelection().removeAllRanges()
+  } else if (document.selection) {
+    document.selection.empty()
+  }
+}
+
+// Changes tooltip text for two seconds, then changes it back
+const temporarilyChangeTooltip = (el, newText) => {
+  const oldText = el.getAttribute('data-tooltip')
+  el.setAttribute('data-tooltip', newText)
+  setTimeout(() => el.setAttribute('data-tooltip', oldText), 2000)
+}
+
+const addCopyButtonToCodeCells = () => {
+  // If ClipboardJS hasn't loaded, wait a bit and try again. This
+  // happens because we load ClipboardJS asynchronously.
+  if (window.ClipboardJS === undefined) {
+    setTimeout(addCopyButtonToCodeCells, 250)
+    return
+  }
+
+  pageElements['codeCells'].forEach((codeCell) => {
+    const id = codeCell.getAttribute('id')
+    if (document.getElementById("copy-button" + id) == null) {
+      codeCell.insertAdjacentHTML('afterend', clipboardButton(id));
+    }
+  })
+
+  const clipboard = new ClipboardJS('.copybtn')
+  clipboard.on('success', event => {
+    clearSelection()
+    temporarilyChangeTooltip(event.trigger, 'Copied!')
+  })
+
+  clipboard.on('error', event => {
+    temporarilyChangeTooltip(event.trigger, 'Failed to copy')
+  })
+
+  // Get rid of clipboard before the next page visit to avoid memory leak
+  document.addEventListener('turbolinks:before-visit', () =>
+    clipboard.destroy()
+  )
+}
+
+initFunction(addCopyButtonToCodeCells);
+</script>
+
+
+  <!-- Hide cell code -->
+  <script>
+    /**
+    Add buttons to hide code cells
+    */
+
+
+    var setCodeCellVisibility = function (inputField, kind) {
+        // Update the image and class for hidden
+        var id = inputField.getAttribute('data-id');
+        var codeCell = document.querySelector(`#${id} div.highlight`);
+
+        if (kind === "visible") {
+            codeCell.classList.remove('hidden');
+            inputField.checked = true;
+        } else {
+            codeCell.classList.add('hidden');
+            inputField.checked = false;
+        }
+    }
+
+    var toggleCodeCellVisibility = function (event) {
+        // The label is clicked, and now we decide what to do based on the input field's clicked status
+        if (event.target.tagName === "LABEL") {
+            var inputField = event.target.previousElementSibling;
+        } else {
+            // It is the span inside the target
+            var inputField = event.target.parentElement.previousElementSibling;
+        }
+
+        if (inputField.checked === true) {
+            setCodeCellVisibility(inputField, "visible");
+        } else {
+            setCodeCellVisibility(inputField, "hidden");
+        }
+    }
+
+
+    // Button constructor
+    const hideCodeButton = id => `<input class="hidebtn" type="checkbox" id="hidebtn${id}" data-id="${id}"><label title="Toggle cell" for="hidebtn${id}" class="plusminus"><span class="pm_h"></span><span class="pm_v"></span></label>`
+
+    var addHideButton = function () {
+        // If a hide button is already added, don't add another
+        if (document.querySelector('div.tag_hide_input input') !== null) {
+            return;
+        }
+
+        // Find the input cells and add a hide button
+        pageElements['inputCells'].forEach(function (inputCell) {
+            if (!inputCell.classList.contains("tag_hide_input")) {
+                // Skip the cell if it doesn't have a hidecode class
+                return;
+            }
+
+            const id = inputCell.getAttribute('id')
+
+            // Insert the button just inside the end of the next div
+            inputCell.querySelector('div.input').insertAdjacentHTML('beforeend', hideCodeButton(id))
+
+            // Set up the visibility toggle
+            hideLink = document.querySelector(`#${id} div.inner_cell + input + label`);
+            hideLink.addEventListener('click', toggleCodeCellVisibility)
+        });
+    }
+
+
+    // Initialize the hide buttos
+    var initHiddenCells = function () {
+        // Add hide buttons to the cells
+        addHideButton();
+
+        // Toggle the code cells that should be hidden
+        document.querySelectorAll('div.tag_hide_input input').forEach(function (item) {
+            setCodeCellVisibility(item, 'hidden');
+            item.checked = true;
+        })
+    }
+
+    initFunction(initHiddenCells);
+
+</script>
+
+  <!-- Printing the screen -->
+  <!-- Include nbinteract for interactive widgets -->
+<script src="https://printjs-4de6.kxcdn.com/print.min.js" async></script>
+<script>
+printContent = () => {
+    // MathJax displays a second version of any math for assistive devices etc.
+    // This prevents double-rendering in the PDF output.
+    var ignoreAssistList = [];
+    assistives = document.querySelectorAll('.MathJax_Display span.MJX_Assistive_MathML').forEach((element, index) => {
+        var thisId = 'MathJax-assistive-' + index.toString();
+        element.setAttribute('id', thisId);
+        ignoreAssistList.push(thisId)
+    });
+
+    // Print the actual content object
+    printJS({
+        printable: 'textbook_content',
+        type: 'html',
+        css: "/jupyter-book/assets/css/styles.css",
+        scanStyles: false,
+        targetStyles: ["*"],
+        ignoreElements: ignoreAssistList
+    })
+};
+
+initPrint = () => {
+    document.querySelector('#interact-button-print').addEventListener('click', printContent)
+}
+
+initFunction(initPrint)
+</script>
+
+</head>
+
+  <body>
+    <!-- .js-show-sidebar shows sidebar by default -->
+    <div id="js-textbook" class="c-textbook js-show-sidebar">
+      
+
+
+
+<nav id="js-sidebar" class="c-textbook__sidebar">
+  <a href="https://jupyter.org/jupyter-book/intro.html"><img src="/jupyter-book/images/logo/logo.png" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
+  <h2 class="c-sidebar__title">Jupyter Book</h2>
+  <ul class="c-sidebar__chapters">
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/intro.html"
+        >
+          
+          Home
+        </a>
+
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/guide/01_overview.html"
+        >
+          
+          Getting started
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections ">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/guide/02_create.html"
+                >
+                  
+                  Create your book
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/guide/03_build.html"
+                >
+                  
+                  Build HTML for each page of your book
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/guide/04_publish.html"
+                >
+                  
+                  Build and publish your book online
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/guide/05_faq.html"
+                >
+                  
+                  Frequently Asked Questions (FAQ)
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/guide/06_advanced.html"
+                >
+                  
+                  How-to and advanced topics
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/features/features.html"
+        >
+          
+          Features and customization
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections ">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/markdown.html"
+                >
+                  
+                  Markdown files
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/notebooks.html"
+                >
+                  
+                  Jupyter notebooks
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/hiding.html"
+                >
+                  
+                  Hiding code blocks or entire cells
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/interact.html"
+                >
+                  
+                  Connecting content with JupyterHub and Binder
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/executing.html"
+                >
+                  
+                  Running each page when building your book
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/interactive_cells.html"
+                >
+                  
+                  BETA - Adding interactivity to your book pages
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/citations.html"
+                >
+                  
+                  BETA - Citations and bibliographies
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/jupytext.html"
+                >
+                  
+                  BETA - Using Jupytext for text-based Notebook content
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/layout.html"
+                >
+                  
+                  BETA - Controlling page layout
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/features/limits.html"
+                >
+                  
+                  Feature Limits
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/advanced/advanced.html"
+        >
+          
+          Advanced Topics
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections ">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/advanced/circleci.html"
+                >
+                  
+                  Previewing or building your book with CircleCI
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="https://github.com/jupyter/jupyter-book"
+        >
+          
+          GitHub repository
+        </a>
+
+        
+      </li>
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Demo textbook</li>
+        
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/01/what-is-data-science.html"
+        >
+          
+            1.
+          
+          Data Science
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections u-hidden-visually">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/01/1/intro.html"
+                >
+                  
+                    1.1
+                  
+                  Introduction
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/01/2/why-data-science.html"
+                >
+                  
+                    1.2
+                  
+                  Why Data Science?
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/01/3/Plotting_the_Classics.html"
+                >
+                  
+                    1.3
+                  
+                  Plotting the Classics
+                </a>
+
+                
+                
+                  
+                  
+
+                  <li class="c-sidebar__subsection">
+                    <a class="c-sidebar__entry "
+                      href="/jupyter-book/01/3/subsection/subsections.html"
+                    >
+                      
+                        1.3.1
+                        
+                      
+                      Subsection Demo 1
+                    </a>
+                
+                  
+                  
+
+                  <li class="c-sidebar__subsection">
+                    <a class="c-sidebar__entry "
+                      href="/jupyter-book/01/3/subsection/subsectiontwo.html"
+                    >
+                      
+                        1.3.2
+                        
+                      
+                      Subsection Demo 2
+                    </a>
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/02/causality-and-experiments.html"
+        >
+          
+            2.
+          
+          Causality and Experiments
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections u-hidden-visually">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/02/1/observation-and-visualization-john-snow-and-the-broad-street-pump.html"
+                >
+                  
+                    2.1
+                  
+                  John Snow and the Broad Street Pump
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/02/2/snow-s-grand-experiment.html"
+                >
+                  
+                    2.2
+                  
+                  Snow’s “Grand Experiment”
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/02/3/establishing-causality.html"
+                >
+                  
+                    2.3
+                  
+                  Establishing Causality
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/02/4/randomization.html"
+                >
+                  
+                    2.4
+                  
+                  Randomization
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/02/5/endnote.html"
+                >
+                  
+                    2.5
+                  
+                  Endnote
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/03/programming-in-python.html"
+        >
+          
+            3.
+          
+          Programming in Python
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections u-hidden-visually">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/03/1/Expressions.html"
+                >
+                  
+                    3.1
+                  
+                  Expressions
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/03/2/Names.html"
+                >
+                  
+                    3.2
+                  
+                  Names
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/03/3/Calls.html"
+                >
+                  
+                    3.3
+                  
+                  Call Expressions
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/03/4/Introduction_to_Tables.html"
+                >
+                  
+                    3.4
+                  
+                  Introduction to Tables
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+      
+      
+
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter">
+        <a class="c-sidebar__entry "
+          href="/jupyter-book/04/Types.html"
+        >
+          
+            4.
+          
+          Data Types
+        </a>
+
+        
+
+          
+          
+          
+          
+
+          
+
+          <ul class="c-sidebar__sections u-hidden-visually">
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/04/1/Numbers.html"
+                >
+                  
+                    4.1
+                  
+                  Numbers
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/04/2/Strings.html"
+                >
+                  
+                    4.2
+                  
+                  Strings
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/jupyter-book/04/3/Comparison.html"
+                >
+                  
+                    4.3
+                  
+                  Comparisons
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+          </ul>
+        
+      </li>
+
+      
+    
+  </ul>
+  <p class="sidebar_footer">Powered by <a href="https://github.com/jupyter/jupyter-book">Jupyter Book</a></p>
+</nav>
+
+      
+      <div class="c-topbar" id="top-navbar">
+  <!-- We show the sidebar by default so we use .is-active -->
+  <div class="c-topbar__buttons">
+    <button
+      id="js-sidebar-toggle"
+      class="hamburger hamburger--arrowalt is-active"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <div class="buttons">
+<div class="download-buttons-dropdown">
+    <button id="dropdown-button-trigger" class="interact-button"><i class="fa fa-download"></i></button>
+    <div class="download-buttons">
+        <a href="/jupyter-book/content/guide/05_advanced.md" download>
+        <button id="interact-button-download" class="interact-button">ORIG</button>
+        </a>
+        
+        <a id="interact-button-print"><button id="interact-button-download" class="interact-button">PDF</button></a>
+    </div>
+</div>
+
+  <button id="interact-button-thebelab" class="interact-button">Thebelab</button>
+
+  
+  
+
+
+
+
+
+
+<a href="https://mybinder.org/v2/gh/jupyter/jupyter-book/gh-pages?filepath=content%2Fguide%2F05_advanced.md"><button class="interact-button" id="interact-button-binder"><img class="interact-button-logo" src="/jupyter-book/assets/images/logo_binder.svg" alt="Interact" />Interact</button></a>
+  
+
+
+</div>
+
+  </div>
+  <!-- Empty sidebar placeholder that we'll auto-fill with javascript -->
+  <aside class="sidebar__right">
+    <header><h4 class="nav__title"><i class="fa fa-list"></i>   On this page</h4></header>
+    <nav class="onthispage">
+    </nav>
+  </aside>
+  <a href="/jupyter-book/search.html" class="topbar-right-button" id="search-button"><i class="fa fa-search"></i></a>
+</div>
+
+      <main class="c-textbook__page" tabindex="-1">
+            <div class="c-textbook__content" id="textbook_content">
+              <div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This page contains more advanced and complete information about the
+<a href="https://github.com/jupyter/jupyter-book"><code>jupyter-book</code> repository</a>. See the sections below.</p>
+<h2 id="Enable-Google-Analytics">Enable Google Analytics<a class="anchor-link" href="#Enable-Google-Analytics"> </a></h2><p>If you have a Google Account, you can use Google Analytics to collect some 
+information on the traffic to your Jupyter Book. With this tool, you can find 
+out how many people are using your site, where they come from and how they 
+access it, wether they are using the Desktop or the mobile version etc.</p>
+<p>To add Google Analytics to your Jupyter Book, navigate to 
+<a href="https://analytics.google.com/analytics/web/">Google Analytics</a>, create a new 
+Google Analytics account and add the url of your Jupyter Book to a new 
+<em>property</em>. Once you have set everything up, your Google Analytics property 
+will have a so-called Tracking-ID, that typically starts with the letters UA. 
+All that you need to do is to copy this ID and paste it into your 
+configuration file:</p>
+<div class="highlight"><pre><span></span><span class="nt">google_analytics</span><span class="p">:</span>
+  <span class="nt">mytrackingcode</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">UA-XXXXXXXXX-X</span>
+</pre></div>
+<h2 id="Retain-custom-YAML-front-matter-in-your-files">Retain custom YAML front-matter in your files<a class="anchor-link" href="#Retain-custom-YAML-front-matter-in-your-files"> </a></h2><p>Jupyter book will check your files for YAML front-matter and will <strong>append</strong>
+any newly-generated YAML to the built files for the page. This means you
+can provide your own custom YAML to files (which may be useful if you'd like
+to modify this site's HTML).</p>
+<p>Be careful not to add YAML with the same key names as the auto-generated YAML, as
+this will create duplicated keys in your page's front-matter.</p>
+<h2 id="Deploying-a-JupyterHub">Deploying a JupyterHub<a class="anchor-link" href="#Deploying-a-JupyterHub"> </a></h2><p>If you wish, you may deploy a JupyterHub alongside your textbook. This way, for pages that are built from
+Jupyter Notebooks, students can click the "interact" links
+at the top of each page and be taken to a live Jupyter Notebook running on your JupyterHub.</p>
+<p>The easiest way to set up a JupyterHub is to follow <a href="https://the-littlest-jupyterhub.readthedocs.io/en/latest/index.html">The Littlest JupyterHub guide</a>.
+This is a straightforward deployment of JupyterHub on a single VM, and is suitable for
+courses / workshops of less than 50-60 students.</p>
+<p>Once you have your JupyterHub set up, you can use the <a href="https://github.com/data-8/nbgitpuller">nbgitpuller</a>
+package to send links to course material to your students, or use the interact links that Textbooks for Jupyter
+automatically inserts into your course material.</p>
+<h2 id="Auto-generating-a-TOC-file-for-your-book">Auto-generating a TOC file for your book<a class="anchor-link" href="#Auto-generating-a-TOC-file-for-your-book"> </a></h2><p>Sometimes it can be a pain to create the Table of Contents YAML file by hand.
+Jupyter Book has a convenience function to automatically create this file
+using the alpha-numeric sorting of the file/folder names in your content folder.
+To use it, simply use the following command:</p>
+
+<pre><code>jupyter-book toc path/to/mybook</code></pre>
+<p>This put all <code>.md</code> and <code>.ipynb</code> files in the root of the <strong>content folder</strong> 
+as top-level pages. For any files that are in folders, it will create one
+section per <strong>top-level folder</strong> and place all content files inside that
+section.</p>
+<p>By default, running this command will print the TOC YAML to the screen.
+If you'd like to overwrite your <code>_data/toc.yml</code> file with the result of
+running this command, you can use the <code>--path-output</code> argument like so</p>
+
+<pre><code>jupyter-book toc path/to/mybook --path-output path/to/mybook/_data/toc.yml</code></pre>
+<p>This will overwrite the contents of <code>toc.yml</code> with the new TOC.</p>
+<blockquote><p>Note: this will make some assumptions about how you'd like your book to
+be structured. We recommend using this command as a starting point, and
+then customizing your TOC how you'd like.</p>
+</blockquote>
+<h2 id="Adding-tags-to-notebook-cells-based-on-their-content">Adding tags to notebook cells based on their content<a class="anchor-link" href="#Adding-tags-to-notebook-cells-based-on-their-content"> </a></h2><p>Sometimes you'd like to quickly scan through a notebook's cells in order to
+add tags based on the content of the cell. For example, you might want to
+hide any cell with an import statement in it using the <code>remove_input</code> tag.</p>
+<p>Here's a short Python snippet to accomplish something close to this.
+First change directories into the root of your book folder, and then
+run the script below as a Python script or within a Jupyter Notebook
+(modifying as necessary for your use case).
+Finally, check the changes that will be made and commit them to your repository.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">nbformat</span> <span class="kn">as</span> <span class="nn">nbf</span>
+<span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span>
+
+<span class="c1"># Collect a list of all notebooks in the content folder</span>
+<span class="n">notebooks</span> <span class="o">=</span> <span class="n">glob</span><span class="p">(</span><span class="s2">&quot;./content/**/*.ipynb&quot;</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="c1"># Text to look for in adding tags</span>
+<span class="n">text_search_dict</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;# HIDDEN&quot;</span><span class="p">:</span> <span class="s2">&quot;remove_cell&quot;</span><span class="p">,</span>  <span class="c1"># Remove the whole cell</span>
+    <span class="s2">&quot;# NO CODE&quot;</span><span class="p">:</span> <span class="s2">&quot;remove_input&quot;</span><span class="p">,</span>  <span class="c1"># Remove only the input</span>
+    <span class="s2">&quot;# HIDE CODE&quot;</span><span class="p">:</span> <span class="s2">&quot;hide_input&quot;</span>  <span class="c1"># Hide the input w/ a button to show</span>
+<span class="p">}</span>
+
+<span class="c1"># Search through each notebook and look for th text, add a tag if necessary</span>
+<span class="k">for</span> <span class="n">ipath</span> <span class="ow">in</span> <span class="n">notebooks</span><span class="p">:</span>
+    <span class="n">ntbk</span> <span class="o">=</span> <span class="n">nbf</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">ipath</span><span class="p">,</span> <span class="n">nbf</span><span class="o">.</span><span class="n">NO_CONVERT</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">cell</span> <span class="ow">in</span> <span class="n">ntbk</span><span class="o">.</span><span class="n">cells</span><span class="p">:</span>
+        <span class="n">cell_tags</span> <span class="o">=</span> <span class="n">cell</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;tags&#39;</span><span class="p">,</span> <span class="p">[])</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">text_search_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">cell</span><span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">val</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cell_tags</span><span class="p">:</span>
+                    <span class="n">cell_tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">cell_tags</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">cell</span><span class="p">[</span><span class="s1">&#39;metadata&#39;</span><span class="p">][</span><span class="s1">&#39;tags&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cell_tags</span>
+
+    <span class="n">nbf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">ntbk</span><span class="p">,</span> <span class="n">ipath</span><span class="p">)</span>
+</pre></div>
+<h2 id="Customizing-your-toc.yml-file">Customizing your <code>toc.yml</code> file<a class="anchor-link" href="#Customizing-your-toc.yml-file"> </a></h2><p>The <code>toc.yml</code> file is used to control the chapter order etc of your book.
+There are a few extra features you can use to trigger certain kinds of behavior.
+This section explains the possible structure of this file so you can customize it
+as you like.</p>
+<h3 id="The-structure-of-a-single-page">The structure of a single page<a class="anchor-link" href="#The-structure-of-a-single-page"> </a></h3><p>Below is all of the possible fields in the entry of a single page in <code>toc.yml</code>:</p>
+
+<pre><code>- title: mytitle   # Title of chapter or section
+  url: /myurl  # URL of section relative to the /content/ folder.
+  not_numbered: true  # if the section shouldn't have a number in the sidebar
+    (e.g. Introduction or appendices) (default: true)
+  expand_sections: true  # if you'd like the sections of this chapter to always
+    be expanded in the sidebar. (default: true)
+  sections:  # Contains an optional list of more entries that make up the chapter's sections</code></pre>
+<h3 id="Adding-an-external-link-in-your-TOC">Adding an external link in your TOC<a class="anchor-link" href="#Adding-an-external-link-in-your-TOC"> </a></h3><p>To add an external link in your TOC, simply make the url point to a fully-resolved
+URL and add the <code>external: true</code> field. Here's an example:</p>
+
+<pre><code>- title: Jupyter Homepage   # Title of chapter or section
+  url: https://jupyter.org  # URL of external site
+  external: true</code></pre>
+<h3 id="Extra-TOC-entries">Extra TOC entries<a class="anchor-link" href="#Extra-TOC-entries"> </a></h3><p>These are special entries that will trigger different behavior if they are
+in the <code>toc.yml</code> file:</p>
+
+<pre><code>- search: true  # Will provide a link to a search page
+- divider: true  # Will insert a divider in the sidebar
+- header: My Header  # Will insert a header with no link in the sidebar</code></pre>
+<h2 id="Build-the-book's-site-HTML-locally">Build the book's site HTML locally<a class="anchor-link" href="#Build-the-book's-site-HTML-locally"> </a></h2><p>Once you've generated the intermediate files for your notebooks and installed the
+necessary dependencies. You are ready to build your site HTML.</p>
+<p>Ensure that your notebooks have been converted to intermediate files, there should be a
+collection of them in <code>_build/</code>.</p>
+<p>In order to locally build your site's HTML with Jekyll, you'll take one of two approaches:</p>
+<ol>
+<li>Use a container software (Docker or Singularity) along with a Docker image that we've
+prepared for you
+<a href="https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/Dockerfile">from this Dockerfile</a>.</li>
+<li>Install a copy of the Ruby language (which is a free open-source language, but can be a pain to install).</li>
+</ol>
+<p>In our experience, we've found that <a href="https://www.docker.com/resources/what-container">containers</a>
+provide an easier installation for most systems.
+If you are developing on a system where you have administrator privileges
+(i.e., you have <code>root</code> permissions), we recommend you use <a href="https://docs.docker.com/get-started/">Docker</a>.</p>
+<p>We also provide instructions for using <a href="https://www.sylabs.io/guides/2.6/user-guide/quick_start.html">Singularity</a>,
+an alternate containerization software for systems where you do not have administrator privileges.
+To learn more about using containers, please see the
+<a href="https://neurohackweek.github.io/docker-for-scientists/">Docker for scientists guide</a>.</p>
+<h3 id="Building-your-site-locally-with-Containers:-Docker">Building your site locally with Containers: Docker<a class="anchor-link" href="#Building-your-site-locally-with-Containers:-Docker"> </a></h3><p>First, you'll need to make sure you have Docker installed.
+There are <a href="https://hub.docker.com/search/?type=edition&amp;offering=community">installation instructions for each operating system</a>
+to guide you through this process.</p>
+<p>Once Docker is available on your system, you can build the image locally with:</p>
+<div class="highlight"><pre><span></span>docker pull emdupre/jupyter-book
+</pre></div>
+<p>You can then access this image with the following command.
+Make sure to specify the full path to your Jupyter Book, rather than the relative path!</p>
+<div class="highlight"><pre><span></span>docker run --rm --security-opt label:disable  <span class="se">\</span>
+   -v /full/path/to/your/book:/srv/jekyll <span class="se">\</span>
+   -p <span class="m">4000</span>:4000 <span class="se">\</span>
+   -it -u <span class="m">1000</span>:1000 <span class="se">\</span>
+   emdupre/jupyter-book bundle <span class="nb">exec</span> jekyll serve --host <span class="m">0</span>.0.0.0
+</pre></div>
+<p>If you navigate to <code>http://0.0.0.0:4000/jupyter-book/</code> in your browser,
+you should see a preview copy of your book.
+If you instead see an error, please try to update your local book;
+see <a href="https://jupyter.org/jupyter-book/guide/04_faq.html#how-can-i-update-my-book">the Jupyter Book FAQ section</a>
+for more details on how to do so.</p>
+<p>You'll find the HTML for your book in the <code>_site/</code> folder.</p>
+<h3 id="Building-your-site-locally-with-Containers:-Singularity">Building your site locally with Containers: Singularity<a class="anchor-link" href="#Building-your-site-locally-with-Containers:-Singularity"> </a></h3><p>If you are on a system where you do not have administrator privileges (such as a shared
+computing cluster), you will not be able to use Docker.
+Instead, you can use Singularity.
+First, you'll need to check with your resource manager that Singularity is available
+on your system.</p>
+<p>You can then create a Jupyter Book Singularity image using:</p>
+<div class="highlight"><pre><span></span>singularity build jupyter-book.simg docker://emdupre/jupyter-book
+</pre></div>
+<p>Next, you can access this image with the following command.
+Make sure to specify the full path to your Jupyter Book, rather than the relative path!</p>
+<div class="highlight"><pre><span></span>singularity run -B /full/path/to/your/book:/srv/jekyll <span class="se">\</span>
+    --pwd /srv/jekyll <span class="se">\</span>
+    jupyter-book.simg bundle <span class="nb">exec</span> jekyll serve
+</pre></div>
+<p>And that's it! If you navigate to <code>http://127.0.0.1:4000/jupyter-book/</code> in your browser,
+you should see a preview copy of your book.</p>
+<h3 id="Building-your-site-locally-with-Ruby">Building your site locally with Ruby<a class="anchor-link" href="#Building-your-site-locally-with-Ruby"> </a></h3><p>You can also choose to build your site locally without a container.
+In this case, you'll need Ruby, an open-source programming language, to build your site's
+HTML with Jekyll.</p>
+<blockquote><p><strong>NOTE:</strong> If these instructions don't work, you can also try installing Jekyll at the
+following URLs.</p>
+<ul>
+<li><a href="https://jekyllrb.com/docs/installation/macos/">MacOS Instructions</a></li>
+<li><a href="https://jekyllrb.com/docs/installation/ubuntu/">Ubuntu Instructions</a></li>
+<li><a href="https://jekyllrb.com/docs/installation/other-linux">Linux (non-Ubuntu) Instructions</a></li>
+<li><a href="https://jekyllrb.com/docs/installation/windows/">Windows Instructions</a></li>
+</ul>
+<p>Once you've finished those steps, head to <a href="#install-ruby-plugins">install ruby plugins</a>
+and follow the directions.</p>
+</blockquote>
+<p>The easiest way to install Ruby on <em>nix systems is to use
+the </em><code>conda</code>* package manager:</p>
+<div class="highlight"><pre><span></span>conda install -c conda-forge ruby
+</pre></div>
+<p>Once you have Ruby installed, the conda-built clang compiler for your system need to be installed. Details depend on your OS.</p>
+<h4 id="On-OSX">On OSX<a class="anchor-link" href="#On-OSX"> </a></h4><p>Two steps are needed on OSX. First, install the <em><code>conda</code>'s</em> clang compiler:</p>
+<div class="highlight"><pre><span></span>conda install -c conda-forge clangxx_osx-64
+</pre></div>
+<p>If you are running OSX 10.14 (Mojave) you also need to install system libraries in
+the default *nix locations by running</p>
+<div class="highlight"><pre><span></span>open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
+</pre></div>
+<h4 id="On-Linux">On Linux<a class="anchor-link" href="#On-Linux"> </a></h4><p>Install <em><code>conda</code>'s</em> clang compiler:</p>
+<div class="highlight"><pre><span></span>conda install -c conda-forge gxx_linux-64
+</pre></div>
+<h4 id="Install-Ruby-plugins">Install Ruby plugins<a class="anchor-link" href="#Install-Ruby-plugins"> </a></h4><p>Finally, run</p>
+<div class="highlight"><pre><span></span>make install
+</pre></div>
+<p>which will install Bundler (a Ruby dependency management tool) and then install the plugins
+needed to build the site for your book.</p>
+<p>You can then build the site locally by running:</p>
+
+<pre><code>make site</code></pre>
+<p>Alternatively, you can preview your book's site locally by running this command:</p>
+
+<pre><code>make serve</code></pre>
+<p>This should open up a port on your computer with a live version of the book.</p>
+<h3 id="When-should-you-build-the-HTML-locally?">When should you build the HTML locally?<a class="anchor-link" href="#When-should-you-build-the-HTML-locally?"> </a></h3><p>You might ask: if GitHub pages can build my site automatically from the intermediate files, why
+build it locally? The main reason for this is that you get more flexibility by building locally
+and serving raw HTML, as opposed to auto-building the site with GitHub-pages.</p>
+<p>In particular, if you wish to use any <strong>extra Jekyll plugins</strong>, such as the <code>jekyll-scholar</code> plugin that
+enables you to add citations and bibliographies, then you need to build your site
+locally as HTML. GitHub-pages doesn't let you enable any extra plugins if it auto-builds your site.</p>
+<h2 id="Hosting-your-book's-HTML-online">Hosting your book's HTML online<a class="anchor-link" href="#Hosting-your-book's-HTML-online"> </a></h2><p>If you're choosing to build the HTML for your book by hand, there are a few options for
+where you should store the book. The two most common approaches are:</p>
+<ul>
+<li><strong>Use the <code>gh-pages</code> or <code>master</code> branch of a GitHub repository</strong>. In this case, the build
+process is very similar to <a href="https://jupyter.org/jupyter-book/guide/03_build.html#publish-your-book-online-with-github-pages">using GH-pages to build the HTML for your site</a>.
+However, there is one caveat: you must include a file called <code>.nojekyll</code> along with the HTML
+files of your book. This tells GitHub <strong>not</strong> to use Jekyll to build the HTML.</li>
+<li><strong>Use a static site hosting service like Netlify</strong>. There are many services that will simply
+host a collection of static HTML files for you in a public URL. The most common is
+<a href="https://www.netlifycms.org/">the Netlify CMS service</a>. Follow the instructions on this site
+for information on how you should upload your HTML files to work with Netlify.</li>
+</ul>
+<h3 id="Automatically-build-your-book-HTML-with-CI/CD">Automatically build your book HTML with CI/CD<a class="anchor-link" href="#Automatically-build-your-book-HTML-with-CI/CD"> </a></h3><p>If you're comfortable with continuous integration services like CircleCI, you can set up
+a build job to build your book's HTML automatically and push them to an online repository
+(such as a <code>gh-pages</code> branch). This is a fairly advanced topic, but for some guidance,
+check out these resources:</p>
+<ul>
+<li><strong><a href="https://predictablynoisy.com/circleci-mirror">This blog post on pushing changes from a CircleCI Job</a></strong>
+covers how you can give CircleCI permissions to push to a branch from within a job.</li>
+<li><strong><a href="https://github.com/jupyter/jupyter-book/blob/master/.circleci/config.yml">The Jupyter Book CircleCI configuration file</a></strong>
+automatically deploys changes to the <code>jupyter-book</code> master branch to the live book. In
+particular, <a href="https://github.com/jupyter/jupyter-book/blob/master/.circleci/config.yml#L74">this section builds the book HTML files</a>
+while <a href="https://github.com/jupyter/jupyter-book/blob/master/.circleci/config.yml#L31">this section builds the HTML and pushes them to a <code>gh-pages</code> branch</a>.</li>
+</ul>
+<p>This process can be tricky to set up initially, but is quite useful in ensuring that your live book
+always stays up-to-date.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+            </div>
+            <nav class="c-page__nav">
+  
+    
+    <a id="js-page__nav__prev" class="c-page__nav__prev" href="/jupyter-book/guide/04_faq.html">
+      〈 <span class="u-margin-right-tiny"></span> FAQ
+    </a>
+  
+
+  
+    
+    <a id="js-page__nav__next" class="c-page__nav__next" href="/jupyter-book/features/features.html">
+      Features and customization <span class="u-margin-right-tiny"></span> 〉
+    </a>
+  
+</nav>
+
+            <footer>
+  <p class="footer">This page was created by <a href="https://github.com/jupyter/jupyter-book/graphs/contributors">The Jupyter Book Community</a></p>
+</footer>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
