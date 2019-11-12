@@ -17,6 +17,15 @@
 # - header: My Header  # Will insert a header with no link in the sidebar
 
 
+
+- title: Project Design
+  url: /05_project_design/project_design
+  not_numbered: false
+
+- title: Tabular Omics Data
+  url: /07_tabular_omics_data/tabular_omics_data
+  not_numbered: false
+
 - title: Home
   url: /intro
   not_numbered: true
