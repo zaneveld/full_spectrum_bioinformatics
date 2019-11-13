@@ -1,0 +1,270 @@
+---
+redirect_from:
+  - "/05-project-design/project-design"
+interact_link: content/05_project_design/project_design.ipynb
+kernel_name: python3
+has_widgets: false
+title: |-
+  Project Design
+prev_page:
+  url: 
+  title: |-
+    
+next_page:
+  url: /07_tabular_omics_data/tabular_omics_data.html
+  title: |-
+    Tabular Omics Data
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Designing-your-bioinformatics-project">Designing your bioinformatics project<a class="anchor-link" href="#Designing-your-bioinformatics-project"> </a></h1><p>We'll soon be diving into many specific techniques that you can use in bioinformatics. However, many people find that it is easiest to learn this type of skill if you are applying what you are learning to a specific project that you care about.</p>
+<p>So how do you design a good bioinformatics project?</p>
+<p>Depending on your perspective, developing a scientific question that you'd like to answer may sound simple - or perhaps frighteningly open-ended. There is a sense (which we'll discuss below) in which something as simple as picking a project speaks to some fairly deep philosophical questions about how we come by scientific knowledge. So there is <em>a lot</em> that you can learn about designing an experiment or analysis.</p>
+<p>But for now - especially if you are just starting out - it is most important that you <em>pick an interesting question</em> and <em>start trying to answer it</em>. You can learn a lot along the way. Don't feel like the first question that interests you is written in stone either. There are no penalty points awarded in science for switching questions (indeed this happens all the time!), so it is a good idea to think about the first question that interests you as a starting point.</p>
+<h2 id="What-makes-a-good-scientific-question?">What makes a good scientific question?<a class="anchor-link" href="#What-makes-a-good-scientific-question?"> </a></h2><p>What makes a good scientific question is of course somewhat subjective. I'm going to present my opinion. This advice is especially focused on scientific questions that you can pursue mostly independently as an advanced undergraduate or early graduate school student, without a source of funding to collect new data.</p>
+<p>If you are an experienced researcher heading a biological laboratory, some important considerations will be different (e.g. how will I get funding for the project?), but if you are in that position you are likely already all too familiar with those consideration.</p>
+<p>Down below we'll talk a little more about a specific <em>process</em> for developing a question, so don't feel like you have to magically come up with one out of thin air. But for now let's get some sense of what we're aiming for.</p>
+<p><strong>Here's what I think you should look for when picking a scientific question for <em>your</em> project:</strong></p>
+<ul>
+<li><p><strong>It interests <em>you</em></strong>. Answering most questions in bioinformatics takes significant time and dedication. So the most important criteria in picking a question is that you genuinely care about the answer. You might care because of simple curiosity, or because you think the answer might suggest a new approach to a societal problem (e.g. predicting flu outbreaks to better target vaccines). No two humans have identical experiences, and so it's OK if the question that interests you is not the same as that that interests other people. Indeed, that's one reason that you have something unique to contribute to bioinformatics. Conversely, just because you think a question is important doesn't necessarily mean it's the best one for <em>you</em> to address.</p>
+</li>
+<li><p><strong>It is relatively specific</strong>. The first questions that you think of may be very broad. ("How do cells work? How did selfless behavior evolve?"). Some might take a career's worth of work. Others might take concerted effort from the whole global scientific community over an a long time to really answer. If you come up with a very broad question, don't throw it away. You can save it, but understand that you will likely have to definitively answer many smaller (more 'bite-sized') questions in order to build up an understanding that speaks to your main question. Referring  it will be very useful later on</p>
+</li>
+<li><p><strong>It is one that <em>you</em> can start working on now</strong>. In science, getting your hands dirty always beats idle speculation. You want a question that you can start addressing <em>now</em>. If you are a student who is new to bioinformatics, that typically means that the data you would need to test different hypotheses about your question are available and in a format that is not too difficult to work with. Down below we'll talk more about hypotheses and go over some of the common data formats that you might look for. Although there are thousands of data formats that are used by specific software packages in bioinformatics, many interesting problems can be addressed with data that are in a much more managable number of formats (say 4 or 5). Overall, it is much better to pick a question that you can make some progress on soon using data that is already available than it is to pick a very broad or unanswerable question.</p>
+</li>
+</ul>
+<blockquote><p><strong>Example</strong>: Let's suppose (I'm making this up for the sake of illustration) that I have read that giant African 
+Land Snails (<em>Achatina fulica</em>) eat more than 500 species of plants, some of which are toxic to many other animals. I am interested in why they are able to eat so many kinds of plants. The first thing I write down is "How does this snail digest plant toxins?"</p>
+<p>If I have local access to that snail, there may be some laboratory experiments I could devise that would let me  start working now on how this snail breaks down it's food. However, because there aren't many data available on this  particular snail, asking questions about its metabolism probably isn't a good topic for a first bioinformatic  project.</p>
+<p>But I understand that I don't have to stick with my first question - I can adjust the question to make it answerable given the time, resources, and skills I have available to me. So I could broaden the question to ask about metabolism in all snails or all mollusks. I might also notice that 'how does metabolism work' is extremely broad.  Maybe what really interested me was how the snail dealt with a particular toxin from a plant that it eats. If so, I  could perhaps expand my question to deal with how snails in particular or molluscs in general metabolize plant  alkaloids.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Why-bioinformatics-needs-YOU">Why bioinformatics needs YOU<a class="anchor-link" href="#Why-bioinformatics-needs-YOU"> </a></h1><p>No two humans have exactly the same experiences, and therefore all of us view the world through a slightly different lens. Scientists agree (mostly) on the broad process by which we can test ideas about how the world works - the scientific method. By making predictions based on those ideas and then developing experiments or analyses that test those predictions, we can try to figure out which make useful predictions and which do not. However, the process by which we determine which topics are worthy of our attention, what questions are worth asking, and what hypotheses are worth testing is often much more subjective. Researchers with different backgrounds and perspectives (whether due to training, culture, or any number of other factors) may become interested in unique topics, or suggest potential hypotheses that had not previously been considered.</p>
+<p><img src="./resources/hypothesis_testing.png" alt="Hypothesis Testing Diagram" title="An idealized diagram of hypothesis testing. The shows a cloud representing how our beliefs,training,background, etc. may lead us to propose different hypotheses. These hypotheses are represented as different shapes. An experiment is represented as a board with diamond shaped holes in it. Several hypotheses &#39;fit&#39; the data generated by the experiment, while others do not. Hypotheses that fit the data carry on while those that do not are abandoned."></p>
+<p>The diagram shows an idealized view of the <strong>scientific method</strong>. You've probably encountered this before, but bear with me. We propose all sorts of hypotheses based on how we understand the world to work. Then we design experiments or analysis, and use our various hypotheses to predict what will happen. Finally we see if the predictions match what happens. Broadly, those hypotheses that best predicted the outcome tend to be the most useful ones. (We'll talk more later about some of the nuances here).</p>
+<p>Here's the point - the process of choosing what broad topics are worth of scientific inquiry (and how much effort and funding should be devoted to each) and proposing testable hypotheses is as much an art as a science. That's not to say we can't make <em>any</em> judgements about which questions are likely to be fruitful, just that it's more a matter of judgement and emphasis than strict rules. Therefore, if we are missing a lot of perspectives - including perhaps yours - we potentially may be missing out on important questions to ask or hypotheses to test.</p>
+<p><img src="./resources/hypothesis_testing_missing_perspectives.png" alt="Hypothesis Testing Diagram with missing perspectives" title="The same diagram as shown up above, but some perspectives are missing, leading to hypotheses that would explain the data never being tested."></p>
+<p>That being said, it's important to note that <strong>most of our new hypotheses are wrong</strong> and <strong>evidence matters</strong>. If you want to be in the business of scientific inquiry, you have to be very comfortable having your ideas - even your favorite ones - turn out to be wrong pretty often. Over time, you may find - as I have - that you get very excited when the evidence suggests that a hypothesis you thought was a sure thing is incorrect. That means that you may need to adjust your thinking to match what biology is showing you. In other words, you've learned something!</p>
+<p>I think this quote from Robert Pirsig in <em>Zen and the Art of Motorcycle Maintenance</em> sums this point up nicely:</p>
+<blockquote><p>“The TV scientist who mutters sadly, "The experiment is a failure; we have failed to achieve what we had hoped for," is suffering mainly from a bad script writer. An experiment is never a failure solely because it fails to achieve predicted results. An experiment is a failure only when it also fails adequately to test the hypothesis in question, when the data it produces don't prove anything one way or another.”</p>
+<p>― Robert M. Pirsig, <em>Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values</em></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="A-process-for-developing-a-specific-scientific-question">A process for developing a specific scientific question<a class="anchor-link" href="#A-process-for-developing-a-specific-scientific-question"> </a></h2><p>Once you have a general topic in mind, the basic process for developing a specific scientific question is as follows:</p>
+<ul>
+<li><p><strong>Review the literature about your topic.</strong> It's just fine to start with Wikipedia or a news article. It might seem backwards to read when what you want to do is write down a specific question and hypotheses. I promise, however, that if you immerse yourself in what's already known about a topic, questions and ideas will start to emerge. I talk more about some specific ways you can do a simple mini literature review in a very short amount of time below.</p>
+</li>
+<li><p><strong>Talk with researchers in the area.</strong> Once you have done your mini literature review and have some idea of what is known about your topic, it can be helpful to bring a list of brainstormed ideas to someone working in that area. If you are taking a class, you might bring them to office hours or schedule a meeting with the instructor.</p>
+</li>
+<li><p><strong>Try talking your ideas out with others who are at a similar stage.</strong> If you find a particular question is easy to explain to others in a way that they clearly understand, that may be a sign that the question really is a clear and interesting one.</p>
+</li>
+</ul>
+<h2 id="Conducting-a-literature-mini-review">Conducting a literature mini-review<a class="anchor-link" href="#Conducting-a-literature-mini-review"> </a></h2><p>Before you spend too much time developing a bioinformatic project, you want to get some sense of what is already known about that topic. Let's do that for the topic that you picked up above.</p>
+<h3 id="Finding-peer-reviewed-studies">Finding peer reviewed-studies<a class="anchor-link" href="#Finding-peer-reviewed-studies"> </a></h3><p>When doing bioinformatics, we want to focus on <em>peer-reviewed</em> scientfic publications. These are publications that have been read over and approved by several other scientists working in similar areas. The peer-review process is not perfect, but does tend to filter out many very poorly conceived or executed experiments, so in general you will find higher quality results if you look for peer-reviwed studies than if you do a general internet search.</p>
+<p>Two common resources for finding peer-reviewed studies on your topic are <a href="https://scholar.google.com/">Google Scholar</a> and the National Center for Biotechnology Information (NCBI)'s <a href="https://www.ncbi.nlm.nih.gov/pubmed/">PubMed search engine</a>.</p>
+<h3 id="Exercise:-Build-a-table-of-studies-for-your-mini-literature-review">Exercise: Build a table of studies for your mini-literature review<a class="anchor-link" href="#Exercise:-Build-a-table-of-studies-for-your-mini-literature-review"> </a></h3><p>I am very lazy. Just really abysmally lazy. However I also like to do a good job on projects that I'm pursuing. One way to do that is by getting good at <em>not wasting effort</em>. You can start right now as you begin your literature review. Even though your first steps might feel preliminary, getting organized now will save a ton of effort later on.</p>
+<p>So here's what I recommend. Set up a table of studies that address your question. Look up at least 10 peer-reviewed studies using <a href="https://scholar.google.com/">Google Scholar</a> or <a href="https://www.ncbi.nlm.nih.gov/pubmed/">PubMed search engine</a> that look interesting and address your topic. In Google scholar, papers will by default be sorted in part by their number of citations (how often <em>other</em> papers have referenced them). This can be useful when you know nothing about a field to find papers that are actively being discussed in the literature (but note that any given paper might be cited a lot because it is really good or just because it is really controversial).</p>
+<p>To lower the barriers to getting started right away, I've put together a table that you can use to summarize your results. Here's the link: <a href="./resources/Literature_Review_Template.xlsx">Literature Review Template</a>. 
+You can download it and fill in your literature survey in your copy. It is in Microsoft Excel format and can be loaded in either Excel or Google Sheets (which is free).</p>
+<p>Before you do anything else, just enter the information for these studies into your table. For now, you just want to enter into the table the basic information about the paper (the last name of the first author, the year of publication, the journal, the paper's title and a hyperlink to take you back to it).</p>
+<p>Now that you have that recorded, I'll say something that you won't hear very many instructors say: <strong>don't read the papers - or at least, don't feel that you must read each one, in full, from start to finish right now</strong>. You may very well <em>end up</em> reading all of them in detail if you continue to work on your question, but it is not necessary (and may be counterproductive) to try to do that right at the beginning.</p>
+<p><em>Instead</em>, <strong>read the abstract of each paper (see below)</strong>. Try to look for the key pieces of information in the example table. When you enter the information, also mark your 'depth of reading' as 'abstract only'. That will be very useful later on when you have read some papers but not others.</p>
+<p>Here's an example of how a first entry in your literature review table might look. It continues the theme of mollusc metabolism of plant alkaloids that we used in the example up above.</p>
+<p><img src="./resources/Literature_Review_Example.png" alt="Example Literature Review Table" title="An image of a filled literature review table similar to the one at the link up above."></p>
+<p>Once you have read a number of abstracts, <em>then</em> you can select a couple of papers that seem most relevant to your project to read in more depth.</p>
+<h3 id="Reading-an-abstract">Reading an abstract<a class="anchor-link" href="#Reading-an-abstract"> </a></h3><p>Most peer-reviewed scientific papers have an abstract, which is like a version of the paper in minature. They are very, very short - from just 150 to about 500 words - so you can read a <strong>lot</strong> of them in an hour. In a good abstract, you should be able to figure out why the researchers care about the topic they're studying, what question they asked, their hypothesis (if any), the methods they used to test the hypothesis, the results of their experiment or analysis, and the broader implications for their original question. Typically each of these will be covered in just one or two sentences. Sometimes many individual results will be summarized in a single sentence.</p>
+<h3 id="Skimming-papers">Skimming papers<a class="anchor-link" href="#Skimming-papers"> </a></h3><p>Now that you are beginning to get a sense of what's out there, you can pick 1-3 promising papers to skim. Look to understand the broad outline of what the authors did, without getting too lost in exactly how many miligrams of reagent they added to a particular reaction.</p>
+<p>When skimming a paper, you do not necessarily need to read it in order. This is especially true if you are already familiar with a field and many common methods used in it. In that case, many readers will read the abstract, then if they understand the experimental setup jump ahead to the key figures, then back up to read the results and methods, and finally read the discussion.</p>
+<p>As you read, pay attention to the inline citation used to support claims. If you see a claim that is interesting, it is often worth looking up the citation and adding that paper to your list. A good rule of thumb for when you are starting to have explored a particular literature is when you pick up a new paper and can recognize citations to several papers you have already encountered.</p>
+<p>You may wish to make special note of what software of analytical methods researchers used to answer questions that are similar to those you wish to ask. You will probably need to look up methods that are unfamiliar.  Often, you will see some methods used in many papers on the same topic. If you see a method used repeatedly, that's a good sign that it's worth devoting some time to understanding how it works, and seeing if it can be used in your work.</p>
+<p>Record the key points in your literature survey so you can refer back to them later. As you skim several papers, you will hopefully find at least one that is worth reading in full.</p>
+<h3 id="Reading-a-paper-in-depth">Reading a paper in depth<a class="anchor-link" href="#Reading-a-paper-in-depth"> </a></h3><p>Reading a paper in depth takes time. Hopefully, the process outlined up above has weeded out many papers that would be less worth this much time. However, having some key papers that you know inside and out can be a powerful thing in terms of developing your expertise in a given area of science.</p>
+<p>Here are some pointers:</p>
+<ul>
+<li><p><strong>Identify the type of paper</strong>. Is the paper a review, perspective, or research paper?</p>
+</li>
+<li><p><strong>Start with the big picture</strong>. You must try to understand <em>why</em> the investigators did each analysis they did. Some papers make this easier than others. It helps to start with the hypotheses the investigators were trying to test.</p>
+</li>
+<li><p><strong>Don't forget context</strong> Often, papers make more sense in the overall context of a scientist's body of work. It may be useful to look up the senior author on Google Scholar. There you can find a sorted list of all (or most) of a scientists papers. You might also check out the lab website, as these often have an explanation of the broad questions the lab is trying to answer written in language that is broadly accessible.</p>
+</li>
+<li><p><strong>Nail down key methods, terms, concepts, and acronyms</strong>. If you see a term that is unfamiliar to you when reading a paper deeply, be sure to  pausing to look it up and record what you find. Then you'll recognize it in future papers. Sometimes 5 minutes on Wikipedia can save hours of confusion.</p>
+</li>
+<li><p><strong>Distinguish results from interpretation</strong>. Pay lots of attention to the distinction between what excactly the experimenters (or analysts) measured vs. the hypothesis they were trying to test. Are there alternative explanations that could produce the same outcome? Often good papers will include additional analyses to try to test whether these alternative explanations apply.</p>
+</li>
+<li><p><strong>It's worth reading what others are saying about the paper</strong> For papers that have been around for a while, Google scholar and similar resources are also very useful for finding other papers that discuss the paper you are reading. You can click on 'cited by' to find links to other papers that discuss this work. This can be very useful in finding what other scientists are saying about a paper. How do they summarize it's key conclusions? Do they find other results that agree with the paper? Do they critique it?</p>
+</li>
+<li><p><strong>Don't forget the supplementary materials.</strong> Many papers are written with very strict page and word count limits. As such, often much useful explanation and detail ends up in Supplementary materials, which usually have to be downloaded separately from the journal website. I often find that these are <strong>extremely</strong> useful. The explanations are often somewhat less formal and more accessible, and they often include raw data files that you might end up using in your analysis.</p>
+</li>
+<li><p><strong>Be specific in your critiques</strong>. If you don't like the paper, try to be very specific in what you would do differently. A constructive critique could be the basis of your own project! One good rule of thumb is to focus on criticisms that would actually be likely to change the biological interpretation. For example, if the investigators saw a strong effect with high statistical significance, then even if you wish they had collected ten times as many observations, it is also worth acknowledging that this probably wouldn't have changed the outcome - unless those extra samples differed systematically in some way from the ones the paper actually collected.</p>
+</li>
+<li><p><strong>Summarize the paper in your own words</strong>. Try explaining what the paper is about and what it found succinctly and clearly out loud, as if it was your own work. Can you give a clear 1 minute overview of why this study was done, how it worked, and what it found? If so that's a good sign that you're on the right track.</p>
+</li>
+</ul>
+<h3 id="Rinse-and-repeat!">Rinse and repeat!<a class="anchor-link" href="#Rinse-and-repeat!"> </a></h3><p>Much of what researchers do to become experts on a topic is to repeat a process like this one. It helps to have an end goal in sight, such as writting the introduction and discussion sections of a paper about your own research.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Developing-hypotheses-from-your-question">Developing hypotheses from your question<a class="anchor-link" href="#Developing-hypotheses-from-your-question"> </a></h2><p>If you have picked a sufficiently specific research question, then hypotheses are simply possible answers to that question. However, they are not just any answer to the question.</p>
+<p>The best hypotheses are <em>very specific</em> answers to your question that make detailed and testable <em>predictions</em> about the world. That is to say, good hypotheses make predictions that are so specific that they can be tested. If our hypothesis isn't right (most aren't and that's OK!) we'd like to find that out as quickly as possible.</p>
+<p>The <em>worst</em> scientific hypotheses we can write are mushy. They may not make any predictions that can be tested with data. Or they may make predictions, but those predictions are so vague that really any data one could possibly collect would be consistent with them.</p>
+<h3 id="How-to-spot---and-fix---mushy-hypotheses.">How to spot - and fix - mushy hypotheses.<a class="anchor-link" href="#How-to-spot---and-fix---mushy-hypotheses."> </a></h3><p>It's easiest to think about how to design a good hypothesis by considering some pretty bad ones. I work in the area of microbial ecology, studying the various microorganisms that live in and on animals. One hypothesis that several papers in the area purport to test is that the set of microbes living on tropical corals  (the 'coral microbiome') is very diverse.</p>
+<p>I consider this hypothesis pretty bad. First, it's quite vague. When we say the microbes are diverse, do we mean in terms of <em>which</em> species are present or what they can do (these don't always line up perfectly)? What do we mean by 'very diverse'? If I find 50 species of bacteria living on a coral, is that 'highly diverse'? What about 20? 200? In other words, what would 'not diverse' mean?</p>
+<p>Let's say we are focused on species diversity. One way we could make our hypothesis less mushy is by making it comparative. For example, maybe we mean that corals have a diverse microbiome <em>relative to</em> all other animals. Or maybe we mean that corals have a diverse microbiome <em>relative to</em> the microbes that normally live in tropical seawater or seafloor sediments.</p>
+<p>Compare these examples and see if you agree that one is a lot less specific than the others:</p>
+<ol>
+<li>"Coral microbiomes are highly diverse"</li>
+<li>"More species of microorganisms live on corals than live in surrounding seawater"</li>
+<li>"More species of microbes live on corals than other animals"</li>
+</ol>
+<h4 id="Comparative-hypotheses">Comparative hypotheses<a class="anchor-link" href="#Comparative-hypotheses"> </a></h4><p>If you look carefully, you may see that many hypotheses you encounter in biology, including the one above, have an element of <em>comparison</em> to them.</p>
+<p>For example, when evolutionary biologists propose that a given trait is an adaptation to a particular environment, what they are really saying is that individuals with the trait have higher fitness (i.e. a greater number of surviving offspring) in that environment <strong>relative to individuals without that trait</strong>. This hypothesis makes a testable prediction: if we have individuals with or without the trait in that environment, and count up their surviving offspring, and <em>if</em> the hypthesis is correct, we should see that individuals with the trait have more surviving offspring. If instead we see that individuals <em>without</em> the trait have more offspring, then this would argue against our hypothesis.</p>
+<h4 id="Quantitiative-hypotheses">Quantitiative hypotheses<a class="anchor-link" href="#Quantitiative-hypotheses"> </a></h4><p>Many hypotheses in biology are <em>quantitative</em>. That is, they are described by a mathematical formula. For example, I might suppose that a particular formula predicts how quickly a certain species of lizard will grow over time. Or another equation might predict the frequency of a recessive lethal mutation in a population after 10 generations of reproduction. The key thing to realize about quantiative hypotheses (especially for biologists) is that <strong>any chump can write down a complex-looking formula</strong>. Simply because mathematical notation is used does not by itself lend any validity to a quantitiative hypothesis. (An exception is if the new formula is a mathematical consequence of a different formula that has itself already been verified to accurately predict biologial outcomes). As with any hypothesis, <strong>quantitative hypotheses must be tested through confrontation with data</strong>.</p>
+<p>There will be much more discussion on exactly what we mean by 'confronting hypotheses with data', and several different perspectives on this topic in the section on statistics later on.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise:-Write-your-hypotheses-and-specific-predictions">Exercise: Write your hypotheses and specific predictions<a class="anchor-link" href="#Exercise:-Write-your-hypotheses-and-specific-predictions"> </a></h3><p><strong>Take your specific question up above. Given what you've read so far in the literature (in your mini-review), write down 3-5 hypotheses for how your question might be answered.</strong> If your hypothesis has already been discussed in the literature, you might note what paper it was proposed in, or what existing evidence supports it. However, this isn't strictly necessary, and many reasonable hypotheses about specialized topics may not yet have been explored in the literature.</p>
+<table>
+<thead><tr>
+<th>Hypothesis</th>
+<th>Rationale/Explanation</th>
+<th>Specific predictions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H1.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>H2.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>H3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Once you've done that, for each hypothesis, see if you can write down at least one specific prediction it would make about data you have or could collect that differs from one or more of the other hypotheses.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Three-Perspectives-on-how-to-evaluate-Scientific-Hypotheses">Three Perspectives on how to evaluate Scientific Hypotheses<a class="anchor-link" href="#Three-Perspectives-on-how-to-evaluate-Scientific-Hypotheses"> </a></h2><p><a href="https://en.wikipedia.org/wiki/Epistemology">Epistimology</a> is, very broadly, the study of knowledge. It asks how we know what we know, and what it takes for a particular belief to be justified. Defining hypotheses and confronting them with data is one way of answering some of the questions in epistimology, though certainly not the only one.</p>
+<p>However, although the scientific method is typically presented as universally accepted among scientists and a fairly clear, mechanical process, there are actually several distinct ways that scientific hypotheses can be evaluated. Many scientists may use several of these different approaches without formally distinguishing them. However, I would like to define them now, so that we can refer back to them later on.</p>
+<p>In particular, understanding the distinctions between these approaches will be important when we discuss statistics, because different approaches to statistical analysis approach epistimological questions differently. To understand what a particular equation is telling you, it is important to understand the question it is trying to answer.</p>
+<ul>
+<li><p><strong>Falsificationism.</strong>. This is the approach you were mostly likely taught as part of the scientific method. In this approach, we write down predictions that our competing hypotheses make about the world. We then devise experiments or analyses that would produce <em>clearly different outcomes</em> if each hypothesis was correct. If the experiment produces an outcome that could not occur (or could only occur with a probability so low that we are willing to disregard it) under a given hypothesis, then we say that that hypothesis has been <em>falsified</em> by the data. However, this approach does not tell us that any given hypothesis is in fact true - it just tells us that some are false, and leaves others open as possibilities. In many modern applications, various trivial null hypotheses are proposed (e.g. there was no real change between two conditions, just random measurement error) etc, and by falsifying them you can progressively describe features of the process under investigation. The Wikipedia article on <a href="https://en.wikipedia.org/wiki/Statistical_hypothesis_testing">Scientific Hypothesis testing</a> is well worth a read, and contains more historical detail on how what is currently taught about hypthosesis testing through falsification derives from a combination of distinct approaches pursued by Karl Pearson &amp; Jerzy Neyman and Ronald Fisher.</p>
+</li>
+<li><p><strong>Information-theoretic Model Comparison</strong>. In this approach, one is simultanously evaluating several models to see which best explains the data at hand. Ideally, the models compared should account for the range of possible explanations for whatever phenomenon your studying. A key feature of this approach is that it acknowledges that more <em>flexible</em> hypotheses (or statistical models with more parameters) will tend to fit <em>any</em> dataset more closely than <em>rigid</em> hyptoheses (or statistical models with only a few parameters). Therefore, Information-theoretic model comparison takes into account both the chances that each hypothesis would produce the data you observe, but also the complexity of the hypothesis. The <a href="https://en.wikipedia.org/wiki/Akaike_information_criterion">Akaike Information Criterion</a> (AIC) is a simple equation that is often used in practice to pick relatively simple or rigid models that still do a good job of explaining the data that you see.</p>
+</li>
+<li><p><strong>Bayesian Model Comparison</strong>. In Bayesian model comparison, each hypothesis under consideration should be assigned a <em>prior probability</em>, that reflects the chances that the hypothesis is true prior to starting the investigation. This might be a <em>flat prior</em> in which all hypotheses are treated equally if there is truly no available evidence (e.g. 0.50 if you had two hypotheses ). These prior probabilities are then updated based on the likelihood of observing the data under each competing hypothesis using <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes' theorem</a> (we'll discuss this later on). The result is that hypotheses that make the data likely go up in probability relative to their prior probability, while those that don't match the data go down. The resulting probability is called the <em>posterior probability</em> and reflects the chances that the hypothesis is actually true. Note that this is a much stronger claim than that used in Falsificationism. However, the accuracy of the posterior probability depends on having a correct prior probability, which can be difficult or impossible to specify objectively. In the extreme case that the chances of getting observed data under a hypothesis are zero, then the posterior probability of that hypothesis is also zero and the hypothesis has been 'ruled out'. In more typical cases, the results of an experiment or analysis will adjust the probability of the hypothesis.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Designing-a-Bioinformatic-Analysis-to-test-your-hypotheses">Designing a Bioinformatic Analysis to test your hypotheses<a class="anchor-link" href="#Designing-a-Bioinformatic-Analysis-to-test-your-hypotheses"> </a></h2><p>We haven't yet talked about the technical details of specific methods for doing bioinformatic analysis. However, before we dive into the details it's very important that we understand what our analysis must do if it is to test one or more hypotheses.</p>
+<ul>
+<li><p>Your hypotheses should make different predictions about what the result of your analysis will be.</p>
+</li>
+<li><p>The data you use to evaluate your hypotheses should be <em>new data</em> that was not used in formulating your hypotheses. It turns out to be relatively straightforward to devise hypotheses that fit existing observations. Many fewer hypotheses make useful predictions about future observations. Those that do tend to be the most useful (and most likely to be biologically correct).</p>
+</li>
+<li><p>If you imagine the different results you <em>could</em> see, each possible outcome should have a clear meaning in terms of your hypotheses.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Designing-a-Descriptive-Bioinformatic-Study">Designing a Descriptive Bioinformatic Study<a class="anchor-link" href="#Designing-a-Descriptive-Bioinformatic-Study"> </a></h2><p>At this point it's important to note that not all bioinformatic analyses, nor all scientific papers test a hypothesis. Sometimes, especially after something very new has been discovered, <em>descriptive studies</em> that explore what's out there as comprehensively as possible can be very important. In some ways, this is much easier than testing a hypothesis - your goal is to use many different tools and approaches to characterize what's out there, with the goal of uncovering new phenomena that can be the topic of future inquiries and investigations.</p>
+<p>Here are some points to keep in mind when designing a hypothesis:</p>
+<ul>
+<li><p>If you are just starting out, I strongly recommend practicing hypothesis-driven analyses first.</p>
+</li>
+<li><p>Many successful descriptive studies are large in scope. Although they do not focus on hypothesis testing (at least not as a main focus), they present so much new data (genomes,physiological measurements, microbiomes, ecological surveys, transcriptomes, etc) that they can become an important new reference data set for the community. Having the data fully open-access, clearly described and documented, and making available intermediate data products (e.g. summary tables) can help to make this type of study useful.</p>
+</li>
+<li><p>It is easy for a descriptive study to become very muddled and hard to follow. It may read like 'one thing after another' without any coherent thread that allows other workers to make sense of it. Even if you don't have a hypothesis in mind, a specific question is still very useful in guiding your investigation and making it coherent.</p>
+</li>
+<li><p>Many descriptive studies are <em>hypothesis generating</em>. That is, they describe new observations that are intriguing and demand explanation. As such, it is important for researchers developing a descriptive study to both be aware of existing hypotheses and theories in their area of research, and to be open to 'weird' observations that fall outside of existing areas of focus. Many important discoveries have been made by extremely careful, methodical, and relentless pursuit of why a 'weird' finding happened. In many other cases it turned out just to be an experimental error.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Further-reading">Further reading<a class="anchor-link" href="#Further-reading"> </a></h2><ul>
+<li>Aguiar <em>et al.</em>, Chemoecology, 2005. <a href="https://link.springer.com/article/10.1007/s00049-005-0309-5">How do slugs cope with toxic alkaloids?</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
