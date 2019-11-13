@@ -1,0 +1,107 @@
+---
+interact_link: content/features/executing.ipynb
+kernel_name: python3
+has_widgets: false
+title: |-
+  Running each page when building your book
+prev_page:
+  url: /features/interact.html
+  title: |-
+    Connecting content with JupyterHub and Binder
+next_page:
+  url: /features/interactive_cells.html
+  title: |-
+    BETA - Adding interactivity to your book pages
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Executing-pages-of-your-book">Executing pages of your book<a class="anchor-link" href="#Executing-pages-of-your-book"> </a></h1><p>✨<strong>experimental</strong>✨</p>
+<p>Sometimes you'd like to execute each page's content before building its HTML - this
+ensures that the outputs are up-to-date and that they still run. Jupyter Book
+has the ability to execute any code in your content when you build each page's HTML.</p>
+<h2 id="Default-execution-behavior">Default execution behavior<a class="anchor-link" href="#Default-execution-behavior"> </a></h2><p>By default, Jupyter Book will decide whether to execute your book's content based on
+the types of files used to store your content. By default, any Jupyter Notebooks will
+<strong>not be executed</strong>, Jupyter Book assumes that the notebook outputs are already
+present in the <code>ipynb</code> file (see below for how to change this behavior). In addition,
+<strong>raw markdown</strong> files will also not be executed, as Jupyter Book assumes that any
+code blocks were meant for viewing only, not running. However, any
+<strong><a href="jupytext.html">Jupytext documents</a> content will be executed</strong> when the page's HTML is built.
+This can be either <code>.py</code>, <code>.md</code>, or <code>.Rmd</code> files that have jupytext YAML front-matter.</p>
+<p>There are a few ways to alter this behavior, which we'll cover below:</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>It's possible to <strong>execute your book content at build time</strong>. There are a few convenience
+functions and options for this:</p>
+<h2 id="Run-all-your-book's-content-when-building:-jupyter-book-build---execute">Run all your book's content when building: <strong><code>jupyter-book build --execute</code></strong><a class="anchor-link" href="#Run-all-your-book's-content-when-building:-jupyter-book-build---execute"> </a></h2><p>If you'd like to run each page of your book (where possible) when building the
+HTML for your book pages, you may use the <code>--execute</code> flag when you build each page's HTML. This
+will cause each <code>.ipynb</code> and jupytext-formatted page to be <strong>executed</strong> when it is built.
+In this case, the source content files will not be modified, but the outputs will be placed
+in each page's HTML.</p>
+<p>Remember that the HTML for each page is cached until you update your content. The
+first time you run <code>jupyter-book build --execute</code>, each page of your book will be run
+and converted to HTML. However, after this, only the pages that have been updated will
+be executed and converted to HTML, so while this will take a long
+time the first time you run it (since all your book content will need to run), it
+should be incrementally faster in subsequent builds.</p>
+<p>Here's a quick summary of this behavior:</p>
+<table>
+<thead><tr>
+<th>Type</th>
+<th>Default</th>
+<th><code>--execute</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jupyter Notebooks (<code>.ipynb</code>)</td>
+<td>Doesn't execute</td>
+<td>Executes</td>
+</tr>
+<tr>
+<td>Raw markdown (<code>.md</code>)</td>
+<td>Doesn't execute</td>
+<td>Executes</td>
+</tr>
+<tr>
+<td>Jupytext pages (<code>.md</code>, <code>.Rmd</code>, <code>.py</code>)</td>
+<td>Executes</td>
+<td>Executes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Run-a-single-page-in-place:-jupyter-book-run">Run a single page in-place: <strong><code>jupyter-book run</code></strong><a class="anchor-link" href="#Run-a-single-page-in-place:-jupyter-book-run"> </a></h2><p>Jupyter Book also provides a convenience command-line function that executes a
+single Jupyter Notebook and stores the outputs in the same <code>ipynb</code> file.</p>
+<p>This is a command-line function that allows you to quickly execute pages of
+your book and store the content in-line. You can use it with a path to a single
+book page like so:</p>
+
+<pre><code>jupyter-book run path/to/notebook.ipynb</code></pre>
+<p>And it will simply run the execute in-place.</p>
+<p>You can also specify a folder with a <strong>collection</strong> of pages as the first argument:</p>
+
+<pre><code>jupyter-book run path/to/notebook_folder</code></pre>
+<p>In this case, all notebooks in this folder and sub-folders will be run in-place.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {}, "version_major": 2, "version_minor": 0}
+</script>
+

@@ -1,0 +1,186 @@
+---
+redirect_from:
+  - "/features/interactive-cells"
+interact_link: content/features/interactive_cells.ipynb
+kernel_name: python3
+has_widgets: true
+title: |-
+  BETA - Adding interactivity to your book pages
+prev_page:
+  url: /features/executing.html
+  title: |-
+    Running each page when building your book
+next_page:
+  url: /features/citations.html
+  title: |-
+    BETA - Citations and bibliographies
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Interactive-code-in-your-book">Interactive code in your book<a class="anchor-link" href="#Interactive-code-in-your-book"> </a></h1><p>Sometimes you'd rather let people interact with code <em>directly on the page</em>
+instead of sending them off to a Binder or a JupyterHub. There are currently
+a few ways to make this happen in Jupyter Book (both of which are experimental).</p>
+<p>This page describes how to bring interactivity to your book. Both of these
+tools use <a href="https://mybinder.org"><strong>MyBinder</strong></a> to provide a remote kernel.</p>
+<h2 id="Making-your-page-inputs-interactive">Making your page inputs interactive<a class="anchor-link" href="#Making-your-page-inputs-interactive"> </a></h2><p>✨<strong>experimental</strong>✨</p>
+<p>If you'd like to provide interactivity for your content without making your readers
+leave the Jupyter Book site, you can use a project called <a href="https://github.com/minrk/thebelab">Thebelab</a>.</p>
+<p>This provides you a button that, when clicked, will convert each code cell into
+an <strong>interactive</strong> cell that can be edited. It also adds a "run" button to each cell,
+and connects to a Binder kernel running in the cloud.
+As an alternative to pressing the Thebelab button at the top of the page, you 
+can press the <img src="../images/logo/edit-button.svg" alt="" style="width: 20px; display: inline;" /> symbol in the top right corner of each code cell to start the 
+interactive mode.</p>
+<p>To add a Thebelab button to your Jupyter Book pages, use the following configuration:</p>
+<div class="highlight"><pre><span></span><span class="nt">use_thebelab_button              </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>  <span class="c1"># If &#39;true&#39;, display a button to allow in-page running code cells with Thebelab</span>
+</pre></div>
+<p>In addition, you can configure the Binder settings that are used to provide a kernel for
+Thebelab to run the code. These use the same configuration fields as the BinderHub interact
+buttons described above.</p>
+<p>For an example, click the <strong>Thebelab</strong> button above on this page, and run the code below.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="jb_output_wrapper }}">
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.collections.PathCollection at 0x7ff693dfc128&gt;</pre>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Using-interactive-widgets-on-your-page">Using interactive widgets on your page<a class="anchor-link" href="#Using-interactive-widgets-on-your-page"> </a></h2><p>✨<strong>experimental</strong>✨</p>
+<p><a href="https://www.nbinteract.com"><strong>nbinteract</strong></a> is a tool for displaying interactive widgets in your
+static HTML page. It uses a Binder kernel to power the widgets, and displays output that your
+readers can interact with. For example, below we will show a simple matplotlib plot that can be made
+interactive with <strong>ipywidgets</strong></p>
+<p>To add a <strong>Show Widgets</strong> button to your Jupyter Book pages, use the following configuration:</p>
+<div class="highlight"><pre><span></span><span class="nt">use_show_widgets_button         </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>  <span class="c1"># If &#39;true&#39;, display a button to show widgets backed by a Binder kernel</span>
+</pre></div>
+<p>Then, tell Jupyter Book that you want a cell to display a widget by <strong>adding a tag</strong> to the cell's
+metadata called <code>interactive</code>. When a reader clicks on the "show widgets" button, any cells
+with this tag will be run on Binder, and have their output widgets displayed underneath the cell.</p>
+<p>Here's an example of cell metadata that would trigger this behavior:</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;interactive&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+<p>You can configure the Binder settings that are used to provide a kernel to run the code.
+These use the same configuration fields as the BinderHub interact buttons described above.</p>
+<p>Clicking on "show widgets" should display a widget below. We've hidden the code cell that
+generates the widget by default (though you can always show it by clicking the button to
+the right!</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell tag_hide_input tag_interactive">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="k">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">FloatSlider</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update_plot_size</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">cmap</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">cmap</span> <span class="o">==</span> <span class="s2">&quot;jet&quot;</span><span class="p">:</span>
+        <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s2">&quot;&lt;h2 style=&#39;color: red; margin: 0px auto;&#39;&gt;Nope&lt;/h2&gt;&quot;</span><span class="p">))</span>
+        <span class="k">return</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="n">x</span><span class="o">*</span><span class="n">s</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">)</span>
+
+<span class="n">interact</span><span class="p">(</span><span class="n">update_plot_size</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="n">FloatSlider</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="nb">min</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">step</span><span class="o">=.</span><span class="mi">1</span><span class="p">),</span> <span class="n">cmap</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;viridis&#39;</span><span class="p">,</span> <span class="s1">&#39;magma&#39;</span><span class="p">,</span> <span class="s1">&#39;jet&#39;</span><span class="p">]);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="jb_output_wrapper output_widget_view  }}">
+<div class="output_area">
+
+
+
+
+ 
+ 
+<div id="96d15430-f74f-4d13-ada4-064c6f1788a2"></div>
+<div class="output_subarea output_widget_view ">
+<script type="text/javascript">
+var element = $('#96d15430-f74f-4d13-ada4-064c6f1788a2');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "7db97110f70e4753addb351e55df6af6", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+ 
+

@@ -1,0 +1,161 @@
+---
+redirect_from:
+  - "/guide/01-overview"
+interact_link: content/guide/01_overview.md
+kernel_name: 
+has_widgets: false
+title: |-
+  Getting started
+prev_page:
+  url: /intro.html
+  title: |-
+    Home
+next_page:
+  url: /guide/02_create.html
+  title: |-
+    Create your book
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-Jupyter-Book-Guide">The Jupyter Book Guide<a class="anchor-link" href="#The-Jupyter-Book-Guide"> </a></h1><p>This is a guide for creating your own book using
+Jupyter Notebooks and Jekyll. Book content is written in markdown and
+Jupyter Notebooks, and <code>jupyter-book</code> converts these into
+a book fit for hosting on the web.</p>
+<h2 id="Install-the-command-line-interface">Install the command-line interface<a class="anchor-link" href="#Install-the-command-line-interface"> </a></h2><p>First off, make sure you have the CLI installed so that you can work with Jupyter Book.
+The Jupyter-Book CLI allows you to create, build, upgrade, and otherwise control your
+Jupyter Book. You can install it via pip with the following command:</p>
+
+<pre><code>pip install jupyter-book</code></pre>
+<h2 id="A-quick-tour-of-a-Jupyter-Book">A quick tour of a Jupyter Book<a class="anchor-link" href="#A-quick-tour-of-a-Jupyter-Book"> </a></h2><p>Jupyter-Book comes with a demo book so that you can see how the content files
+are used in the book. We'll begin with a quick tour of these files, as they are
+the pieces that you'll modify for your own book.</p>
+<p>To create a <strong>demo Jupyter Book</strong> to use as a template, run the following command:</p>
+
+<pre><code>jupyter-book create mybookname --demo</code></pre>
+<p>A new book will be created at the path that you've given (in this case, <code>mybookname/</code>).</p>
+<p>Let's take a quick look at some important files in the demo book you created:</p>
+
+<pre><code>mybookname/
+├── assets
+│   └── custom
+│       ├── custom.css
+│       └── custom.js
+├── _config.yml
+├── content
+│   ├── features
+│   │  ├── features.md
+│   │  └── notebooks.ipynb
+│   └── LICENSE.md
+├── _data
+│   └── toc.yml
+└── requirements.txt</code></pre>
+<p>Here's a quick rundown of the files you can modify for yourself, and that
+ultimately make up your book.</p>
+<h3 id="Book-configuration">Book configuration<a class="anchor-link" href="#Book-configuration"> </a></h3><p>All of the configuration for your book is in the following file:</p>
+
+<pre><code>mybookname/
+├── _config.yml</code></pre>
+<p>You can define metadata for your book (such as its title), add
+a book logo, turn on different "interactive" buttons (such as a
+Binder button for pages built from a Jupyter Notebook), and more.</p>
+<h3 id="Book-content">Book content<a class="anchor-link" href="#Book-content"> </a></h3><p>Your book's content can be found in the <code>content/</code> folder. Some content
+files for the demo book are shown below:</p>
+
+<pre><code>mybookname/
+├── content
+    └── features
+       ├── features.md
+       └── notebooks.ipynb</code></pre>
+<p>Note that the content files are either <strong>Jupyter Notebooks</strong> or <strong>Markdown</strong>
+files. These are the files that define "pages" in your book.</p>
+<p>You can store these files in whatever collection of folders you'd like, note that
+the <em>structure</em> of your book when it is built will depend solely on the order of
+items in your <code>_data/toc.yml</code> file (see below section)</p>
+<h3 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents"> </a></h3><p>Jupyter Book uses your Table of Contents to define the structure of your book.
+For example, your chapters, sub-chapters, etc.</p>
+<p>The Table of Contents lives at this location:</p>
+
+<pre><code>mybookname/
+├── _data
+    └── toc.yml</code></pre>
+<p>This is a YAML file with a collection of pages, each one linking to a
+file in your <code>content/</code> folder. Here's an example of a few pages defined in <code>toc.yml</code>.</p>
+<div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Features and customization</span>
+  <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/features/features</span>
+  <span class="nt">not_numbered</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">expand_sections</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">sections</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Markdown files</span>
+    <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/features/markdown</span>
+    <span class="nt">not_numbered</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="p p-Indicator">-</span> <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Jupyter notebooks</span>
+    <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/features/notebooks</span>
+    <span class="nt">not_numbered</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+<p>The top-most level of your TOC file are <strong>book chapters</strong>. Above, this is the
+"Features and customization" page. Each chapter can have
+several sections (defined in <code>sections:</code>) and each section can have several sub-sections
+(which would be define with a deeper level of <code>sections:</code>). In addition, you can
+use a few extra YAML values to control the behavior of Jupyter-Book (for example,
+<code>not_numbered: true</code> will prevent Jupyter Book from numbering the pages in that chapter).</p>
+<p>Each item in the YAML file points to a single content file. The links
+should be <strong>relative to the <code>/content/</code> folder and with no extension.</strong></p>
+<p>For example, in the example above there is a file in
+<code>mybookname/content/features/notebooks.ipynb</code>. The TOC entry that points to
+this file is here:</p>
+<div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Jupyter notebooks</span>
+        <span class="l l-Scalar l-Scalar-Plain">url</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">/features/notebooks</span>
+</pre></div>
+<h3 id="A-license-for-your-content">A license for your content<a class="anchor-link" href="#A-license-for-your-content"> </a></h3><p>When you share content online, it's a good idea to add a license so that others know
+what rights you retain to the work. This can make your book more sharable and (re)usable.</p>
+<p>The license for a Jupyter Book lives in this location:</p>
+
+<pre><code>mybookname/
+├── content
+    └── LICENSE.md</code></pre>
+<p>When you create a new book, if you don't specify a license, then <code>jupyter-book</code> will by default
+add a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>
+(CC BY-SA 4.0) license to your book. CC BY-SA requires attribution of
+your work, and also requires that any derivations someone creates are released
+under a license <em>at least as permissive</em> as CC BY-SA.</p>
+<p>If you'd like to choose a different license, you can add whatever text you like to the file
+in <code>/content/LICENSE.md</code>. We commend checking out the <a href="https://creativecommons.org/licenses">Creative Commons licenses page</a>
+for several options for licenses that may suit your needs.</p>
+<h3 id="Book-code-requirements-files">Book code requirements files<a class="anchor-link" href="#Book-code-requirements-files"> </a></h3><p>Since your Jupyter Book likely has computational material specified in Jupyter
+Notebooks, you should specify the packages needed to run your Jupyter Book.
+In this case, we use a <code>requirements.txt</code> file:</p>
+
+<pre><code>mybookname/
+└── requirements.txt</code></pre>
+<p>The demo book uses <code>requirements.txt</code> because it has Python code, but you can
+include any other files that you'd like to.</p>
+<h3 id="Book-bibliography-for-citations">Book bibliography for citations<a class="anchor-link" href="#Book-bibliography-for-citations"> </a></h3><p>If you'd like to build a bibliography for your book, you can do so by including
+the following file:</p>
+
+<pre><code>mybookname/
+├── _bibliography
+    └── references.bib</code></pre>
+<p>This BiBTex file can be used along with the <code>jekyll-scholar</code> extension. For more information
+on how to use citations in Jupyter Book, see <a href="../features/citations">Citations with Jupyter Book</a></p>
+<h3 id="Custom-Javascript-and-CSS">Custom Javascript and CSS<a class="anchor-link" href="#Custom-Javascript-and-CSS"> </a></h3><p>These are the files in this location:</p>
+
+<pre><code>├── assets
+    └── custom
+        ├── custom.css
+        └── custom.js</code></pre>
+<p>Jupyter Book lets you supply your own CSS and Javascript that will be
+built into your book. Feel free to edit these files with whatever you like.</p>
+<h2 id="Next-section">Next section<a class="anchor-link" href="#Next-section"> </a></h2><p>Now that you're familiar with the Jupyter Book structure, head to the next section
+to learn how to create your own!</p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
