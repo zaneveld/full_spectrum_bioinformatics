@@ -4,7 +4,7 @@ This text is currently in early prototype status.
 
 Chapters with content you can view are linked below:
 
-- Chapter 1. Foreword
+- Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)
 - Chapter 2. Introduction
 - Chapter 3. The Commandline
 - Chapter 4. Exploring Python
