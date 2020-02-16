@@ -7,7 +7,7 @@ Chapters with content you can view are linked below:
 - Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)
 - Chapter 2. Introduction
 - Chapter 3. The Commandline
-- Chapter 4. Exploring Python
+- Chapter 4. [Exploring Python](./content/04_exploring_python/exploring_python.ipynb
 - Chapter 5. [Project Design](./content/05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
 - Chapter 7. [Tabular 'Omics Data](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
