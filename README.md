@@ -7,13 +7,16 @@ Chapters with content you can view are linked below:
 - Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)
 - Chapter 2. Introduction
 - Chapter 3. The Commandline
-- Chapter 4. [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
+- Chapter 4. Exploring Python
+     - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
+     - [A Tour of Python Data Types](./content/exploring_python_data_types.ipynb)
 - Chapter 5. [Project Design](./content/05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
 - Chapter 7. [Tabular 'Omics Data](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
 - Chapter 8. Alignment and Phylogeny
 - Chapter 9. Visualization
 - Chapter 10. Simulation
+     - [Simulating Evolution](./content/10_simulation/simulating_evolution.ipynb)
 - Chapter 11. Statistics
 - Chapter 12. Multivariate methods
 - Chapter 13. Presenting Research
