@@ -12,6 +12,8 @@ Chapters with content you can view are linked below:
      - [A Tour of Python Data Types](./content/exploring_python_data_types.ipynb)
 - Chapter 5. [Project Design](./content/05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
+     - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
+     - [Analyzing Biological Sequences with For Loops and If Statements](./content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
 - Chapter 7. [Tabular 'Omics Data](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
 - Chapter 8. Alignment and Phylogeny
 - Chapter 9. Visualization
