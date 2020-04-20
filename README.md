@@ -13,7 +13,7 @@ Chapters with content you can view are linked below:
 - Chapter 5. [Project Design](./content/05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
-     - [Representing and Manipulating_Biological_Sequences_as_Python Strings](./content/06_biological_sequences/representing_and_manipulating_biological_sequences_as_python_strings.ipynb)
+     - [Representing and Manipulating_Biological_Sequences_as_Python Strings](./content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)
      - [Analyzing Biological Sequences with For Loops and If Statements](./content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
 - Chapter 7. [Tabular 'Omics Data](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
 - Chapter 8. Alignment and Phylogeny
