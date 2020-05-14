@@ -9,7 +9,7 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
      - **Exercise**: Error Bingo
-     - [A Tour of Python Data Types](./content/exploring_python_data_types.ipynb)
+     - [A Tour of Python Data Types](./content/04_exploring_python_data_types.ipynb)
      -  A Tour of Python Syntax (functions, conditions, iteration)
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)      
@@ -29,7 +29,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - Working with Traits on Trees
      - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)     
 - **Chapter 9. Visualization**
-     - The language of graphs
+     - Graphs as a Visual Language
      - **Exercise:** Anger Tufte     
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)     
