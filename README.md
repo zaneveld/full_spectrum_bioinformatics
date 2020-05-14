@@ -17,8 +17,8 @@ Chapters with content you can view are linked below:
      - [Analyzing Biological Sequences with For Loops and If Statements](./content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
 - Chapter 7. [Tabular 'Omics Data](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
 - Chapter 8. Alignment and Phylogeny
-     -[Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
-     -[Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
+     - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
+     - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
 - Chapter 9. Visualization
 - Chapter 10. Simulation
      - [Simulating Evolution](./content/10_simulation/simulating_evolution.ipynb)
