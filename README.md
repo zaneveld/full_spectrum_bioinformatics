@@ -21,7 +21,7 @@ Chapters with content you can view are linked below:
      - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
 - Chapter 9. Visualization
 - Chapter 10. Simulation
-     - [Simulating Evolution](./content/10_simulation/simulating_evolution.ipynb)
+     - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
 - Chapter 11. Statistics
 - Chapter 12. Multivariate methods
 - Chapter 13. Presenting Research
