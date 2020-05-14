@@ -8,7 +8,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - **Exercise**:An Adventurous Introduction to the Command Line
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
-     - **Exercise**: [Error Bingo]
+     - **Exercise**: Error Bingo
      - [A Tour of Python Data Types](./content/exploring_python_data_types.ipynb)
      -  A Tour of Python Syntax (functions, conditions, iteration)
 - **Chapter 5. Project Design**
@@ -43,6 +43,7 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 14. Polishing and Publishing**
      - Paper Formatting Guide
      - Paper Formatting Kit 
+- **Chapter 15. Careers that draw on Bioinformatics**
 
 - Appendix A - Data Sources for Bioinformatics Projects
 - Appendix B - Timesaving Starter Code
