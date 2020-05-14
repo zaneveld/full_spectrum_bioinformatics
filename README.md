@@ -10,7 +10,8 @@ Chapters with content you can view are linked below:
 - Chapter 4. Exploring Python
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
      - [A Tour of Python Data Types](./content/exploring_python_data_types.ipynb)
-- Chapter 5. [Project Design](./content/05_project_design/project_design.ipynb) 
+- Chapter 5. Project Design
+     - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb) 
 - Chapter 6. Biological Sequences
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
      - [Representing and Manipulating_Biological_Sequences_as_Python Strings](./content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)
