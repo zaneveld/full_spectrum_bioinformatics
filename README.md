@@ -22,7 +22,7 @@ This text is currently in early prototype status. Chapters with content you can 
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
      -  **In depth:** Characterizing Microbial Community Ecology
      -  **Exercise:** Microbiome change scenarios
-     -  Working with Tabular 'Omic data in Python using Pandas    
+     -  [Working with Tabular 'Omic data in Python using Pandas](./content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)    
 - **Chapter 8. Alignment and Phylogeny**
      - Tree thinking
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
