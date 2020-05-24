@@ -22,7 +22,10 @@ This text is currently in early prototype status. Chapters with content you can 
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
      -  **In depth:** Characterizing Microbial Community Ecology
      -  **Exercise:** Microbiome change scenarios
-     -  [Working with Tabular 'Omic data in Python using Pandas](./content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)    
+     -  [Working with Tabular 'Omic data in Python using Pandas](./content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)
+     -   Analyzing Microbiome Alpha Diversity in Python
+     -   Analyzing Microbiome Beta Diversity in Python
+     -   Simulating the Effect of Sequencing Depth on Diversity Estimates
 - **Chapter 8. Alignment and Phylogenetics**
      - **8a. Alignment**
      - Homology and Alignment
@@ -34,10 +37,14 @@ This text is currently in early prototype status. Chapters with content you can 
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
      - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
      - Working with Traits on Trees
-     - Ancestral State Reconstruction
+     - Maximum Parsimony Ancestral State Reconstruction
+     - Hidden State Prediction
+     - Phylogenetic Comparative Methods   
 - **Chapter 9. Visualization**
      - Graphs as a Visual Language
-     - **Exercise:** Anger Tufte     
+     - **Exercise:** Anger Tufte
+     - Representing Correlation
+     - Representing Distribution
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)     
 - **Chapter 11. Statistics**
@@ -46,21 +53,33 @@ This text is currently in early prototype status. Chapters with content you can 
      - Statistical Distributions
      - Rank Transformations
      - An Introduction to Maximum Likelihood optimization
-     - An introduction to Bayesian approaches
-- **Chapter 12. Multivariate methods**
-     - Of PCoA and Fishtanks     
+     - The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
+     - An Introduction to Bayesian Approaches
+- **Chapter 12. Multivariate Statistics and Machine Learning**
+     - Of PCoA and Fishtanks
+     - Supervised and Unsupervised Classification
+     - K-means clustering
+     - LDA and the Kernel Trick
+     - Random Forest Analysis
 - **Chapter 13. Presenting Research**
-     - Reaching conclusions: 
-     - The Inverted Pyramid
+     - Presentations as Verbal Chess
 - **Chapter 14. Polishing and Publishing**
-     - Paper Formatting Guide
-     - Paper Formatting Kit 
+     - From Data to Conclusion: building a research manuscript brick by brick
+     - Resistance is Futile: becoming a language Borg
+     - **Exercise**: generating a targeted title using templating
+     - The Inverted Pyramid: optimizing your text from a reader's perspective     
 - **Chapter 15. Careers that draw on Bioinformatics**
-
-- Appendix A - Data Sources for Bioinformatics Projects
-- Appendix B - Timesaving Starter Code
-     - IUPAC codes in python
-     - Standard translation tables in python
-- Appendix C - Contributing a Community Example
-- Appendix D - Project Specifications 
+     - Happiness Matters
+     - Cognitive Bias and Networking     
+     - Radical Collaboration
+     - Open-source Science as Shield and Sword
+- **Appendices:**      
+     - Appendix A - Data Sources for Bioinformatics Projects
+     - Appendix B - Timesaving Starter Code
+       - Template Script with Interface and Test Code
+       - IUPAC codes in python
+       - Standard Translation Tables in Python
+     - Appendix C - Contributing a Community Example
+     - Appendix D - Paper Formatting Kit 
+     - Appendix E - Project Specifications 
 
