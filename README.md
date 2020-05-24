@@ -23,23 +23,35 @@ This text is currently in early prototype status. Chapters with content you can 
      -  **In depth:** Characterizing Microbial Community Ecology
      -  **Exercise:** Microbiome change scenarios
      -  [Working with Tabular 'Omic data in Python using Pandas](./content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)    
-- **Chapter 8. Alignment and Phylogeny**
+- **Chapter 8. Alignment and Phylogenetics**
+     - **8a. Alignment**
+     - Homology and Alignment
+     - Global Alignment with the Needleman-Wunsch algorithm
+     - Local Alignment with the Smith-Waterman algorithm
+     - BLAST and the k-mer trick
+     - **8b. Phylogenetics**
      - Tree thinking
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
+     - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
      - Working with Traits on Trees
-     - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)     
+     - Ancestral State Reconstruction
 - **Chapter 9. Visualization**
      - Graphs as a Visual Language
      - **Exercise:** Anger Tufte     
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)     
 - **Chapter 11. Statistics**
-     - Monte Carlo approaches
+     - Monte Carlo simulation and the Funamental Unity of Statistical Hypothesis Tests 
+     - Monte Carlo simulation of Effect Size, Sample Size, and Significance 
      - Statistical Distributions
-     - Maximum Likelihood optimization
-     - Bayesian approaches
+     - Rank Transformations
+     - An Introduction to Maximum Likelihood optimization
+     - An introduction to Bayesian approaches
 - **Chapter 12. Multivariate methods**
+     - Of PCoA and Fishtanks     
 - **Chapter 13. Presenting Research**
+     - Reaching conclusions: 
+     - The Inverted Pyramid
 - **Chapter 14. Polishing and Publishing**
      - Paper Formatting Guide
      - Paper Formatting Kit 
