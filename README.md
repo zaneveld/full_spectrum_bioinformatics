@@ -49,9 +49,11 @@ This text is currently in early prototype status. Chapters with content you can 
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)     
 - **Chapter 11. Statistics**
      - Monte Carlo simulation and the Funamental Unity of Statistical Hypothesis Tests 
-     - Monte Carlo simulation of Effect Size, Sample Size, and Significance 
-     - Statistical Distributions
+     - Statistical Distributions and Parametric Tests
      - Rank Transformations
+     - [Monte Carlo simulation of Effect Size, Sample Size, and Significance](./content/11_statistics/effect_size_sample_size_and_significance.ipynb)
+     - [Dealing with Multiple Comparisons](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/dealing_with_multiple_comparisons.ipynb)
+      
      - An Introduction to Maximum Likelihood optimization
      - The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
      - An Introduction to Bayesian Approaches
