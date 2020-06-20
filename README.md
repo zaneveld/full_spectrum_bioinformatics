@@ -72,8 +72,9 @@ This text is currently in early prototype status. Chapters with content you can 
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
 - **Chapter 15. Careers that draw on Bioinformatics**
      - Happiness Matters
-     - Cognitive Bias and Networking     
-     - Radical Collaboration
+     - Radical Collaboration 
+     - Cognitive Bias and Networking 
+     - Fighting for an Inclusive Workplace
      - Open-source Science as Shield and Sword
 - **Appendices:**      
      - Appendix A - Data Sources for Bioinformatics Projects
