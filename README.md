@@ -48,7 +48,7 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)     
 - **Chapter 11. Statistics**
-     - Monte Carlo simulation and the Funamental Unity of Statistical Hypothesis Tests 
+     - Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests 
      - Statistical Distributions and Parametric Tests
      - Rank Transformations
      - [Monte Carlo simulation of Effect Size, Sample Size, and Significance](./content/11_statistics/effect_size_sample_size_and_significance.ipynb)
