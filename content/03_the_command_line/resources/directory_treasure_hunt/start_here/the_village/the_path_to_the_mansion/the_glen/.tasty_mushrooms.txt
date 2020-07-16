@@ -1,0 +1,8 @@
+Tasty Mushrooms
+===============
+
+Growing at the base of a tree-trunk, you notice a cluster of tasty mushrooms. Perhaps you could bring them back home to eat latter.
+
+GOAL
+====
+Use mv to move this text file to the folder for your home in the village.

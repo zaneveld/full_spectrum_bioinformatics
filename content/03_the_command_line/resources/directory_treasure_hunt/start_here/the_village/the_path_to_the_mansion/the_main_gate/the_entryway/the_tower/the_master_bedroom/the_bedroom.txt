@@ -1,0 +1,13 @@
+The Master Bedroom
+==================
+
+
+The Dragon has commandeered the master bedroom for his lair. All the windows are shut with heavy curtains, so the little flames from it's nostrils are the only thing casting light on the glittering treasure on the floor.
+
+Curiously, the is a bit of a bulge in one of the curtains. It's hard to make out, but it looks like the outline of a child. You look down and see sneakers sticking out from underneath. Yup, that's your brother back there.
+
+
+HINT:
+=====
+You can see hidden folders using:
+ls -a  
