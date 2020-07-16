@@ -1,0 +1,18 @@
+A warm hearth
+=============
+
+Your home looks just the way you like it. Good food is cooking, filling the house with warmth while a cold wind beats against the windows.
+On the table, your cookbook still lies open next to a stack of unpaid bills. But since little brother went missing the warmth feels hollow.
+
+Just a few hours ago, the biggest thing you were worried about was scraping together some cash and finding some chicken broth, mushrooms, and rice to finish off your soup.
+
+You grit your teeth and set out determined to find little brother.
+
+Goal
+====
+Move little_brother.txt to this directory
+
+Bonus
+=====
+Also, if you happen to come across stuff for your soup, that wouldn't be a bad thing to bring home.
+While we're at it, a big pile of golden treasure wouldn't be terrible either.

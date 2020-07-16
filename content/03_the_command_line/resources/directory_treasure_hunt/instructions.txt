@@ -1,0 +1,131 @@
+INSTRUCTIONS
+============
+
+
+Little Brother is missing! He must have run off in last night's storm.
+
+This is a little treasure hunt to practice using basic linux commands. Basically there are a bunch of foldersand text files marked up like aa choose your own adventure story. 
+
+GOAL
+====
+Check out the folders. You may want to read the stuff in the home_sweet_home folder and the_zoo first.
+
+
+Useful commands
+===============
+
+A quick reminder of some useful commands:
+
+#see what's in the current folder
+ls
+
+#see what's in a subfolder of your current directory (without moving there)
+ls my_folder
+
+#see what's in the current folder....including all the neat hidden stuff
+ls -a 
+ls -a my_folder
+
+#print working directory. Shows the full path to the folder where you are
+pwd 
+
+#change directory. Move to another directory
+cd 
+
+#move something (like a text file or directory) from one place to another.
+mv [from] [to]
+
+#move a file up one directory
+mv my_file.txt ../  
+
+#move a file into a subfolder of your current directory
+mv my_file.txt my_folder
+
+
+Opening files with the vim text editor
+======================================
+#Open a text file
+vim my_file.txt
+
+#Move the cursor
+(use arrowkeys, not the mouse)
+
+#quit vim (from inside vim)
+:q
+
+#Vim has different modes you can enter.
+
+#enter insertion (typing) mode (from inside vim)
+i
+#You'll see -- INSERT -- at the bottom of your screen
+
+#exit a mode
+(hit esc)
+
+#delete a line
+dd
+
+#delete two lines
+2dd
+
+#delete 10 lines
+10dd
+
+#paste a deleted line (it will appear below the cursor)
+p
+
+#save 
+:w
+
+#save and quit
+:wq
+#Go to top of document
+gg
+
+#Go to bottom of document
+GG
+
+
+Special shorthands
+==================
+
+#There are some special shorthands for directories you can use when running bash commands
+
+#the current directory
+.
+
+#the directory one level up
+..
+
+#your home directory
+~
+
+Examples using shorthands
+=========================
+
+#Move yourself up one directory
+cd ..
+
+#Look at the directory one level up
+ls ../
+
+#Move a file one level up
+mv my_file.txt ../
+
+#Move a file two levels up
+mv my_file.txt ../../
+
+#Move a file to a new location (starting at your home directory)
+
+mv my_file.txt ~/start_here/folder1/folder2/whatever/more_folders/put_it_here/
+
+
+A note on tab completion
+========================
+
+If you're in an environment where tab completion is enabled, you can type part of a filename, then hit the tab key to finish it.
+This is awesome since it saves lots of typing, and avoids spelling errors. It really helps with long filenames.  Check out the 'mire_of_filename_madness' to practice this on a particularly obnoxious filename.
+
+
+
+

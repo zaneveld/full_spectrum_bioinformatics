@@ -1,0 +1,8 @@
+ALL YOUR MISSING SOCKS
+======================
+
+So this is where they went! 
+
+GOAL
+====
+Try moving this file back to your house in the village using the mv command

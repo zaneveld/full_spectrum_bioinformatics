@@ -1,0 +1,32 @@
+The Crying Zookeeper
+====================
+
+The zookeepers mustache shakes as he sobs, and tears wet his cheeks. 
+"They're gone- all gone!", he says. "The storm last night destroyed our cages, and all my magical animals - the unicorn,\
+ the faerie dragon, the adorable fur-thing - they're all out there hungry and afraid." 
+
+"Even the dangerous ones got out.  I hate to think what the scary dragon and, worse, the horrible xkjhadslKLEHOWHGHkjdhfaoewhbajHHHakejbfeugiabguaeroth might be doing out there."
+
+"Can you help me? I think I saw all their footprints heading up the path to the old manison - like it was calling to them. 
+If you can bring them back I'd be most grateful"
+
+
+Goal
+====
+Move .txt files representing neat animals and monsters to the the_zoo folder.
+You can use the mv command to do this. The way this works is mv start_location end_location.
+Note that if end_location is a file, you will rename the file instead of moving it to a new location
+ 
+
+Examples:
+=========
+#Move the_unicorn up one directory
+mv the_unicorn.txt ../
+
+#Move the unicorn to a subdirectory of the current directory
+mv the_unicorn.txt ./the_zoo/
+
+#rename the_scary_dragon.txt to the_harmless_frog.txt
+mv the_scary_dragon.txt the_harmless_frog.txt
+
+   
