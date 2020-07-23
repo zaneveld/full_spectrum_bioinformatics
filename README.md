@@ -5,7 +5,8 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
 - **Chapter 2. Introduction**
 - **Chapter 3. The Command Line**
-     - **Exercise**:An Adventurous Introduction to the Command Line
+     - Using the Command Line
+     - **Exercise**: Little Brother is Missing 
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
      - **Exercise**: Error Bingo
