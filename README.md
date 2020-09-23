@@ -7,7 +7,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - **Exercise**: Spot the Difference
 - **Chapter 3. The Command Line**
      - [Using the Command Line](./content/03_the_command_line/the_commandline.ipynb)
-     - **Exercise**: Little Brother is Missing 
+     - [**Exercise**: Little Brother is Missing](content/03_the_command_line/exercise_little_brother_is_missing.ipynb) 
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
      - **Exercise**: Error Bingo
