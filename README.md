@@ -4,6 +4,7 @@ This text is currently in early prototype status. Chapters with content you can 
 
 - **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
 - **Chapter 2. Introduction**
+     - **Exercise**: Spot the Difference
 - **Chapter 3. The Command Line**
      - [Using the Command Line](./content/03_the_command_line/the_commandline.ipynb)
      - **Exercise**: Little Brother is Missing 
