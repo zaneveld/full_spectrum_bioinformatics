@@ -55,6 +55,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - Rank Transformations
      - [Monte Carlo simulation of Effect Size, Sample Size, and Significance](./content/11_statistics/effect_size_sample_size_and_significance.ipynb)
      - [Dealing with Multiple Comparisons](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/dealing_with_multiple_comparisons.ipynb)
+     - [**Exercise**: Revising your writing about statistical results](./content/11_statistics/exercise_revising_your_writing_about_statistical_results.ipynb)
      - An Introduction to Maximum Likelihood optimization
      - The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
      - An Introduction to Bayesian Approaches
