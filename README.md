@@ -19,7 +19,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
      - [Representing and Manipulating Biological Sequences as Python Strings](./content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)
      - [Analyzing Biological Sequences with For Loops and If Statements](./content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb) 
-     -  Reading and writing FASTA files using Python
+     -  [Reading and writing FASTA files using Python](./content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
      -  **In depth:** Characterizing Microbial Community Ecology
