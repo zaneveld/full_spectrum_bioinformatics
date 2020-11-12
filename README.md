@@ -68,6 +68,7 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 13. Presenting Research**
      - Presentations as Verbal Chess
 - **Chapter 14. Polishing and Publishing**
+     - [Presenting Research](./content/13_presenting_research/12_Presenting_Research.ipynb)
      - From Data to Conclusion: building a research manuscript brick by brick
      - Resistance is Futile: becoming a language Borg
      - **Exercise**: generating a targeted title using templating
@@ -78,6 +79,7 @@ This text is currently in early prototype status. Chapters with content you can 
      - Cognitive Bias and Networking 
      - Fighting for an Inclusive Workplace
      - Open-source Science as Shield and Sword
+     - [Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
 - **Appendices:**      
      - Appendix A - Data Sources for Bioinformatics Projects
      - Appendix B - Timesaving Starter Code
