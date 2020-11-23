@@ -52,7 +52,7 @@ This text is currently in early prototype status. Chapters with content you can 
 - **Chapter 11. Statistics**
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
      - Statistical Distributions and Parametric Tests
-     - Rank Transformations
+     - [Rank Transformations](./content/11_statistics/rank_based_methods.ipynb)
      - [Monte Carlo simulation of Effect Size, Sample Size, and Significance](./content/11_statistics/effect_size_sample_size_and_significance.ipynb)
      - [Dealing with Multiple Comparisons](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/dealing_with_multiple_comparisons.ipynb)
      - [**Exercise**: Revising your writing about statistical results](./content/11_statistics/exercise_revising_your_writing_about_statistical_results.ipynb)
