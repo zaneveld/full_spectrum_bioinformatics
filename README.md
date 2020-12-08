@@ -1,6 +1,9 @@
 ![Full Spectrum Bioinformatics](./cover_image/full_spectrum_bioinformatics_cover.png "A cover image for Full Spectrum Bioinformatics, showing the text title in rainbow colors with a phylogenetic tree, nucleotide substitution diagram, tRNA secondary structure, sequence alignment and principle coordinates analysis plot shown below it.")
 
- This project is being developed with support from NSF Integrative and Organismal Systems award [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). The text is currently in early prototype status. Chapters with content you can preview are linked below:
+[![DOI](https://zenodo.org/badge/198281370.svg)](https://zenodo.org/badge/latestdoi/198281370)
+[![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
+
+The text is currently in early prototype status. Chapters with content you can preview are linked below:
 
 - **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
 - **Chapter 2. Introduction**
@@ -109,4 +112,4 @@
      - Appendix D - Paper Formatting Kit 
      - Appendix E - Project Specifications 
 
-
+ This project is being developed with support from NSF Integrative and Organismal Systems award [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
