@@ -109,3 +109,4 @@ This text is currently in early prototype status. Chapters with content you can 
      - Appendix D - Paper Formatting Kit 
      - Appendix E - Project Specifications 
 
+ This text was developed with support from NSF Integrative and Organismal Systems award [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647)
