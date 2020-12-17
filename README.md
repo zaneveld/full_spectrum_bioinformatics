@@ -64,6 +64,7 @@ The text is currently in early prototype status. Chapters with content you can p
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
+     - Simulating the Evolution of Social Behavior
 - **Chapter 11. Statistics**
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb)
