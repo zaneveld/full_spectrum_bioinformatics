@@ -99,10 +99,10 @@ The text is currently in early prototype status. Chapters with content you can p
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
 - **Chapter 15. Careers that draw on Bioinformatics**    
      - Fighting for an Inclusive Workplace
-          Examining Privilege and Identity
-          Making Your Science and Teaching Accessible and Inclusive
-          Campus and Local Activism
-          Improving University Policy     
+          - Examining Privilege and Identity
+          - Making Your Science and Teaching Accessible and Inclusive
+          - Campus and Local Activism
+          - Improving University Policy     
                   
      - Happiness Matters
      - Radical Collaboration 
