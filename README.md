@@ -97,11 +97,16 @@ The text is currently in early prototype status. Chapters with content you can p
      - Resistance is Futile: becoming a language Borg
      - **Exercise**: generating a targeted title using templating
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
-- **Chapter 15. Careers that draw on Bioinformatics**
+- **Chapter 15. Careers that draw on Bioinformatics**    
+     - Fighting for an Inclusive Workplace
+          Examining Privilege and Identity
+          Making Your Science and Teaching Accessible and Inclusive
+          Campus and Local Activism
+          Improving University Policy     
+                  
      - Happiness Matters
      - Radical Collaboration 
-     - Cognitive Bias and Networking 
-     - Fighting for an Inclusive Workplace
+     - Cognitive Bias and Networking     
      - Open-source Science as Shield and Sword
      - [Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
