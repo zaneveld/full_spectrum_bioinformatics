@@ -3,6 +3,8 @@
 [![DOI](https://zenodo.org/badge/198281370.svg)](https://zenodo.org/badge/latestdoi/198281370)
 [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
 
+Full Spectrum Bioinformatics is a free online text designed to introduce key topics in Bioinformatics using the Python programming language. 
+
 The text is currently in early prototype status. Chapters with content you can preview are linked below:
 
 - **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
