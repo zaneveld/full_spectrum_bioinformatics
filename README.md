@@ -45,7 +45,8 @@ The text is currently in early prototype status. Chapters with content you can p
 - **Chapter 8. Alignment and Phylogenetics**
      - **8a. Alignment**
      - Homology and Alignment
-     - Global Alignment with the Needleman-Wunsch algorithm
+     - [Global Alignment with the Needleman-Wunsch algorithm](/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
      - Local Alignment with the Smith-Waterman algorithm
      - BLAST and the k-mer trick
      - **8b. Phylogenetics**
