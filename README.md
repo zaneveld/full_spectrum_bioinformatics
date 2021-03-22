@@ -19,7 +19,9 @@ The text is currently in early prototype status. Chapters with content you can p
      - **Exercise**: Error Bingo
      - [A Tour of Python Data Types](./content/04_exploring_python/exploring_python_data_types.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exploring_python_data_types.ipynb)
-     -  A Tour of Python Syntax (functions, conditions, iteration)
+     -  [A Tour of Python Syntax (functions, conditions, iteration, classes)](./content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
+     
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
