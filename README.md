@@ -16,12 +16,10 @@ The text is currently in early prototype status. Chapters with content you can p
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exploring_python.ipynb)
-     - **Exercise**: Error Bingo
      - [A Tour of Python Data Types](./content/04_exploring_python/exploring_python_data_types.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exploring_python_data_types.ipynb)
      -  [A Tour of Python Syntax (functions, conditions, iteration, classes)](./content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
-       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
-     
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)   
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
@@ -34,6 +32,9 @@ The text is currently in early prototype status. Chapters with content you can p
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
      -  [Reading and writing FASTA files using Python](./content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
+     - **Exercise**: [Error Bingo](./content/04_exploring_python/exercise_error_bingo.ipynb)
+     - [Error Messages in Python](./content/04_exploring_python/error_messages_in_python.ipynb)
+
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
