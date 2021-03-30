@@ -5,7 +5,7 @@
 
 Full Spectrum Bioinformatics is a free online text designed to introduce key topics in Bioinformatics using the Python programming language. 
 
-The text is currently in early prototype status. Chapters with content you can preview are linked below:
+The text is currently in prototype status. Chapters with content you can preview are linked below:
 
 - **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
 - **Chapter 2. Introduction**
@@ -125,3 +125,6 @@ The text is currently in early prototype status. Chapters with content you can p
      - Appendix E - Project Specifications 
 
  This project is being developed with support from NSF Integrative and Organismal Systems award [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
+ 
+ ## Feedback
+You can submit feedback about completed chapters at the following [link](https://docs.google.com/forms/d/e/1FAIpQLSeUQPI_JbyKcX1juAFLt5z1CLzC2vTqaCYySUAYCNElNwZqqQ/viewform?usp=sf_link)
