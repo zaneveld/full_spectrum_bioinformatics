@@ -18,7 +18,7 @@ The text is currently in prototype status. Chapters with content you can preview
 - **Chapter 2. Introduction**
      - **Exercise**: Spot the Difference
 - **Chapter 3. The Command Line**
-     - [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/03_the_command_line/the_commandline.ipynb)[Using the Command Line](./content/03_the_command_line/the_commandline.ipynb)    
+     - [Using the Command Line](./content/03_the_command_line/the_commandline.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/03_the_command_line/the_commandline.ipynb)
      - [**Exercise**: Little Brother is Missing](content/03_the_command_line/exercise_little_brother_is_missing.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/03_the_command_line/exercise_little_brother_is_missing.ipynb) 
 - **Chapter 4. Exploring Python**
