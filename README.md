@@ -7,7 +7,7 @@ Full Spectrum Bioinformatics is a free online text designed to introduce key top
 
 The text is currently in prototype status. Chapters with content you can preview are linked below:
 
-- **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)**
+- **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)** [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/01_foreword/foreword.ipynb)
 - **Chapter 2. Introduction**
      - **Exercise**: Spot the Difference
 - **Chapter 3. The Command Line**
