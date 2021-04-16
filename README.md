@@ -64,15 +64,22 @@ The text is currently in prototype status. Chapters with content you can preview
      -   Analyzing Microbiome Alpha Diversity in Python
      -   Analyzing Microbiome Beta Diversity in Python
      -   Simulating the Effect of Sequencing Depth on Diversity Estimates
-- **Chapter 8. Alignment and Phylogenetics**
-     - **8a. Alignment**
+
+- **Chapter 8. Visualization**
+     - Graphs as a Visual Language
+     - **Exercise:** Anger Tufte
+     - Representing Correlation
+     - Representing Distribution
+
+- **Chapter 9. Alignment and Phylogenetics**
+     - **9a. Alignment**
      - Homology and Alignment
      - [Global Alignment with the Needleman-Wunsch algorithm](/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
     [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
      - Local Alignment with the Smith-Waterman algorithm
      - BLAST and the k-mer trick
-     - **8b. Phylogenetics**
+     - **9b. Phylogenetics**
      - Tree thinking
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
@@ -84,16 +91,13 @@ The text is currently in prototype status. Chapters with content you can preview
      - Maximum Parsimony Ancestral State Reconstruction
      - Hidden State Prediction
      - Phylogenetic Comparative Methods   
-- **Chapter 9. Visualization**
-     - Graphs as a Visual Language
-     - **Exercise:** Anger Tufte
-     - Representing Correlation
-     - Representing Distribution
+
 - **Chapter 10. Simulation**
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      - Simulating the Evolution of Social Behavior
+
 - **Chapter 11. Statistics**
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb)
