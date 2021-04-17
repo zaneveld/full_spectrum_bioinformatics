@@ -79,6 +79,7 @@ The text is currently in prototype status. Chapters with content you can preview
     [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
      - Local Alignment with the Smith-Waterman algorithm
      - BLAST and the k-mer trick
+     - **Exercise:** Duck vs. Yeast 
      - **9b. Phylogenetics**
      - Tree thinking
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
