@@ -52,10 +52,10 @@ The text is currently in prototype status. Chapters with content you can preview
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)
      - [Error Messages in Python](./content/04_exploring_python/error_messages_in_python.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb)
-       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb)
-     
-     - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/testing_genomes_for_depletion_of_CG_dinucleotides.ipynb)
-       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/testing_genomes_for_depletion_of_CG_dinucleotides.ipynb)
+       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb)     
+     - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
+       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
 
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
@@ -143,8 +143,7 @@ The text is currently in prototype status. Chapters with content you can preview
           - Examining Privilege and Identity
           - Making Your Science and Teaching Accessible and Inclusive
           - Campus and Local Activism
-          - Improving University Policy     
-                  
+          - Improving University Policy                       
      - Happiness Matters
      - Radical Collaboration 
      - Cognitive Bias and Networking     
