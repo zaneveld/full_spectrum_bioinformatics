@@ -97,10 +97,12 @@ The text is currently in prototype status. Chapters with content you can preview
      - Phylogenetic Comparative Methods   
 
 - **Chapter 10. Simulation**
+     - Simulating Biological Networks
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      - Simulating the Evolution of Social Behavior
+     
 
 - **Chapter 11. Statistics**
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
@@ -123,11 +125,8 @@ The text is currently in prototype status. Chapters with content you can preview
      - The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
      - An Introduction to Bayesian Approaches
 - **Chapter 12. Multivariate Statistics and Machine Learning**
-     - Of PCoA and Fishtanks
-     - Supervised and Unsupervised Classification
-     - K-means clustering
-     - LDA and the Kernel Trick
-     - Random Forest Analysis
+     - Unsupervised Classification: of ordination, clustering and fishtanks
+     - Supervised Classification: from lines to trees to forests.
 - **Chapter 13. Presenting Research**
      - Presentations as Verbal Chess
 - **Chapter 14. Polishing and Publishing**
