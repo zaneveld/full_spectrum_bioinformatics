@@ -58,7 +58,6 @@ The text is currently in prototype status. Chapters with content you can preview
      - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
-
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
@@ -69,7 +68,6 @@ The text is currently in prototype status. Chapters with content you can preview
      -   Analyzing Microbiome Alpha Diversity in Python
      -   Analyzing Microbiome Beta Diversity in Python
      -   Simulating the Effect of Sequencing Depth on Diversity Estimates
-
 - **Chapter 8. Visualization**
      - Graphs as a Visual Language
      - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
@@ -77,7 +75,6 @@ The text is currently in prototype status. Chapters with content you can preview
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)       
      - Representing Correlation
      - Representing Distribution
-
 - **Chapter 9. Alignment and Phylogenetics**
      - **9a. Alignment**
      - Homology and Alignment
@@ -99,15 +96,12 @@ The text is currently in prototype status. Chapters with content you can preview
      - Maximum Parsimony Ancestral State Reconstruction
      - Hidden State Prediction
      - Phylogenetic Comparative Methods   
-
 - **Chapter 10. Simulation**
      - Simulating Biological Networks
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      - Simulating the Evolution of Social Behavior
-     
-
 - **Chapter 11. Statistics**
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb)
