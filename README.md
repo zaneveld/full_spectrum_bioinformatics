@@ -136,7 +136,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - **Exercise**: generating a targeted title using templating
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
 - **Chapter 15. Careers that draw on Bioinformatics**    
-     - Fighting for an Inclusive Workplace
+     - [Fighting for an Inclusive Workplace](./content/15_careers/fighting_for_an_inclusive_workplace.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/fighting_for_an_inclusive_workplace.ipynb)
           - Examining Privilege and Identity
           - Making Your Science and Teaching Accessible and Inclusive
           - Campus and Local Activism
