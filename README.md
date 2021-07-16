@@ -103,6 +103,9 @@ The text is currently in prototype status. Chapters with content you can preview
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      - Simulating the Evolution of Social Behavior
 - **Chapter 11. Statistics**
+     - [Linear Models - a Statistical Swiss Army Knife](./content/11_statistics/linear_models.ipynb)
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/rank_based_methods.ipynb)
+       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/linear_models.ipynb)       
      - [Monte Carlo simulation and the Fundamental Unity of Statistical Hypothesis Tests](./content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb) 
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/monte_carlo_methods_and_the_fundamental_unity_of_statistical_tests.ipynb)
