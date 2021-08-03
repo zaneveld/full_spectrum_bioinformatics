@@ -152,7 +152,8 @@ The text is currently in prototype status. Chapters with content you can preview
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
 - **Appendices:**      
-     - Appendix A - Data Sources for Bioinformatics Projects
+     - Appendix A - [Data Sources for Bioinformatics Projects](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
+     [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
      - Appendix B - Timesaving Starter Code
        - Template Script with Interface and Test Code
        - IUPAC codes in python
