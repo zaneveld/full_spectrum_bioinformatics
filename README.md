@@ -12,6 +12,10 @@
 If you happen to already be familiar with GitHub and Jupyter Notebooks, you can download the entire project and run it interactively, or click the 'Open in Colab' links to open interactive versions of each section in Google Colab (you will need to 'Save as' your own copy in order to change code). You can also view a static version of each section using the nbviewer links.  If using the direct GitHub links, you may sometimes get a GitHub error message. Usually hitting reload page or using the nbviewer link avoids this issue.
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
+<br>
+**Lead Author**: Jesse Zaneveld 
+<br>
+**Vignette Authors**: Aziz Bajouri
 
 The text is currently in prototype status. Chapters with content you can preview are linked below:
 
@@ -50,6 +54,7 @@ The text is currently in prototype status. Chapters with content you can preview
      -  [Reading and writing FASTA files using Python](./content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
+     - **Bioinformatics Vignette (Aziz Bajouri):** [Using set objects to find circular RNAs involved in multiple diseases](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb)
      - **Exercise**: [Error Bingo](./content/04_exploring_python/exercise_error_bingo.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)
      - [Error Messages in Python](./content/04_exploring_python/error_messages_in_python.ipynb)
