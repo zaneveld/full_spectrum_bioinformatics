@@ -15,7 +15,7 @@ If you happen to already be familiar with GitHub and Jupyter Notebooks, you can 
 <br>
 **Lead Author**: Jesse Zaneveld 
 <br>
-**Vignette Authors**: Aziz Bajouri
+**Vignette Authors**: Aziz Bajouri, Nia Prabhu
 
 The text is currently in prototype status. Chapters with content you can preview are linked below:
 
@@ -59,7 +59,9 @@ The text is currently in prototype status. Chapters with content you can preview
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)
      - [Error Messages in Python](./content/04_exploring_python/error_messages_in_python.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb)
-       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb)     
+       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/error_messages_in_python.ipynb) 
+     - **Bioinformatics Vignette (Nia Prabhu):** [Using For Loops and Dictionaries to Compare Nucleotide Composition in Pandemic and Non-Pandemic Causing Influenza Strains](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb)
+ [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb)
      - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
