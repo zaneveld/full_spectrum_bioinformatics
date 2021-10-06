@@ -22,11 +22,17 @@ The text is currently in prototype status. Chapters with content you can preview
 -  **Chapter 1. [Foreword](./content/01_foreword/foreword.ipynb)** [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/01_foreword/foreword.ipynb)
  
 - **Chapter 2. Introduction**
+     - **Speaking Each Other's Language**: foundations for learning on your own or collaborating across disciplines
+     - **An Absurdly Brief Introduction to Biology**
+     - **An Absurdly Brief Introduction to Computer Science**
+     - **An Absurdly Brief Introduction to Statistics**
      - **Exercise**: Spot the Difference
+     
 - **Chapter 3. The Command Line**
      - [Using the Command Line](./content/03_the_command_line/the_commandline.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/03_the_command_line/the_commandline.ipynb)
      - [**Exercise**: Little Brother is Missing](content/03_the_command_line/exercise_little_brother_is_missing.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/03_the_command_line/exercise_little_brother_is_missing.ipynb) 
+     
 - **Chapter 4. Exploring Python**
      - [Exploring Python](./content/04_exploring_python/exploring_python.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exploring_python.ipynb)
@@ -37,10 +43,12 @@ The text is currently in prototype status. Chapters with content you can preview
      -  [A Tour of Python Syntax (functions, conditions, iteration, classes)](./content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
+
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb) 
+
 - **Chapter 6. Biological Sequences**
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/biological_sequences.ipynb)
@@ -65,6 +73,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
+
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
@@ -75,6 +84,7 @@ The text is currently in prototype status. Chapters with content you can preview
      -   Analyzing Microbiome Alpha Diversity in Python
      -   Analyzing Microbiome Beta Diversity in Python
      -   Simulating the Effect of Sequencing Depth on Diversity Estimates
+
 - **Chapter 8. Visualization**
      - Graphs as a Visual Language
      - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
@@ -82,6 +92,7 @@ The text is currently in prototype status. Chapters with content you can preview
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)       
      - Representing Correlation
      - Representing Distribution
+
 - **Chapter 9. Alignment and Phylogenetics**
      - **9a. Alignment**
      - Homology and Alignment
@@ -103,12 +114,14 @@ The text is currently in prototype status. Chapters with content you can preview
      - Maximum Parsimony Ancestral State Reconstruction
      - Hidden State Prediction
      - Phylogenetic Comparative Methods   
+
 - **Chapter 10. Simulation**
      - Simulating Biological Networks
      - [Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
      - Simulating the Evolution of Social Behavior
+
 - **Chapter 11. Statistics**
      - [Linear Models - a Statistical Swiss Army Knife](./content/11_statistics/linear_models.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/rank_based_methods.ipynb)
@@ -132,11 +145,14 @@ The text is currently in prototype status. Chapters with content you can preview
      - An Introduction to Maximum Likelihood optimization
      - The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
      - An Introduction to Bayesian Approaches
+
 - **Chapter 12. Multivariate Statistics and Machine Learning**
      - Unsupervised Classification: of ordination, clustering and fishtanks
      - Supervised Classification: from lines to trees to forests.
+
 - **Chapter 13. Presenting Research**
      - Presentations as Verbal Chess
+
 - **Chapter 14. Polishing and Publishing**
      - [Presenting Research](./content/13_presenting_research/12_Presenting_Research.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
@@ -145,6 +161,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - Resistance is Futile: becoming a language Borg
      - **Exercise**: generating a targeted title using templating
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
+
 - **Chapter 15. Careers that draw on Bioinformatics**    
      - [Fighting for an Inclusive Workplace](./content/15_careers/fighting_for_an_inclusive_workplace.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/fighting_for_an_inclusive_workplace.ipynb)
           - Examining Privilege and Identity
@@ -158,6 +175,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - [Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
+
 - **Appendices:**      
      - Appendix A - [Data Sources for Bioinformatics Projects](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
