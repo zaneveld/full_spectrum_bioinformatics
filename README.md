@@ -8,8 +8,9 @@
 
 **Full Spectrum Bioinformatics** is a free online text designed to introduce key topics in Bioinformatics using the Python programming language. The text is written in interactive Jupyter Notebooks, which allow you to try out and modify example code and analyses. 
 
+In addition to explanations of concepts, Full Spectrum Bioinformatics also includes **Bioinformatics Vignettes** written by readers of the text. Each vignette is focused around a particular core concept, and show how readers have applied that concepts to their research projects. 
 
-If you happen to already be familiar with GitHub and Jupyter Notebooks, you can download the entire project and run it interactively, or click the 'Open in Colab' links to open interactive versions of each section in Google Colab (you will need to 'Save as' your own copy in order to change code). You can also view a static version of each section using the nbviewer links.  If using the direct GitHub links, you may sometimes get a GitHub error message. Usually hitting reload page or using the nbviewer link avoids this issue.
+If you happen to already be familiar with GitHub and Jupyter Notebooks, you can download the entire project and run it interactively, or click the 'Open in Colab' links to open interactive versions of each section in Google Colab (you will need to 'Save as' your own copy in order to change code). You can also view a static version of each section using the `nbviewer` links.  If using the direct GitHub links, you may sometimes get a GitHub error message. Usually hitting reload page or using the nbviewer link avoids this issue.
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 <br>
