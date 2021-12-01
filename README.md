@@ -14,9 +14,17 @@ If you happen to already be familiar with GitHub and Jupyter Notebooks, you can 
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 <br>
-**Lead Author**: Jesse Zaneveld 
+**Lead Author**: Jesse Zaneveld<sup>1</sup> 
 <br>
-**Vignette Authors**: Aziz Bajouri, Nia Prabhu
+**Vignette Authors**: Nia Prabhu<sup>\*</sup><sup>1</sup>, Aziz Bajouri<sup>\*</sup><sup>1,2</sup>, Ayomikun Akinrinade<sup>\*<sup><sup>1,3</sup>
+ <br>
+ <br>
+ <font size=+1>
+ <sup>\*</sup> Vignette authors contributed equally and are listed in chronological order of first contribution.<br>
+ <sup>1</sup> Division of Biological Sciences, School of STEM, University of Washington, Bothell, Washington, USA<br>
+ <sup>2</sup> Division of Computer and Software Systems, School of STEM, University of Washington, Bothell, Washington, USA<br>
+ <sup>3</sup> Division of Health Studies, School of Nursing and Health Studies, University of Washington, Bothell, Washington, USA<br>
+ </font>
 
 The text is currently in prototype status. Chapters with content you can preview are linked below:
 
@@ -151,6 +159,8 @@ The text is currently in prototype status. Chapters with content you can preview
 - **Chapter 12. Multivariate Statistics and Machine Learning**
      - Unsupervised Classification: of ordination, clustering and fishtanks
      - Supervised Classification: from lines to trees to forests.
+     - [**Bioinformatics Vignette (Ayomikun Akinrinade)**: Using k-Nearest Neighbor and Binary Decision Tree Algorithms to Predict Enzyme Function from Protein Sequences](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)
+ 
 
 - **Chapter 13. Presenting Research**
      - Presentations as Verbal Chess
