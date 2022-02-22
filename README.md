@@ -100,7 +100,10 @@ The text is currently in prototype status. Chapters with content you can preview
      - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)       
-     - Representing Correlation
+     - [Representing Correlation](./content/09_visualization/visualizing_correlation.ipynb)
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb)
+        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb)
+  
      - Representing Distribution
 
 - **Chapter 9. Alignment and Phylogenetics**
