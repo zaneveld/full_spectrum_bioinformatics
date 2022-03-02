@@ -1,6 +1,6 @@
 ![Full Spectrum Bioinformatics](./cover_image/full_spectrum_bioinformatics_cover.png "A cover image for Full Spectrum Bioinformatics, showing the text title in rainbow colors with a phylogenetic tree, nucleotide substitution diagram, tRNA secondary structure, sequence alignment and principle coordinates analysis plot shown below it.")
 
-<a href="https://doi.org/10.5281/zenodo.4312041"><img src="./assets/zenodo.4312041.svg" alt="DOI"></a>
+<a href="https://zenodo.org/badge/latestdoi/198281370"><img src="https://zenodo.org/badge/198281370.svg" alt="DOI"></a>
 
 
 [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
