@@ -93,7 +93,7 @@ The text is currently in prototype status. Chapters with content you can preview
         [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)
      -   Analyzing Microbiome Alpha Diversity in Python
      -   Analyzing Microbiome Beta Diversity in Python
-     -   Simulating the Effect of Sequencing Depth on Diversity Estimates
+     -   [Simulating the Effect of Sequencing Depth on Diversity Estimates](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
 
 - **Chapter 8. Visualization**
      - Graphs as a Visual Language
