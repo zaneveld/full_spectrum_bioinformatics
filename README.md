@@ -53,11 +53,14 @@ The text is currently in prototype status. Chapters with content you can preview
      -  [A Tour of Python Syntax (functions, conditions, iteration, classes)](./content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
+     -  Immediate application: using python to run statistical tests and make simple graphs
 
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
-       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb) 
+       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
+     - Write a Literature Synthesis...and get your Introduction for free!
+     - How Not to Reformat 300 Citations by Hand: setting up an automated reference manager
 
 - **Chapter 6. Biological Sequences**
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
@@ -83,7 +86,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - [**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
-
+ 
 - **Chapter 7. 'Omics**
      -  [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb) 
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
@@ -95,6 +98,11 @@ The text is currently in prototype status. Chapters with content you can preview
      -   Analyzing Microbiome Beta Diversity in Python
      -   [Simulating the Effect of Sequencing Depth on Diversity Estimates](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
 
+- **Level Up: Taking Stock of your Project and Revising your Process**
+     - Reflecting on your Project so Far
+     - Project Organization Strategies for Collaborative and Reproducible Research
+     - Test Code: a powerful strategy for ensuring your results aren't lies.      
+ 
 - **Chapter 8. Visualization**
      - Graphs as a Visual Language
      - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
@@ -125,8 +133,8 @@ The text is currently in prototype status. Chapters with content you can preview
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
      - Working with Traits on Trees
      - Maximum Parsimony Ancestral State Reconstruction
-     - Hidden State Prediction
      - Phylogenetic Comparative Methods   
+     - Trait prediction
 
 - **Chapter 10. Simulation**
      - Simulating Biological Networks
