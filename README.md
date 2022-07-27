@@ -53,7 +53,9 @@ The text is currently in prototype status. Chapters with content you can preview
      -  [A Tour of Python Syntax (functions, conditions, iteration, classes)](./content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/A_Tour_of_Python_Syntax.ipynb) 
-     -  A Quick Win: using Python to run Statistical Tests and Make Simple Graphs
+     -  [A Quick Win: using Python to run Statistical Tests and Make Simple Graphs](./content/04_exploring_python/a_quick_win.ipynb)
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/a_quick_win.ipynb)
+        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/a_quick_win.ipynb) 
 
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
