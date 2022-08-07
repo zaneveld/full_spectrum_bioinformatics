@@ -61,7 +61,9 @@ The text is currently in prototype status. Chapters with content you can preview
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
-     - Write a Literature Synthesis...and get your Introduction for free!
+     - [Write a Literature Synthesis...and get your Introduction for free!](./content/05_project_design/literature_synthesis.ipynb)
+     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
+     [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
      - How Not to Reformat 300 Citations by Hand: setting up an automated reference manager
 
 - **Chapter 6. Biological Sequences**
