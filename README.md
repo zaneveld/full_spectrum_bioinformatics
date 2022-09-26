@@ -1,16 +1,7 @@
 ![Full Spectrum Bioinformatics](./cover_image/full_spectrum_bioinformatics_cover.png "A cover image for Full Spectrum Bioinformatics, showing the text title in rainbow colors with a phylogenetic tree, nucleotide substitution diagram, tRNA secondary structure, sequence alignment and principle coordinates analysis plot shown below it.")
 
 <a href="https://zenodo.org/badge/latestdoi/198281370"><img src="https://zenodo.org/badge/198281370.svg" alt="DOI"></a>
-
-
 [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
-
-
-**Full Spectrum Bioinformatics** is a free online text designed to introduce key topics in Bioinformatics using the Python programming language. The text is written in interactive Jupyter Notebooks, which allow you to try out and modify example code and analyses. 
-
-In addition to explanations of concepts, Full Spectrum Bioinformatics also includes **Bioinformatics Vignettes** written by readers of the text. Each vignette is focused around a particular core concept, and show how readers have applied that concepts to their research projects. 
-
-If you happen to already be familiar with GitHub and Jupyter Notebooks, you can download the entire project and run it interactively, or click the 'Open in Colab' links to open interactive versions of each section in Google Colab (you will need to 'Save as' your own copy in order to change code). You can also view a static version of each section using the `nbviewer` links.  If using the direct GitHub links, you may sometimes get a GitHub error message. Usually hitting reload page or using the nbviewer link avoids this issue.
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 <br>
@@ -25,6 +16,22 @@ If you happen to already be familiar with GitHub and Jupyter Notebooks, you can 
  <sup>2</sup> Division of Computer and Software Systems, School of STEM, University of Washington, Bothell, Washington, USA<br>
  <sup>3</sup> Division of Health Studies, School of Nursing and Health Studies, University of Washington, Bothell, Washington, USA<br>
  </font>
+ 
+## About the Project
+
+**Full Spectrum Bioinformatics** is a free online text designed to introduce key topics in Bioinformatics using the Python programming language. The text is written in interactive Jupyter Notebooks, which allow you to try out and modify example code and analyses. 
+
+In addition to explanations of concepts, Full Spectrum Bioinformatics also includes **Bioinformatics Vignettes** written by readers of the text. Each vignette is focused around a particular core concept, and show how readers have applied that concepts to their research projects. 
+
+## How to Read the Text
+
+ If you happen to already be familiar with GitHub and Jupyter Notebooks, you can download the entire project and run it interactively, or click the 'Open in Colab' links (they looks like this: ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)) to open interactive versions of each section in Google Colab (you will need to 'Save as' your own copy in order to change code).
+ 
+ If you would just like to read a chapter, you can also view a static version of each section using the `nbviewer` links (they look like this:  ![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)). `nbviewer` stands for 'notebook viewer', so this is just a way to view chapters with code in them without actually running the code. This will generally be the best way to view the chapters non-interactively.  
+
+Finally, you can also use the direct GitHub links (the link that's the name of each chapter) to view any chapeter. This shows the chapter on GitHub. It usually works well, but you may sometimes get a GitHub error message. Usually hitting reload page or using the ![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg) link avoids this issue.
+
+# Table of Contents
 
 The text is currently in prototype status. Chapters with content you can preview are linked below:
 
@@ -108,15 +115,12 @@ The text is currently in prototype status. Chapters with content you can preview
      - Test Code: a powerful strategy for ensuring your results aren't lies.      
  
 - **Chapter 8. Visualization**
-     - Graphs as a Visual Language
-     - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
-       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)
-       [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)       
-     - [Representing Correlation](./content/09_visualization/visualizing_correlation.ipynb)
-        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb)
-        [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb)
-  
-     - Representing Distribution
+  - Graphs as a Visual Language
+  - [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)[![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)       
+   - [Representing Correlation](./content/09_visualization/visualizing_correlation.ipynb)
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) 
+    - Representing Distribution
 
 - **Chapter 9. Alignment and Phylogenetics**
      - **9a. Alignment**
@@ -213,6 +217,8 @@ The text is currently in prototype status. Chapters with content you can preview
      - Appendix C - Contributing a Community Example
      - Appendix D - Paper Formatting Kit 
      - Appendix E - Project Specifications 
+
+## Acknowledgements
 
 This project is being developed with support from NSF Integrative and Organismal Systems award [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647). 
  
