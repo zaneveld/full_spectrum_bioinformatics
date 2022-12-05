@@ -1,0 +1,75 @@
+host_genus	faith_pd_tissue
+Acanthastrea	62.67279931
+Acropora	22.58586687
+Aiptasia	132.4773054
+Alveopora	98.92810501
+Astrea	19.77749376
+Aurelia	15.52740765
+Caulastraea	106.1904235
+Coscinaraea	73.4539744
+Ctenactis	41.06653384
+Cyphastrea	70.4172442
+Danafungia	45.69866944
+Dendrophyllia	80.30236004
+Diploastrea	105.9506471
+Diploria	115.3942977
+Dipsastraea	58.37776249
+Distichopora	
+Echinophyllia	64.78630227
+Echinopora	50.84775241
+Eguchipsammia	81.10210711
+Entacmaea	
+Favites	48.15556207
+Fungid	64.25875806
+Galaxea	105.2000279
+Gardineroseris	94.5683238
+Goniastrea	124.8294747
+Goniopora	23.46251549
+Heliopora	147.8109907
+Herpolitha	
+Heteractis	
+Homophyllia	16.09816166
+Hydnophora	35.65929275
+Isopora	70.45909783
+Leptastrea	103.3014998
+Leptoria	75.37667554
+Lithophyllon	
+Lobophyllia	73.65675102
+Lobophytum	26.09329257
+Macrorhynchia	33.10989739
+Merulina	45.78131257
+Millepora	49.46097171
+Missing: Not collected	
+Mnemiopsis	58.33263427
+Montastraea	25.17934743
+Montipora	50.93573805
+Mycedium	15.77010986
+Not applicable	
+Orbicella	44.93429666
+Oxypora	
+Pachyseris	41.88566717
+Palythoa	104.3129799
+Pavona	100.4108146
+Pectinia	
+Physogyra	27.30306591
+Platygyra	37.88571053
+Plerogyra	62.35958674
+Pocillopora	36.74871729
+Podabacia	76.89441494
+Porites	66.04202832
+Psammocora	95.69721643
+Pseudosiderastrea	114.0700726
+Rhodactis	22.245782
+Sarcophyton	89.31093973
+Scolymia	106.2309377
+Seriatopora	33.53976707
+Siderastrea	140.0399957
+Sinularia	42.92755043
+Stephanocoenia	69.23868429
+Stichodactyla	
+Stylaster	
+Stylophora	28.39977776
+Tubastraea	104.2210688
+Tubipora	
+Turbinaria	82.01398285
+Xenia	25.12750036
