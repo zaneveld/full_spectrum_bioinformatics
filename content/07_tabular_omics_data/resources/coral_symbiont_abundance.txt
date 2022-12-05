@@ -1,0 +1,75 @@
+host_genus	average_endozoicomonas_per_1000_reads
+Acanthastrea	8
+Acropora	58.6818182
+Aiptasia	
+Alveopora	441.333333
+Astrea	302.666667
+Aurelia	
+Caulastraea	4
+Coscinaraea	122.666667
+Ctenactis	5
+Cyphastrea	621.666667
+Danafungia	12
+Dendrophyllia	
+Diploastrea	5
+Diploria	5.33333333
+Dipsastraea	166.25
+Distichopora	
+Echinophyllia	44.6
+Echinopora	46.5555556
+Eguchipsammia	
+Entacmaea	
+Favites	14.2222222
+Fungid	36.625
+Galaxea	58.5
+Gardineroseris	1.75
+Goniastrea	6.71428571
+Goniopora	5.66666667
+Heliopora	
+Herpolitha	
+Heteractis	
+Homophyllia	13
+Hydnophora	425.571429
+Isopora	79.6666667
+Leptastrea	18
+Leptoria	
+Lithophyllon	
+Lobophyllia	145.294118
+Lobophytum	
+Macrorhynchia	4
+Merulina	6.5
+Millepora	7.71428571
+Missing: Not collected	
+Mnemiopsis	3
+Montastraea	
+Montipora	
+Mycedium	
+Not applicable	
+Orbicella	11.75
+Oxypora	
+Pachyseris	6.875
+Palythoa	381
+Pavona	3.70833333
+Pectinia	
+Physogyra	1.8
+Platygyra	204.4
+Plerogyra	37
+Pocillopora	148.652174
+Podabacia	45
+Porites	340.153846
+Psammocora	244.75
+Pseudosiderastrea	0.5
+Rhodactis	
+Sarcophyton	1
+Scolymia	0.5
+Seriatopora	62.75
+Siderastrea	9.33333333
+Sinularia	17
+Stephanocoenia	50
+Stichodactyla	
+Stylaster	
+Stylophora	634.428571
+Tubastraea	7.28571429
+Tubipora	
+Turbinaria	38
+Xenia	302.5
