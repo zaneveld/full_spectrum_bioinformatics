@@ -5,16 +5,15 @@
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 <br>
-**Lead Author**: Jesse Zaneveld<sup>1</sup> 
-<br>
-**Vignette Authors**: Nia Prabhu<sup>\*</sup><sup>1</sup>, Aziz Bajouri<sup>\*</sup><sup>1,2</sup>, Ayomikun Akinrinade<sup>\*<sup><sup>1,3</sup>
+**Authors**: Jesse Zaneveld<sup>1</sup>, Nia Prabhu<sup>\*</sup><sup>1</sup>, Aziz Bajouri<sup>\*</sup><sup>1,2</sup>, Ayomikun Akinrinade<sup>\*<sup><sup>1,3</sup>, Dr. Mushtaq Bilal<sup>4</sup>
  <br>
  <br>
  <font size=+1>
- <sup>\*</sup> Vignette authors contributed equally and are listed in chronological order of first contribution.<br>
+ <sup>\*</sup> Chapter and Vignette authors contributed equally and are listed in chronological order of first contribution.<br>
  <sup>1</sup> Division of Biological Sciences, School of STEM, University of Washington, Bothell, Washington, USA<br>
  <sup>2</sup> Division of Computer and Software Systems, School of STEM, University of Washington, Bothell, Washington, USA<br>
  <sup>3</sup> Division of Health Studies, School of Nursing and Health Studies, University of Washington, Bothell, Washington, USA<br>
+  <sup>4</sup> 
  </font>
  
 ## About the Project
@@ -72,7 +71,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - [Write a Literature Synthesis...and get your Introduction for free!](./content/05_project_design/literature_synthesis.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
-     - How Not to Reformat 300 Citations by Hand: setting up an automated reference manager
+     - [How Not to Repeatedly Reformat 300 Citations by Hand: Zotero for Beginners (Dr. Mushtaq Bilal)](./content/05_project_design/zotero.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb)
 
 - **Chapter 6. Biological Sequences**
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
