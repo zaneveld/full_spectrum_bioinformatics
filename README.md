@@ -5,7 +5,7 @@
 
 [![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 <br>
-**Authors**: Jesse Zaneveld<sup>1</sup>, Nia Prabhu<sup>\*</sup><sup>1</sup>, Aziz Bajouri<sup>\*</sup><sup>1,2</sup>, Ayomikun Akinrinade<sup>\*<sup><sup>1,3</sup>, Dr. Mushtaq Bilal<sup>4</sup>
+**Authors**: Jesse Zaneveld<sup>1</sup>, Nia Prabhu<sup>\*</sup><sup>1</sup>, Aziz Bajouri<sup>\*</sup><sup>1,2</sup>, Ayomikun Akinrinade<sup>\*</sup><sup>1,3</sup>, Dr. Mushtaq Bilal<sup>\*</sup><sup>4</sup>
  <br>
  <br>
  <font size=+1>
