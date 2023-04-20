@@ -71,7 +71,7 @@ The text is currently in prototype status. Chapters with content you can preview
      - [Write a Literature Synthesis...and get your Introduction for free!](./content/05_project_design/literature_synthesis.ipynb)
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
      [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/literature_synthesis.ipynb)
-     - [How Not to Repeatedly Reformat 300 Citations by Hand: Zotero for Beginners (Dr. Mushtaq Bilal)](./content/05_project_design/zotero.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb)
+     - [How Not to Repeatedly Reformat 96 Citations by Hand: Zotero for Beginners (Dr. Mushtaq Bilal)](./content/05_project_design/zotero.ipynb) [![Open in nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb)
 
 - **Chapter 6. Biological Sequences**
      - [An introduction to Biological Sequences](./content/06_biological_sequences/biological_sequences.ipynb)
