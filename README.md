@@ -133,15 +133,16 @@ The text is currently in prototype status. Chapters with content you can preview
     [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
      - Local Alignment with the Smith-Waterman algorithm
      - BLAST and the k-mer trick
-     - **Exercise:** Duck vs. Yeast 
+     - [**Exercise:** Duck vs. Yeast](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/duck_vs_yeast.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/duck_vs_yeast.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/duck_vs_yeast.ipynb)
+    
      - **9b. Phylogenetics**
      - Tree thinking
      - [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
-     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
-     [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
+    [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
      - [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
-     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
-     [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
+    [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
      - Working with Traits on Trees
      - Maximum Parsimony Ancestral State Reconstruction
      - Phylogenetic Comparative Methods   
