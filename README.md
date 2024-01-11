@@ -63,6 +63,9 @@ The text is currently in prototype status. Chapters with content you can preview
      -  [A Quick Win: using Python to run Statistical Tests and Make Simple Graphs](./content/04_exploring_python/a_quick_win.ipynb)
        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/a_quick_win.ipynb)
         [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/a_quick_win.ipynb) 
+    -  [Another Quick Win: Loading tabular data with Pandas DataFrames](./content/04_exploring_python/another_quick_win.ipynb)
+       [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/another_quick_win.ipynb)
+        [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/another_quick_win.ipynb) 
 
 - **Chapter 5. Project Design**
      - [Using Literature Surveys to Ask Good Questions and Propose Testable Hypotheses](./content/05_project_design/project_design.ipynb)
