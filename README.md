@@ -196,7 +196,7 @@ The text is currently in prototype status. Chapters with content you can preview
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
       [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
      - From Data to Conclusion: building a research manuscript brick by brick
-     - Resistance is Futile: becoming a language Borg
+     - [Resistance is Futile: becoming a language Borg](./content/13_presenting_research/becoming_a_language_borg.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)  [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)
      - **Exercise**: generating a targeted title using templating
      - The Inverted Pyramid: optimizing your text from a reader's perspective     
 
