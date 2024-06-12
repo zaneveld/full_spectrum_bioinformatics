@@ -139,7 +139,6 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
 [An Introduction to 'Omics](./content/07_tabular_omics_data/tabular_omics_data.ipynb)
          
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)
 [Working with Tabular 'Omic data in Python using Pandas](./content/07_tabular_omics_data/analyzing_tabular_omics_data_in_pandas.ipynb)
@@ -149,6 +148,9 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/merging_tables.ipynb)
 [Joining and Filtering Pandas DataFrames](./content/07_tabular_omics_data/merging_tables.ipynb)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb)
+[**Pandas Case Study**: Analyzing tabular sleep data from the NHANES healthy survey](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb) 
+
 Analyzing Microbiome Alpha Diversity in Python
 
 Analyzing Microbiome Beta Diversity in Python
@@ -156,8 +158,8 @@ Analyzing Microbiome Beta Diversity in Python
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
  [Simulating the Effect of Sequencing Depth on Diversity Estimates ](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
  
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb)
-[**Pandas Case Study**: Analyzing tabular sleep data from the NHANES healthy survey](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/case_study_nhanes_sleep_data.ipynb) 
+ 
+
 
 ### Chapter 7. Project Organization Revisited: Leveling up your Process
 
@@ -169,10 +171,9 @@ Test Code: a powerful strategy for ensuring your results aren't lies.
  
  ### Chapter 8. Visualization
  
- Graphs as a Visual Language
+Graphs as a Visual Language
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)   
-[**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/anger_tufte.ipynb) [**Exercise**: Anger Tufte](./content/09_visualization/anger_tufte.ipynb)
 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) 
@@ -186,9 +187,10 @@ Representing Distribution
      
 Homology and Alignment
 
-[Global Alignment with the Needleman-Wunsch algorithm](/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
+[Global Alignment with the Needleman-Wunsch algorithm](/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
 
 Local Alignment with the Smith-Waterman algorithm
 
@@ -266,22 +268,22 @@ Unsupervised Classification: of ordination, clustering and fishtanks
 
 Supervised Classification: from lines to trees to forests.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)  
-Vignette (Ayomikun Akinrinade): [Using K-Nearest Neighbors and Binary Decision Tree Algorithms to Predict Enzyme Function from Protein Sequences](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb) [**Vignette (Ayomikun Akinrinade):** Using K-Nearest Neighbors and Binary Decision Tree Algorithms to Predict Enzyme Function from Protein Sequences](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)
  
 #### Chapter 13. Presenting Research
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
- [![Open in nbviewer](assets/nbviewer_badge.svg)(https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
+ [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
  [Presenting Research](./content/13_presenting_research/12_Presenting_Research.ipynb)
   
 #### Chapter 14. Polishing and Publishing
 
 From Data to Conclusion: building a research manuscript brick by brick
 
-[Resistance is Futile: becoming a language Borg](./content/13_presenting_research/becoming_a_language_borg.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)  [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)  [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/becoming_a_language_borg.ipynb)[Resistance is Futile: becoming a language Borg](./content/13_presenting_research/becoming_a_language_borg.ipynb)  
 
 **Exercise**: generating a targeted title using templating
+
 The Inverted Pyramid: optimizing your text from a reader's perspective     
 
 #### Chapter 15. Careers that draw on Bioinformatics   
@@ -297,25 +299,25 @@ The Inverted Pyramid: optimizing your text from a reader's perspective
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
 [Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
 
-#### Appendices    
+## Appendices    
 
-##### Appendix A 
+### Appendix A 
 
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
 [Data Sources for Bioinformatics Projects](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
 
-##### Appendix B 
+### Appendix B 
 
 Timesaving Starter Code
 Template Script with Interface and Test Code
 IUPAC codes in python
 Standard Translation Tables in Python
 
-##### Appendix C - Contributing a Vignette
+### Appendix C - Contributing a Vignette
 
-##### Appendix D - Paper Formatting Kit 
+### Appendix D - Paper Formatting Kit 
 
-##### Appendix E - Project Specifications 
+### Appendix E - Project Specifications 
 
 ## Acknowledgements
 
