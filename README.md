@@ -119,7 +119,7 @@ The text is currently in prototype status. Chapters with content you can preview
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb) **Vignette (Aziz Bajouri):** [Using set objects to find circular RNAs involved in multiple diseases](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_present_in_multiple_diseases/vignette_aziz_bajouri_using_set_objects_to_find_circular_RNAs_associated_with_multiple_diseases.ipynb)
   
      
-[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/exercise_error_bingo.ipynb)
 **Exercise**: [Error Bingo](./content/04_exploring_python/exercise_error_bingo.ipynb)
 
  
@@ -288,11 +288,9 @@ The Inverted Pyramid: optimizing your text from a reader's perspective
 
 [Fighting for an Inclusive Workplace](./content/15_careers/fighting_for_an_inclusive_workplace.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/fighting_for_an_inclusive_workplace.ipynb)
                     
+ Best practices for Success: Happiness Matters, Radical Collaboration, and Networking     
  
-     - Happiness Matters
-     - Radical Collaboration 
-     - Cognitive Bias and Networking     
-     - Open-source Science as Shield and Sword
+ Open-source Science as Shield and Sword
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
 [Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
@@ -301,21 +299,23 @@ The Inverted Pyramid: optimizing your text from a reader's perspective
 
 #### Appendices    
 
-Appendix A 
+##### Appendix A 
 
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
 [Data Sources for Bioinformatics Projects](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/14_appendix_data_sources/14_Appendix_Data_Sources.ipynb)
 
-Appendix B 
+##### Appendix B 
 
 Timesaving Starter Code
 Template Script with Interface and Test Code
 IUPAC codes in python
 Standard Translation Tables in Python
 
-Appendix C - Contributing a Community Example
-Appendix D - Paper Formatting Kit 
-Appendix E - Project Specifications 
+##### Appendix C - Contributing a Vignette
+
+##### Appendix D - Paper Formatting Kit 
+
+##### Appendix E - Project Specifications 
 
 ## Acknowledgements
 
