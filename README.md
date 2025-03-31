@@ -40,7 +40,7 @@ The text is currently in prototype status. Chapters with content you can preview
  
 ### Chapter 1. Introduction
 
-  **The Many Paths to Bioinformatics** [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/01_foreword/foreword.ipynb) [Foreword](./content/02_introduction/the_many_paths_to_bioinformatics_research.ipynb)
+ [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/01_foreword/foreword.ipynb) [The Many Paths to Bioinformatics](./content/02_introduction/the_many_paths_to_bioinformatics_research.ipynb)
   
   **An Absurdly Brief Introduction to Biology**
   
