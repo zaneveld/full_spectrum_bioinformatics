@@ -40,7 +40,7 @@ The text is currently in prototype status. Chapters with content you can preview
  
 ### Chapter 1. Introduction
 
-  **The Many Paths to Bioinformatics**
+  **The Many Paths to Bioinformatics** [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/01_foreword/foreword.ipynb) [Foreword](./content/02_introduction/the_many_paths_to_bioinformatics_research.ipynb)
   
   **An Absurdly Brief Introduction to Biology**
   
@@ -97,7 +97,6 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb) [Zotero for Beginners (a.k.a How to Avoid Repeatedly Reformatting 96 Citations by Hand)](./content/05_project_design/zotero.ipynb)
 
 ### Chapter 5. Biological Sequences
-
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/biological_sequences.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/biological_sequences.ipynb) 
