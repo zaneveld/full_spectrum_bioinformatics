@@ -1,0 +1,75 @@
+host_genus	disease_susceptibility
+Acanthastrea	0
+Acropora	3.64311332
+Aiptasia	
+Alveopora	0.74906367
+Astrea	
+Aurelia	
+Caulastraea	
+Coscinaraea	0
+Ctenactis	0
+Cyphastrea	21.66207168
+Danafungia	
+Dendrophyllia	
+Diploastrea	0.704225352
+Diploria	1.93236715
+Dipsastraea	
+Distichopora	
+Echinophyllia	0.553505535
+Echinopora	1.87680462
+Eguchipsammia	
+Entacmaea	
+Favites	0.585529067
+Fungid	
+Galaxea	3.649635036
+Gardineroseris	0
+Goniastrea	0.288018433
+Goniopora	0.147125699
+Heliopora	
+Herpolitha	0
+Heteractis	
+Homophyllia	
+Hydnophora	3.109656301
+Isopora	
+Leptastrea	5.665280665
+Leptoria	3.723404255
+Lithophyllon	0
+Lobophyllia	3.1543052
+Lobophytum	0
+Macrorhynchia	
+Merulina	1.31147541
+Millepora	
+Missing: Not collected	
+Mnemiopsis	
+Montastraea	2.054854925
+Montipora	9.668287726
+Mycedium	1.204819277
+Not applicable	
+Orbicella	3.315238465
+Oxypora	1.122019635
+Pachyseris	2.951510892
+Palythoa	0.367556971
+Pavona	4.369457063
+Pectinia	3.846153846
+Physogyra	0
+Platygyra	1.229773463
+Plerogyra	0
+Pocillopora	5.830450841
+Podabacia	0
+Porites	16.51667822
+Psammocora	12.38164603
+Pseudosiderastrea	
+Rhodactis	
+Sarcophyton	
+Scolymia	0.239808153
+Seriatopora	5.12195122
+Siderastrea	3.717951147
+Sinularia	0
+Stephanocoenia	2.111324376
+Stichodactyla	
+Stylaster	
+Stylophora	3.687150838
+Tubastraea	0.909090909
+Tubipora	
+Turbinaria	1.872074883
+Xenia	
