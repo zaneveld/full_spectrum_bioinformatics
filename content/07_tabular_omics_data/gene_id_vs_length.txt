@@ -1,0 +1,13 @@
+gene_id	gene_length
+gene1	1200
+gene2	500
+gene3	750
+gene4	2000
+gene5	3500
+gene6	800
+gene7	900
+gene8	3000
+gene9	3200
+gene10	2800
+gene11	5300
+gene12	4000

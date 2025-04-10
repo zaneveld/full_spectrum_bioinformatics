@@ -1,0 +1,13 @@
+gene_id	horizontally_transferred
+gene1	0
+gene2	1
+gene3	1
+gene4	0
+gene5	0
+gene6	1
+gene7	1
+gene8	0
+gene9	0
+gene10	1
+gene11	0
+gene12	0
