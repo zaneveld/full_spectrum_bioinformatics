@@ -293,7 +293,7 @@ Open-source Science as Shield and Sword
 
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/fighting_for_an_inclusive_workplace.ipynb)[Fighting for an Inclusive Workplace](./content/15_careers/science_and_authoritarianism.ipynb)
                     
-[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/science_and_authoritarianism.ipynb)[Science and Authoritarianism](./content/15_careers/fighting_for_an_inclusive_workplace.ipynb)
+[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/15_careers/science_and_authoritarianism.ipynb)[Science and Authoritarianism](./content/15_careers/science_and_authoritarianism.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/applying_for_grants.ipynb)[Applying for Grants](./content/13_presenting_research/applying_for_grants.ipynb)
