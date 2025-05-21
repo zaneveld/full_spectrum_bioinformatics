@@ -1,0 +1,226 @@
+#SampleID	plot	Caged	Nutrients	Coral	Genus	Species	initial_diameter_cm	tissue_change_score	tissue_change_percent	dead_by_end	pfish_bites	binary_tissue_loss	tissue_loss	DSS	Dictytoa	Amphiroa	Sargassum	Halimeda	Turf	Sediment	Cyanobacteria	Algae	AlgaeAndSediment	Bleached
+1	1	1	0	PA1	Porites	P porites	7	-2	-18	No	Yes	Yes	Loss	No	Yes	No	No	Yes	Yes	No	No	Yes	No	No
+2	1	0	0	AG1	Agaricia	A agaricites	7	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+3	1	1	0	AG1	Agaricia	A humilis	1.5	4	62	No	No	No	Gain	No	Yes	No	No	No	No	No	No	Yes	No	No
+4	1	1	0	PA1	Porites	P porites	5	-5	-87	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+5	1	0	0	PA2	Porites	P porites	4.5	2	18	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+6	1	1	1	AG1	Agaricia	A humilis	6	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	Yes
+7	1	0	1	AG2	Agaricia	A humilis	8	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+8	1	0	1	PA2	Porites	P porites	5	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+9	1	1	1	PA1	Porites	P porites	3	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	Yes	No	No	Yes	Yes	No
+10	2	1	0	SS1	Siderastrea	S siderea	2.5	0	0	No	No	No	No change	No	No	No	Yes	No	Yes	Yes	No	Yes	Yes	No
+11	2	1	0	SS2	Siderastrea	S siderea	2	1	5	No	No	No	Gain	No	No	No	No	Yes	Yes	Yes	No	Yes	Yes	No
+12	2	1	0	PA1	Porites	P porites	3	-3	-37	No	No	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	No	No
+13	2	0	0	SS1	Siderastrea	S siderea	5.5	3	37	No	No	No	Gain	Yes	No	No	No	No	No	No	No	No	No	No
+15	2	0	1	PA3	Porites	P porites	5	-4	-62	No	Yes	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	No	No
+16	2	1	1	SS1	Siderastrea	S siderea	5	-4	-62	No	No	Yes	Loss	Yes	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+17	2	1	1	AG1	Agaricia	A humilis	4	-1	-5	No	No	Yes	Loss	No	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+18	2	0	1	AG1	Agaricia	A humilis	3.5	4	62	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+19	3	0	0	PA1	Porites	P astreoides	2.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+21	3	0	0	PA1	Porites	P porites	1.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
+22	3	1	0	PA1	Porites	P astreoides	4.5	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+23	3	1	0	SS2	Siderastrea	S siderea	5	0	0	No	No	No	No change	Yes	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+24	3	1	0	AG1	Agaricia	A agaricites	6	-4	-62	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	Yes
+25	3	1	1	SS1	Siderastrea	S siderea	5	-1	-5	No	No	Yes	Loss	Yes	Yes	Yes	No	No	No	Yes	Yes	Yes	Yes	No
+26	3	1	1	PA1	Porites	P porites	6.5	6	250	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+27	3	0	1	PA2	Porites	P porites	2	0	0	No	Yes	No	No change	No	No	No	No	No	No	No	No	No	No	No
+28	3	0	1	AG2	Agaricia	A agaricites	5.5	0	0	No	No	No	No change	No	Yes	No	No	No	No	No	Yes	Yes	No	Yes
+29	3	1	1	SS1	Siderastrea	S siderea	3	1	5	No	No	No	Gain	No	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+30	3	1	1	PA2	Porites	P astreoides	2	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+31	3	0	1	SS1	Siderastrea	S siderea	12	-1	-5	No	No	Yes	Loss	Yes	No	No	No	No	No	Yes	No	No	No	No
+32	4	1	0	SS1	Siderastrea	S siderea	3	-1	-5	No	No	Yes	Loss	Yes	Yes	No	No	Yes	Yes	Yes	No	Yes	Yes	No
+33	4	1	0	SS2	Siderastrea	S siderea	6	-2	-18	No	No	Yes	Loss	Yes	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+34	4	1	0	SS2	Siderastrea	S siderea	2	1	5	No	No	No	Gain	Yes	No	No	No	No	No	Yes	No	No	No	No
+35	4	1	0	SS3	Siderastrea	S siderea	4	-1	-5	No	No	Yes	Loss	Yes	No	Yes	No	No	Yes	No	No	Yes	No	No
+36	4	1	0	PA1	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	Yes	No	No	No	No
+37	4	0	0	PA1	Porites	P astreoides	2.5	2	18	No	Yes	No	Gain	No	No	No	No	No	No	Yes	No	No	No	No
+38	4	0	0	PA2	Porites	P porites	2.5	5	87	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+39	4	0	0	SS1	Siderastrea	S siderea	8	1	5	No	No	No	Gain	Yes	No	No	No	Yes	No	Yes	No	Yes	Yes	No
+40	4	1	1	PA2	Porites	P astreoides	4	-5	-87	No	No	Yes	Loss	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+41	4	1	1	AG1	Agaricia	A humilis	2	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	No	No
+42	4	0	1	SS1	Siderastrea	S siderea	15+	-2	-18	No	No	Yes	Loss	Yes	Yes	No	No	No	Yes	No	No	Yes	No	No
+43	4	0	1	AG1	Agaricia	A humilis	3	-4	-62	No	No	Yes	Loss	No	Yes	No	No	No	Yes	Yes	No	Yes	Yes	No
+44	4	0	1	AG1	Agaricia	A agaricites	7	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	Yes	No	No	No	No
+45	4	0	1	PA1	Porites	P astreoides	2.5	0	0	No	Yes	No	No change	No	No	Yes	No	No	Yes	No	No	Yes	No	No
+46	4	1	1	SS1	Siderastrea	S siderea	4	-1	-5	No	No	Yes	Loss	Yes	Yes	Yes	No	No	No	No	No	Yes	No	No
+47	4	1	1	AG3	Agaricia	A agaricites	3	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+65	1	0	0	SS1	Stephanocoenia	Stephanocoenia	1.5	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+66	1	1	0	SS1	Siderastrea	S radians maybe	3	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+67	1	0	1	PA3	Porites	P porites	4	-4	-62	No	Yes	Yes	Loss	No	Yes	Yes	No	Yes	No	No	Yes	Yes	No	No
+68	1	0	1	SS1	Siderastrea	S siderea	5	1	5	No	No	No	Gain	Yes	No	No	No	No	No	No	No	No	No	No
+69	1	0	1	SS1	Siderastrea	S siderea	6	-1	-5	No	No	Yes	Loss	Yes	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+70	1	1	1	SS2	Siderastrea	S siderea	2.5	6	200	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+71	1	1	1	PA2	Porites	P porites	4.5	-5	-87	No	No	Yes	Loss	No	No	Yes	No	No	Yes	No	No	Yes	No	No
+72	1	1	1	SS1	Siderastrea	S siderea	3	3	37	No	No	No	Gain	Yes	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+73	2	0	0	PA1	Porites	P astreoides	1.5	0	0	No	Yes	No	No change	No	No	No	No	No	No	No	No	No	No	No
+74	2	0	0	PA6	Porites	P porites	3	-4	-62	No	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+76	2	1	0	PA2	Porites	P porites	3.5	-2	-18	No	No	Yes	Loss	No	No	No	No	Yes	No	Yes	No	Yes	Yes	No
+77	2	0	1	SS1	Siderastrea	S siderea	4	-1	-5	No	No	Yes	Loss	Yes	No	No	Yes	No	Yes	Yes	No	Yes	Yes	No
+78	2	0	1	PA1	Porites	P astreoides	5	-5	-87	No	Yes	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
+80	2	1	1	PA1	Porites	P porites	4	-5	-87	No	No	Yes	Loss	No	Yes	Yes	No	No	No	Yes	No	Yes	Yes	No
+81	3	0	0	AG1	Agaricia	A humilis	6	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+82	3	1	0	PA1	Porites	P porites	3	3	37	No	No	No	Gain	No	No	No	No	No	No	Yes	No	No	No	No
+85	4	1	1	PA1	Porites	P porites	3.5	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+1CC1_MA1	1	1	0	MA1	Manicinia	Manicinia	2.5	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CC2_PA2	1	1	0	PA2	Porites	P astreoides	1.5	-4	-62	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1CC2_PA4	1	1	0	PA4	Porites	P porites	4	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CC2_PA5	1	1	0	PA5	Porites	P porites	4	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	Yes	No
+1CC2_PA6	1	1	0	PA6	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1CU1_PA1	1	0	0	PA1	Porites	P astreoides	1.5	6	100	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU1_PA2	1	0	0	PA2	Porites	P porites	2	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU2_AG1	1	0	0	AG1	Agaricia	A agaricites	4	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	Yes	No
+1CU2_AG2	1	0	0	AG2	Agaricia	A humilis	3	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU2_AG3	1	0	0	AG3	Agaricia	A humilis	3.5	4	62	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU2_MC1	1	0	0	MC1	Montastrea	M cavernosa	4.5	0	0	No	No	No	No change	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1CU2_PA1	1	0	0	PA1	Porites	P porites	4	2	18	No	No	No	Gain	No	Yes	No	No	No	No	No	No	Yes	No	No
+1CU2_PA4	1	0	0	PA4	Porites	P astreoides	2.5	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU2_PA5	1	0	0	PA5	Porites	P porites	2.5	3	37	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1CU2_PA7	1	0	0	PA7	Porites	P astreoides	1.5	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1NC1_DS1	1	1	1	DS1	Dichocoenia	Dichocoenia	7	-4	-62	No	No	Yes	Loss	No	No	Yes	No	No	Yes	No	Yes	No	No	No
+1NC1_PA1	1	1	1	PA1	Porites	P porites	7.5	-2	-18	No	No	Yes	Loss	No	No	Yes	No	No	No	No	Yes	Yes	No	No
+1NC1_PA3	1	1	1	PA3	Porites	P porites	3.5	2	18	No	No	No	Gain	No	No	Yes	No	No	No	No	No	Yes	No	No
+1NC1_SS1	1	1	1	SS1	Siderastrea	S siderea	18	-1	-5	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	Yes	Yes	Yes	No
+1NC2_AG1	1	1	1	AG1	Agaricia	A humilis	2.5	-2	-18	No	No	Yes	Loss	No	Yes	No	No	No	No	No	Yes	Yes	No	No
+1NC2_AG2	1	1	1	AG2	Agaricia	A humilis	4	-3	-37	No	No	Yes	Loss	No	No	Yes	No	No	No	No	No	Yes	No	No
+1NC2_AG4	1	1	1	AG4	Agaricia	A humilis	2.5	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1NC2_PA2	1	1	1	PA2	Porites	P astreoides	2	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	Yes	No	No	No	No	No	No
+1NC2_PP1	1	1	1	PP1	Porites	P porites	2.5	-1	-5	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1NU1_AG1	1	0	1	AG1	Agaricia	A humilis	3.5	0	0	No	No	No	No change	No	Yes	No	No	No	No	No	No	Yes	No	No
+1NU1_AG3	1	0	1	AG3	Agaricia	A humilis	2	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1NU1_DC1	1	0	1	DC1	Dichocoenia	Dichocoenia	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	Yes	Yes	Yes	No	Yes	Yes	No
+1NU1_PA1	1	0	1	PA1	Porites	P porites	3	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	Yes	No	No	No	Yes	No	Yes	Yes	No
+1NU1_PA2	1	0	1	PA2	Porites	P porites	1.5	0	0	No	No	No	No change	No	Yes	No	No	No	No	No	No	Yes	No	No
+1NU1_SS3	1	0	1	SS3	Siderastrea	S siderea	2	-2	-18	No	No	Yes	Loss	Yes	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+1NU2_AG1	1	0	1	AG1	Agaricia	A humilis	3	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	Yes	No	No	No	No	No	Yes
+1NU2_AG2	1	0	1	AG2	Agaricia	A agaricites	3	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+1NU2_AG5	1	0	1	AG5	Agaricia	A humilis	3	-1	-5	No	No	Yes	Loss	No	Yes	No	No	No	No	No	Yes	Yes	No	No
+1NU2_AG6	1	0	1	AG6	Agaricia	A humilis	2.5	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+1NU2_AG8	1	0	1	AG8	Agaricia	A agaricites	1.5	6	300	No	No	No	Gain	No	Yes	No	No	No	No	No	No	Yes	No	No
+1NU2_PA1	1	0	1	PA1	Porites	P porites	4.5	-2	-18	No	No	Yes	Loss	No	No	No	No	No	No	No	Yes	Yes	No	No
+1NU2_PA3	1	0	1	PA3	Porites	P porites	2	0	0	No	No	No	No change	No	Yes	No	No	No	No	No	No	Yes	No	No
+2CC1_PA2	2	1	0	PA2	Porites	P porites	3	-1	-5	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+2CC1_PA3	2	1	0	PA3	Porites	P porites	4.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	Yes	Yes	No	Yes	No	Yes	Yes	No
+2CC1_PA4	2	1	0	PA4	Porites	P porites	3.5	1	5	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CC1_PP1	2	1	0	PP1	Porites	P porites	3.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	Yes	No	No	No	No	Yes	No	No
+2CC1_PP2	2	1	0	PP2	Porites	P porites	5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	Yes	No
+2CC2_AG1	2	1	0	AG1	Agaricia	A humilis	3.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+2CC2_AG2	2	1	0	AG2	Agaricia	A humilis	4	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	Yes	No	Yes	Yes	No	Yes	Yes	No
+2CC2_DP1	2	1	0	DP1	Diploria	Diploria	5	0	0	No	No	No	No change	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+2CC2_PA1	2	1	0	PA1	Porites	P astreoides	3.5	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+2CC2_PA3	2	1	0	PA3	Porites	P astreoides	3	-3	-37	No	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+2CC2_PP1	2	1	0	PP1	Porites	P porites	4	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CC2_PP2	2	1	0	PP2	Porites	P porites	2.5	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CC2_SS3	2	1	0	SS3	Siderastrea	S siderea	3	0	0	No	No	No	No change	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+2CU1_AG1	2	0	0	AG1	Agaricia	A humilis	2	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU1_AG2	2	0	0	AG2	Agaricia	A humilis	2	0	0	No	No	No	No change	No	No	Yes	No	No	No	No	No	Yes	No	No
+2CU1_PA2	2	0	0	PA2	Porites	P porites	2	5	87	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU1_PA3	2	0	0	PA3	Porites	P porites	1.5	1	5	No	No	No	Gain	No	No	No	No	No	No	Yes	No	No	No	No
+2CU1_PA4	2	0	0	PA4	Porites	P porites	1.5	2	18	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_DC1	2	0	0	DC1	Dichocoenia	Dichocoenia	1.5	6	500	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_MA1	2	0	0	MA1	Manicinia	Manicinia	2.5	3	37	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_PA1	2	0	0	PA1	Porites	P porites	2	1	5	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_PA4	2	0	0	PA4	Porites	P porites	1.5	2	18	No	No	No	Gain	No	Yes	No	No	No	No	Yes	No	Yes	Yes	No
+2CU2_PA5	2	0	0	PA5	Porites	P porites	1.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_PA7	2	0	0	PA7	Porites	P porites	2	1	5	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_PA8	2	0	0	PA8	Porites	P porites	2.5	5	87	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2CU2_PP1	2	0	0	PP1	Porites	P porites	7.5	0	0	No	No	No	No change	No	No	No	No	Yes	No	Yes	No	Yes	Yes	No
+2CU2_ST1	2	0	0	ST1	Stephanocoenia	Stephanocoenia	2	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+2NC1_MC1	2	1	1	MC1	Montastrea	M cavernosa	2.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2NC1_PA2	2	1	1	PA2	Porites	P porites	2	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	No	No	No	Yes	No	No
+2NC1_PA3	2	1	1	PA3	Porites	P porites	2	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	No	No
+2NC1_PA4	2	1	1	PA4	Porites	P porites	2.5	-1	-5	No	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
+2NC1_PA5	2	1	1	PA5	Porites	P astreoides	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+2NC1_PA6	2	1	1	PA6	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+2NC1_PP1	2	1	1	PP1	Porites	P porites	2	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	Yes	No	No	No	No	Yes	No	No
+2NC1_PP2	2	1	1	PP2	Porites	P porites	1.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	No	No	No
+2NC2_AG2	2	1	1	AG2	Agaricia	A humilis	3	-2	-18	No	No	Yes	Loss	No	No	No	No	Yes	Yes	No	No	Yes	No	No
+2NC2_AG3	2	1	1	AG3	Agaricia	A humilis	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+2NC2_MD1	2	1	1	MD1	Madracis	Madracis	8	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	Yes	No	No	No	No
+2NC2_PA3	2	1	1	PA3	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	No	No	No	Yes	No	No
+2NC2_PP1	2	1	1	PP1	Porites	P porites	3	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	Yes	No	No	Yes	No	No
+2NC2_SS2	2	1	1	SS2	Siderastrea	S siderea	3.5	-1	-5	No	No	Yes	Loss	Yes	Yes	Yes	No	No	Yes	No	No	Yes	No	No
+2NC2_ST1	2	1	1	ST1	Stephanocoenia	Stephanocoenia	7	-1	-5	No	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+2NC2_ST2	2	1	1	ST2	Stephanocoenia	Stephanocoenia	15	-2	-18	No	No	Yes	Loss	No	Yes	Yes	Yes	No	No	No	No	Yes	No	No
+2NC2_ST3	2	1	1	ST3	Stephanocoenia	Stephanocoenia	8	-1	-5	No	No	Yes	Loss	No	No	Yes	No	No	No	No	No	Yes	No	No
+2NU1_PA1	2	0	1	PA1	Porites	P porites	2	2	18	No	No	No	Gain	No	No	No	No	No	No	Yes	Yes	Yes	Yes	No
+2NU1_PA2	2	0	1	PA2	Porites	P porites	4	-5	-87	No	Yes	Yes	Loss	No	Yes	No	No	No	No	No	Yes	Yes	No	No
+2NU1_PA4	2	0	1	PA4	Porites	P porites	5	-2	-18	No	Yes	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+2NU1_PA5	2	0	1	PA5	Porites	P porites	3	0	0	No	No	No	No change	No	Yes	No	No	No	No	No	Yes	Yes	No	No
+2NU1_PA8	2	0	1	PA8	Porites	P porites	2	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	No	No
+2NU1_PP1	2	0	1	PP1	Porites	P porites	5	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	Yes	No
+2NU2_PA2	2	0	1	PA2	Porites	P porites	4	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	Yes	No
+2NU2_PA3	2	0	1	PA3	Porites	P porites	3	6	100	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2NU2_PA5	2	0	1	PA5	Porites	P porites	2	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	Yes	No
+2NU2_PA6	2	0	1	PA6	Porites	P porites	2.5	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	Yes	Yes	No	No
+2NU2_PA7	2	0	1	PA7	Porites	P astreoides	2.5	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	No	Yes	No	Yes	No	No
+2NU2_PA8	2	0	1	PA8	Porites	P branneri	2.5	4	62	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+2NU2_PA9	2	0	1	PA9	Porites	P porites	1.5	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+2NU2_PP1	2	0	1	PP1	Porites	P astreoides	2	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3CC1_PA2	3	1	0	PA2	Porites	P astreoides	2.5	2	18	No	No	No	Gain	No	Yes	Yes	No	No	No	No	No	Yes	No	No
+3CC1_PP1	3	1	0	PP1	Porites	P porites	3	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	Yes	No
+3CC1_PP2	3	1	0	PP2	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	No	No	Yes	Yes	No
+3CC1_PP4	3	1	0	PP4	Porites	P porites	4	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	No	No	No	Yes	No	No
+3CC1_SS3	3	1	0	SS3	Siderastrea	S siderea	1.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3CC1_ST1	3	1	0	ST1	Stephanocoenia	Stephanocoenia	7	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3CC2_PP2	3	1	0	PP2	Porites	P porites	2.5	-3	-37	No	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+3CU1_DC1	3	0	0	DC1	Dichocoenia	Dichocoenia	2.5	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3CU1_PA2	3	0	0	PA2	Porites	P porites	2	1	5	No	No	No	Gain	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+3CU2_DC1	3	0	0	DC1	Dichocoenia	Dichocoenia	1.5	6	250	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3CU2_SS1	3	0	0	SS1	Siderastrea	S siderea	1.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3CU2_SS2	3	0	0	SS2	Siderastrea	S siderea	1.5	4	62	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3NC1_PA1	3	1	1	PA1	Porites	P porites	3	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+3NC1_PA3	3	1	1	PA3	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+3NC1_PA4	3	1	1	PA4	Porites	P porites	3	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	Yes	No	No	No	Yes	No	No
+3NC2_AG1	3	1	1	AG1	Agaricia	A humilis	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+3NC2_PA2	3	1	1	PA2	Porites	P porites	2	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	Yes	No
+3NC2_SS2	3	1	1	SS2	Siderastrea	S siderea	4	0	0	No	No	No	No change	No	No	No	No	No	No	Yes	No	No	No	No
+3NU1_AG1	3	0	1	AG1	Agaricia	A humilis	2	2	18	No	No	No	Gain	No	Yes	No	No	No	No	Yes	No	Yes	Yes	No
+3NU1_PA1	3	0	1	PA1	Porites	P porites	2	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3NU1_PA2	3	0	1	PA2	Porites	P porites	2	1	5	No	No	No	Gain	No	No	No	No	No	Yes	No	No	Yes	No	No
+3NU1_PA3	3	0	1	PA3	Porites	P porites	3	-2	-18	No	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3NU1_PP1	3	0	1	PP1	Porites	P porites	7	-3	-37	No	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3NU1_PP2	3	0	1	PP2	Porites	P porites	4	-1	-5	No	Yes	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+3NU1_SS3	3	0	1	SS3	Siderastrea	S siderea	2	1	5	No	No	No	Gain	No	No	No	No	No	No	Yes	No	No	No	No
+3NU1_SS4	3	0	1	SS4	Siderastrea	S siderea	2	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+3NU2_AG1	3	0	1	AG1	Agaricia	A agaricites	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+3NU2_PA1	3	0	1	PA1	Porites	P porites	6	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3NU2_PA3	3	0	1	PA3	Porites	P porites	2	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	Yes	Yes	No	Yes	Yes	No
+3NU2_PA4	3	0	1	PA4	Porites	P astreoides	3	-6	-100	Yes 	Yes	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+3NU2_PA5	3	0	1	PA5	Porites	P porites	2.5	2	18	No	No	No	Gain	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+4CC1_MC1	4	1	0	MC1		M cavernosa	1.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	Yes	No	No	No	No
+4CC1_MC2	4	1	0	MC2		M cavernosa	2	1	5	No	No	No	Gain	No	No	No	No	Yes	Yes	Yes	No	Yes	Yes	No
+4CC1_PA2	4	1	0	PA2	Porites	P astreoides	1.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	No	No	Yes	Yes	No
+4CC1_SS3	4	1	0	SS3	Siderastrea	S siderea	2.5	-1	-5	No	No	Yes	Loss	No	Yes	No	Yes	No	Yes	No	No	Yes	No	No
+4CC1_ST1	4	1	0	ST1	Stephanocoenia	Stephanocoenia	2	-6	-100	Yes 	No	Yes	Loss	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+4CC2_DC1	4	1	0	DC1	Dichocoenia	Dichocoenia	2	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+4CC2_MC1	4	1	0	MC1		M cavernosa	3	-6	-100	Yes 	No	Yes	Loss	No	No	Yes	No	No	No	No	No	Yes	No	No
+4CC2_SS1	4	1	0	SS1	Siderastrea	S siderea	10	0	0	No	No	No	No change	Yes	No	No	Yes	Yes	Yes	Yes	No	Yes	Yes	No
+4CC2_ST1	4	1	0	ST1	Stephanocoenia	Stephanocoenia	10	-1	-5	No	No	Yes	Loss	No	Yes	Yes	No	No	Yes	Yes	No	Yes	Yes	No
+4CC2_ST2	4	1	0	ST2	Stephanocoenia	Stephanocoenia	3	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+4CU1_AG1	4	0	0	AG1	Agaricia	A humilis	4	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4CU1_MC1	4	0	0	MC1	Montastrea	M cavernosa	2	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+4CU1_PA2	4	0	0	PA2	Porites	P astreoides	2.5	1	5	No	No	No	Gain	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+4CU1_PA3	4	0	0	PA3	Porites	P porites	1.5	1	5	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4CU1_SS1	4	0	0	SS1	Siderastrea	S siderea	1.5	0	0	No	No	No	No change	No	No	No	No	No	No	No	No	No	No	No
+4CU2_PA1	4	0	0	PA1	Porites	P astreoides	3.5	2	18	No	No	No	Gain	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+4CU2_PA3	4	0	0	PA3	Porites	P porites	5.5	4	62	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4CU2_PA4	4	0	0	PA4	Porites	P porites	2	6	350	No	Yes	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4CU2_SS1	4	0	0	SS1	Siderastrea	S siderea	7	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4CU2_ST1	4	0	0	ST1	Stephanocoenia	Stephanocoenia	1.5	2	18	No	No	No	Gain	No	No	No	No	No	Yes	Yes	No	Yes	Yes	No
+4NC1_AG1	4	1	1	AG1	Agaricia	A humilis	7	-1	-5	No	No	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+4NC1_AG2	4	1	1	AG2	Agaricia	A humilis	3	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+4NC1_MO1	4	1	1	MO1	Musa	Musa	2.5	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4NC1_PA2	4	1	1	PA2	Porites	P astreoides	2	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	Yes	No	Yes	Yes	No	No
+4NC1_PA3	4	1	1	PA3	Porites	P astreoides	2.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+4NC1_PA4	4	1	1	PA4	Porites	P astreoides	1.5	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
+4NC1_PP2	4	1	1	PP2	Porites	P porites	5	3	37	No	No	No	Gain	No	Yes	Yes	No	No	No	No	No	Yes	No	No
+4NC2_M	4	1	1	M	Meandrina	Meandrina	20	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4NC2_PA1	4	1	1	PA1	Porites	P porites	5	6	250	No	No	No	Gain	No	No	Yes	No	No	No	No	No	Yes	No	No
+4NC2_PA3	4	1	1	PA3	Porites	P porites	2	-6	-100	Yes 	No	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
+4NC2_PA4	4	1	1	PA4	Porites	P porites	2.5	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+4NU1_AG2	4	0	1	AG2	Agaricia	A agaricites	5	-2	-18	No	No	Yes	Loss	No	No	No	No	No	Yes	No	Yes	Yes	No	No
+4NU1_PA2	4	0	1	PA2	Porites	P porites	2	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	No	No	No	Yes	No	No
+4NU1_SS2	4	0	1	SS2	Siderastrea	S siderea	2	2	18	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4NU2_DC1	4	0	1	DC1	Dichocoenia	Dichocoenia	15	1	5	No	No	No	Gain	No	No	No	No	No	No	No	No	No	No	No
+4NU2_DC2	4	0	1	DC2	Dichocoenia	Dichocoenia	3	-6	-100	Yes 	No	Yes	Loss	No	No	No	No	No	No	No	No	No	No	No
+4NU2_PP1	4	0	1	PP1	Porites	P porites	3	-6	-100	Yes 	Yes	Yes	Loss	No	Yes	No	No	No	Yes	No	No	Yes	No	No
