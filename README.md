@@ -154,7 +154,10 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_alpha_diversity.ipynb)
 [Analyzing Microbiome Alpha Diversity in Python](./content/07_tabular_omics_data/calculating_alpha_diversity.ipynb)
 
-Analyzing Microbiome Beta Diversity in Python
+n
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
+[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
+[Analyzing Microbiome Beta Diversity in Python](./content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
  [Simulating the Effect of Sequencing Depth on Diversity Estimates ](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/simulating_microbiome_sampling_depth.ipynb)
