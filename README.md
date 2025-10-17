@@ -131,6 +131,10 @@ The text is currently in prototype status. Chapters with content you can preview
  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)[**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
+[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
+[**Vignette (Naina Gill & Raneet Hans):** Introduction to Sequence Analysis with k-mers](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
  
 ### Chapter 6. 'Omics
 
