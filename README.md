@@ -105,11 +105,9 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)[Representing and Manipulating Biological Sequences as Python Strings](./content/06_biological_sequences/representing_and_manipulating_biological_sequences_with_python_strings.ipynb)
 
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
 [Analyzing Biological Sequences with For Loops and If Statements](./content/06_biological_sequences/using_for_loops_to_analyze_biological_sequences.ipynb)
-
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/reading_and_writing_fasta_files.ipynb)
@@ -129,12 +127,12 @@ The text is currently in prototype status. Chapters with content you can preview
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb)
  [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb) **Vignette (Nia Prabhu):** [Using For Loops and Dictionaries to Compare Nucleotide Composition in Pandemic and Non-Pandemic Causing Influenza Strains](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences/vignette_nia_prabhu_using_for_loops_to_compare_influenza_glycoprotein_gene_sequences.ipynb)
  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
-[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)[**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
 **Vignette (Naina Gill & Raneet Hans):** [Introduction to Sequence Analysis with k-mers](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_raneet_hans_naina_gill_kmer_analysis/introduction_to_sequence_analysis_with_kmers.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
+[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)[**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
  
 ### Chapter 6. 'Omics
 
