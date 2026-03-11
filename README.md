@@ -185,7 +185,9 @@ Graphs as a Visual Language
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_correlation.ipynb) 
 [Representing Correlation](./content/09_visualization/visualizing_correlation.ipynb)
 
-Representing Distribution
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_distribution.ipynb) [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/09_visualization/visualizing_distribution.ipynb) 
+[Visualizing Distributions](./content/09_visualization/visualizing_distribution.ipynb)
+
 
 ### Chapter 9. Alignment and Phylogenetics
 
