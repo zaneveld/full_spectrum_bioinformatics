@@ -83,7 +83,7 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_exploring_python/another_quick_win.ipynb)
 [Another Quick Win: Loading tabular data with Pandas DataFrames](./content/04_exploring_python/another_quick_win.ipynb)
 
-### Chapter 4. Project Design
+### Chapter 4. Using Literature Surveys to Help Design your Project
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/project_design.ipynb)
@@ -96,7 +96,7 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/zotero.ipynb) [Zotero for Beginners (a.k.a How to Avoid Repeatedly Reformatting 96 Citations by Hand)](./content/05_project_design/zotero.ipynb)
 
-### Chapter 5. Biological Sequences
+### Chapter 5. Studying Biological Sequences Using Python
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/biological_sequences.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/biological_sequences.ipynb) 
@@ -134,7 +134,7 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)[**Capstone**: testing for depletion of CG dinucleotides in the human genome](./content/06_biological_sequences/capstone_cg_dinucleotides.ipynb)  
  
-### Chapter 6. 'Omics
+### Chapter 6. Working with Tabular 'Omic and Diversity Data in `pandas`
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/tabular_omics_data.ipynb)
@@ -156,7 +156,7 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_alpha_diversity.ipynb)
 [Analyzing Microbiome Alpha Diversity in Python](./content/07_tabular_omics_data/calculating_alpha_diversity.ipynb)
 
-n
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
 [Analyzing Microbiome Beta Diversity in Python](./content/07_tabular_omics_data/calculating_beta_diversity.ipynb)
@@ -175,7 +175,7 @@ Project Organization Strategies for Collaborative and Reproducible Research
 
 Test Code: a powerful strategy for ensuring your results aren't lies.      
  
- ### Chapter 8. Visualization
+ ### Chapter 8. Visualizing Your Data
  
 Graphs as a Visual Language
 
@@ -192,7 +192,6 @@ Representing Distribution
 #### Part 1. Alignment
      
 Homology and Alignment
-
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
@@ -223,7 +222,7 @@ Phylogenetic Comparative Methods
 
 Trait prediction
 
-#### Chapter 10. Simulation
+### Chapter 10. Simulation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/10_simulation/simulating_evolution.ipynb)[Simulating the Population Genetics of Natural Selection and Genetic Drift](./content/10_simulation/simulating_evolution.ipynb)
@@ -232,7 +231,7 @@ Simulating Networks
 
 Simulating the Evolution of Social Behavior
 
-#### Chapter 11. Statistics
+### Chapter 11. Statistics
      
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/rank_based_methods.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/11_statistics/linear_models.ipynb)  
@@ -268,7 +267,7 @@ The Best Model of A Cat is a Cat - model complexity, overfitting, and the AIC
      
  An Introduction to Bayesian Approaches
 
-#### Chapter 12. Multivariate Statistics and Machine Learning
+### Chapter 12. Multivariate Statistics and Machine Learning
 
 Unsupervised Classification: of ordination, clustering and fishtanks
 
@@ -276,13 +275,18 @@ Supervised Classification: from lines to trees to forests.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb) [**Vignette (Ayomikun Akinrinade):** Using K-Nearest Neighbors and Binary Decision Tree Algorithms to Predict Enzyme Function from Protein Sequences](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)
  
-#### Chapter 13. Presenting Research
+### Chapter 13. Presenting Research
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
  [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/12_Presenting_Research.ipynb)
  [Presenting Research](./content/13_presenting_research/12_Presenting_Research.ipynb)
+
+
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/slide_design_taste_test.ipynb)
+ [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/13_presenting_research/slide_design_taste_test.ipynb)
+ [**Exercise**: Slide Design Taste Test](./content/13_presenting_research/slide_design_taste_test.ipynb)
   
-#### Chapter 14. Polishing and Publishing
+### Chapter 14. Polishing and Publishing
 
 From Data to Conclusion: building a research manuscript brick by brick
 
@@ -292,7 +296,7 @@ From Data to Conclusion: building a research manuscript brick by brick
 
 The Inverted Pyramid: optimizing your text from a reader's perspective     
 
-#### Chapter 15. Careers that draw on Bioinformatics   
+### Chapter 15. Careers that draw on Bioinformatics   
  
  Best practices for Success: Happiness Matters, Radical Collaboration, and Networking     
  
