@@ -59,8 +59,8 @@ The text is currently in prototype status. Chapters with content you can preview
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/duck_vs_yeast.ipynb)
 [**Exercise**. Duck vs. Yeast: using BLAST+ on the command line to detect sequence similarity](content/08_phylogenetic_trees/duck_vs_yeast.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_project_design/wsl_and_conda.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/04_project_design/wsl_and_conda.ipynb)
-[Setting up Windows to run Linux Software: installing WSL and Miniconda](./content/04_project_design/wsl_and_conda.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/wsl_and_conda.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/05_project_design/wsl_and_conda.ipynb)
+[Setting up Windows to run Linux Software: installing WSL and Miniconda](./content/05_project_design/wsl_and_conda.ipynb)
 
        
 ### Chapter 3. Exploring Python
