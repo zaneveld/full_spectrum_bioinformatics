@@ -215,14 +215,15 @@ Tree thinking
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
 [Representing Phylogenetic Trees with Python Classes](./content/08_phylogenetic_trees/phylogenetic_trees.ipynb)
 
+Loading Trees from Newick files
+
+Tree traversal and visualization
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
 [![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/birth_death_models.ipynb)
 [Generating Trees Using Birth-Death Models](./content/08_phylogenetic_trees/birth_death_models.ipynb)
 
-Working with Traits on Trees
-
-Maximum Parsimony Ancestral State Reconstruction
+Inferring ancestral traits - Maximum Parsimony Ancestral State Reconstruction
 
 Phylogenetic Comparative Methods   
 
