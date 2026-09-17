@@ -281,6 +281,8 @@ Unsupervised Classification: of ordination, clustering and fishtanks
 Supervised Classification: from lines to trees to forests.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb) [**Vignette (Ayomikun Akinrinade):** Using K-Nearest Neighbors and Binary Decision Tree Algorithms to Predict Enzyme Function from Protein Sequences](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_ayomikun_akinrinade_protein_function_prediction/vignette_ayomikun_akinrinade.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_shirin_maki/vignette_shirin_maki.ipynb.ipynb)[![Open in nbviewer](assets/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_shirin_maki/vignette_shirin_maki.ipynb) [**Vignette (Shirin Maki):** Classification with Bayesian-Gaussian Frameworks and Its Applications in Bioinformatics](https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/vignettes/vignette_shirin_maki/vignette_shirin_maki.ipynb)
  
 ### Chapter 13. Presenting Research
 
